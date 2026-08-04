@@ -1,0 +1,289 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "We've got SaaS apps, Azure services, and old on-prem apps. One security plan for all?",
+      "start_s": 0.0,
+      "end_s": 4.656
+    },
+    {
+      "speaker": "Stewie",
+      "text": "One strategy, three control planes: identity, network, and application.",
+      "start_s": 4.806,
+      "end_s": 8.982
+    },
+    {
+      "speaker": "Peter",
+      "text": "Start with identity.",
+      "start_s": 9.132,
+      "end_s": 10.692
+    },
+    {
+      "speaker": "Stewie",
+      "text": "SSO for SaaS, RBAC for Azure at the narrowest scope, PIM for admin, Conditional Access for risky sign-ins.",
+      "start_s": 10.842,
+      "end_s": 16.674
+    },
+    {
+      "speaker": "Peter",
+      "text": "And machines calling machines?",
+      "start_s": 16.824,
+      "end_s": 18.624
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Managed identities and workload identity federation. No passwords lying around.",
+      "start_s": 18.774,
+      "end_s": 23.214
+    },
+    {
+      "speaker": "Peter",
+      "text": "Now the network plane.",
+      "start_s": 23.364,
+      "end_s": 24.924
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Internet Access is a secure web gateway. Private Access is Zero Trust per-app access instead of a fat VPN.",
+      "start_s": 25.074,
+      "end_s": 30.762
+    },
+    {
+      "speaker": "Peter",
+      "text": "So users don't get the whole network?",
+      "start_s": 30.912,
+      "end_s": 33.0
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Correct. Just the apps they need. Private Link keeps PaaS traffic off the public internet too.",
+      "start_s": 33.15,
+      "end_s": 38.526
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about application-level control?",
+      "start_s": 38.676,
+      "end_s": 40.788
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Defender for Cloud Apps. Shadow IT discovery, session controls, block risky uploads.",
+      "start_s": 40.938,
+      "end_s": 46.338
+    },
+    {
+      "speaker": "Peter",
+      "text": "Legacy on-prem web apps?",
+      "start_s": 46.488,
+      "end_s": 48.288
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Application Proxy. MFA and device checks without rewriting the app.",
+      "start_s": 48.438,
+      "end_s": 52.47
+    },
+    {
+      "speaker": "Peter",
+      "text": "And app permissions?",
+      "start_s": 52.62,
+      "end_s": 54.06
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Consent policies. High-privilege permissions require admin approval, not a user checkbox.",
+      "start_s": 54.21,
+      "end_s": 59.178
+    }
+  ],
+  "chunks": [
+    {
+      "text": "We've got SaaS apps, Azure services,",
+      "start_s": 0.0,
+      "end_s": 2.032901408450704,
+      "speaker": "Peter"
+    },
+    {
+      "text": "and old on-prem apps. One security",
+      "start_s": 2.032901408450704,
+      "end_s": 3.934647887323944,
+      "speaker": "Peter"
+    },
+    {
+      "text": "plan for all?",
+      "start_s": 3.934647887323944,
+      "end_s": 4.656,
+      "speaker": "Peter"
+    },
+    {
+      "text": "One strategy, three control planes: identity,",
+      "start_s": 4.806,
+      "end_s": 7.45742857142857,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "network, and application.",
+      "start_s": 7.45742857142857,
+      "end_s": 8.982,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Start with identity.",
+      "start_s": 9.132,
+      "end_s": 10.692,
+      "speaker": "Peter"
+    },
+    {
+      "text": "SSO for SaaS, RBAC for Azure",
+      "start_s": 10.842,
+      "end_s": 12.34914606741573,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at the narrowest scope, PIM for",
+      "start_s": 12.34914606741573,
+      "end_s": 14.052876404494382,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "admin, Conditional Access for risky sign-ins.",
+      "start_s": 14.052876404494382,
+      "end_s": 16.674,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And machines calling machines?",
+      "start_s": 16.824,
+      "end_s": 18.624,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Managed identities and workload identity federation.",
+      "start_s": 18.774,
+      "end_s": 21.755142857142854,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "No passwords lying around.",
+      "start_s": 21.755142857142854,
+      "end_s": 23.213999999999995,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Now the network plane.",
+      "start_s": 23.364,
+      "end_s": 24.924,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Internet Access is a secure web",
+      "start_s": 25.074,
+      "end_s": 26.754545454545458,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gateway. Private Access is Zero Trust",
+      "start_s": 26.754545454545458,
+      "end_s": 28.822909090909093,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "per-app access instead of a fat",
+      "start_s": 28.822909090909093,
+      "end_s": 30.50345454545455,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "VPN.",
+      "start_s": 30.503454545454545,
+      "end_s": 30.762,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So users don't get the whole",
+      "start_s": 30.912,
+      "end_s": 32.46116129032258,
+      "speaker": "Peter"
+    },
+    {
+      "text": "network?",
+      "start_s": 32.46116129032258,
+      "end_s": 33.0,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Correct. Just the apps they need.",
+      "start_s": 33.15,
+      "end_s": 35.055417721518985,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Private Link keeps PaaS traffic off",
+      "start_s": 35.055417721518985,
+      "end_s": 37.09693670886075,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the public internet too.",
+      "start_s": 37.09693670886076,
+      "end_s": 38.526,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about application-level control?",
+      "start_s": 38.676,
+      "end_s": 40.788,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Defender for Cloud Apps. Shadow IT",
+      "start_s": 40.938,
+      "end_s": 43.083205479452054,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "discovery, session controls, block risky uploads.",
+      "start_s": 43.083205479452054,
+      "end_s": 46.338,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Legacy on-prem web apps?",
+      "start_s": 46.488,
+      "end_s": 48.288,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Application Proxy. MFA and device checks",
+      "start_s": 48.438,
+      "end_s": 50.87110344827586,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "without rewriting the app.",
+      "start_s": 50.87110344827586,
+      "end_s": 52.47,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And app permissions?",
+      "start_s": 52.62,
+      "end_s": 54.06,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Consent policies. High-privilege permissions require admin",
+      "start_s": 54.21,
+      "end_s": 57.542962025316456,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "approval, not a user checkbox.",
+      "start_s": 57.542962025316456,
+      "end_s": 59.178,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 59.178
+}

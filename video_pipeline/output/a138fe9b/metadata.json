@@ -1,0 +1,10 @@
+{
+  "title": "Serverless Architecture & Security",
+  "hook": "No servers to patch, but plenty of functions to abuse. Serverless moves the attack surface, not the risk.",
+  "slug": "gh-serverless-security",
+  "concept": "cloud-frameworks",
+  "category": "cloud-frameworks",
+  "difficulty": null,
+  "description": "Event-driven serverless patterns and the security model that comes with no servers to patch.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

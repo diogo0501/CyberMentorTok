@@ -1,0 +1,10 @@
+{
+  "title": "Securing CI/CD Pipelines",
+  "hook": "Your pipeline has more privileges than your admins. Secure it like the production system it is.",
+  "slug": "sc100-cicd-pipeline-security",
+  "concept": "devsecops-arch",
+  "category": "devsecops-arch",
+  "difficulty": null,
+  "description": "The four-stage control model and concrete pipeline controls: design, code, pipeline, and operations.",
+  "source": "SC-100 LP5 depth expansion"
+}

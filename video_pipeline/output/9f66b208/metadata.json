@@ -1,0 +1,10 @@
+{
+  "title": "Hybrid Identity: Cloud Sync vs Connect Sync",
+  "hook": "Two sync tools, one directory, and a hard deadline. Pick wrong and your identities stop syncing on September 30, 2026.",
+  "slug": "sc100-hybrid-identity-sync",
+  "concept": "identity-access",
+  "category": "identity-access",
+  "difficulty": null,
+  "description": "Choosing between Microsoft Entra Cloud Sync and Connect Sync, plus password hash sync, pass-through auth, and federation.",
+  "source": "SC-100 LP4 expansion"
+}

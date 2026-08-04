@@ -1,0 +1,211 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "We already have logs. They are... somewhere.",
+      "start_s": 0.0,
+      "end_s": 3.048
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A tragic phrase. Security logs need central collection, retention, normalization, and alerting.",
+      "start_s": 3.198,
+      "end_s": 8.646
+    },
+    {
+      "speaker": "Peter",
+      "text": "What should we collect first?",
+      "start_s": 8.796,
+      "end_s": 10.572
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Identity sign-ins, admin actions, endpoint alerts, cloud control-plane events, and data access.",
+      "start_s": 10.722,
+      "end_s": 15.906
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can we just collect everything forever?",
+      "start_s": 16.056,
+      "end_s": 18.048
+    },
+    {
+      "speaker": "Stewie",
+      "text": "If your budget enjoys combustion. Choose retention by investigation needs and regulatory requirements.",
+      "start_s": 18.198,
+      "end_s": 23.334
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where does Sentinel fit?",
+      "start_s": 23.484,
+      "end_s": 25.044
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Sentinel correlates events, runs analytics, triggers automation, and supports hunting across sources.",
+      "start_s": 25.194,
+      "end_s": 29.994
+    },
+    {
+      "speaker": "Peter",
+      "text": "What makes a log useful?",
+      "start_s": 30.144,
+      "end_s": 31.752
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Timestamp, actor, action, target, result, source IP, and enough context to answer what happened.",
+      "start_s": 31.902,
+      "end_s": 37.302
+    },
+    {
+      "speaker": "Peter",
+      "text": "So logging is architecture?",
+      "start_s": 37.452,
+      "end_s": 39.204
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Precisely. Logs are the memory of your security program. Do not give it amnesia.",
+      "start_s": 39.354,
+      "end_s": 44.274
+    }
+  ],
+  "chunks": [
+    {
+      "text": "We already have logs. They are...",
+      "start_s": 0.0,
+      "end_s": 2.245894736842105,
+      "speaker": "Peter"
+    },
+    {
+      "text": "somewhere.",
+      "start_s": 2.245894736842105,
+      "end_s": 3.0479999999999996,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A tragic phrase. Security logs need",
+      "start_s": 3.198,
+      "end_s": 5.143714285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "central collection, retention, normalization, and alerting.",
+      "start_s": 5.143714285714286,
+      "end_s": 8.646,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What should we collect first?",
+      "start_s": 8.796,
+      "end_s": 10.572,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Identity sign-ins, admin actions, endpoint alerts,",
+      "start_s": 10.722,
+      "end_s": 13.499142857142857,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cloud control-plane events, and data access.",
+      "start_s": 13.499142857142857,
+      "end_s": 15.906,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can we just collect everything forever?",
+      "start_s": 16.056,
+      "end_s": 18.048,
+      "speaker": "Peter"
+    },
+    {
+      "text": "If your budget enjoys combustion. Choose",
+      "start_s": 18.198,
+      "end_s": 20.19533333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "retention by investigation needs and regulatory",
+      "start_s": 20.19533333333333,
+      "end_s": 22.592133333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "requirements.",
+      "start_s": 22.592133333333333,
+      "end_s": 23.333999999999996,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where does Sentinel fit?",
+      "start_s": 23.484,
+      "end_s": 25.044,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Sentinel correlates events, runs analytics, triggers",
+      "start_s": 25.194,
+      "end_s": 27.700666666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "automation, and supports hunting across sources.",
+      "start_s": 27.700666666666667,
+      "end_s": 29.994,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What makes a log useful?",
+      "start_s": 30.144,
+      "end_s": 31.752,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Timestamp, actor, action, target, result, source",
+      "start_s": 31.902,
+      "end_s": 34.699590361445786,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "IP, and enough context to answer",
+      "start_s": 34.699590361445786,
+      "end_s": 36.456216867469884,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "what happened.",
+      "start_s": 36.45621686746988,
+      "end_s": 37.302,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So logging is architecture?",
+      "start_s": 37.452,
+      "end_s": 39.204,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Precisely. Logs are the memory of",
+      "start_s": 39.354,
+      "end_s": 41.410119402985075,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your security program. Do not give",
+      "start_s": 41.410119402985075,
+      "end_s": 43.539671641791045,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it amnesia.",
+      "start_s": 43.539671641791045,
+      "end_s": 44.274,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 44.274
+}

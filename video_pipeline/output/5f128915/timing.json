@@ -1,0 +1,295 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Perfect security is impossible, right?",
+      "start_s": 0.0,
+      "end_s": 2.232
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Correct. So we design for resilience instead \u2014 keep the business running through an attack.",
+      "start_s": 2.382,
+      "end_s": 7.014
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where do I start?",
+      "start_s": 7.164,
+      "end_s": 8.94
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Identify business-critical assets. Not all systems are created equal.",
+      "start_s": 9.09,
+      "end_s": 13.218
+    },
+    {
+      "speaker": "Peter",
+      "text": "What tops the list?",
+      "start_s": 13.368,
+      "end_s": 15.144
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Identity systems first. Then human life systems, financial systems, product enablement, and security monitoring.",
+      "start_s": 15.294,
+      "end_s": 21.318
+    },
+    {
+      "speaker": "Peter",
+      "text": "Why identity first?",
+      "start_s": 21.468,
+      "end_s": 23.244
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Domain controllers and Entra Connect gate access to everything else. Lose them and nobody can log in to fix anything.",
+      "start_s": 23.394,
+      "end_s": 28.914
+    },
+    {
+      "speaker": "Peter",
+      "text": "Then what?",
+      "start_s": 29.064,
+      "end_s": 30.84
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Set RTO and RPO for each critical asset. How fast to recover, and how much data you can lose.",
+      "start_s": 30.99,
+      "end_s": 36.534
+    },
+    {
+      "speaker": "Peter",
+      "text": "Before, during, and after an incident?",
+      "start_s": 36.684,
+      "end_s": 38.964
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Prepare before, protect people and stop damage during, restore operations after \u2014 even if data is lost.",
+      "start_s": 39.114,
+      "end_s": 44.226
+    },
+    {
+      "speaker": "Peter",
+      "text": "And when it's over?",
+      "start_s": 44.376,
+      "end_s": 45.72
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Feed lessons back. Block better, detect better, recover better. That's the loop.",
+      "start_s": 45.87,
+      "end_s": 50.982
+    },
+    {
+      "speaker": "Peter",
+      "text": "Does AI change the plan?",
+      "start_s": 51.132,
+      "end_s": 52.908
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Map AI dependencies on business processes and validate model integrity after any restore.",
+      "start_s": 53.058,
+      "end_s": 58.314
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Perfect security is impossible, right?",
+      "start_s": 0.0,
+      "end_s": 2.232,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Correct. So we design for resilience",
+      "start_s": 2.382,
+      "end_s": 4.246831168831169,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "instead \u2014 keep the business running",
+      "start_s": 4.246831168831169,
+      "end_s": 6.051506493506494,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "through an attack.",
+      "start_s": 6.051506493506494,
+      "end_s": 7.014,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where do I start?",
+      "start_s": 7.164,
+      "end_s": 8.94,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Identify business-critical assets. Not all systems",
+      "start_s": 9.09,
+      "end_s": 12.135245901639344,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "are created equal.",
+      "start_s": 12.135245901639344,
+      "end_s": 13.218,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What tops the list?",
+      "start_s": 13.368,
+      "end_s": 15.144,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Identity systems first. Then human life",
+      "start_s": 15.294,
+      "end_s": 17.362848484848485,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "systems, financial systems, product enablement, and",
+      "start_s": 17.362848484848485,
+      "end_s": 20.161878787878788,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security monitoring.",
+      "start_s": 20.161878787878788,
+      "end_s": 21.318,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Why identity first?",
+      "start_s": 21.468,
+      "end_s": 23.244,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Domain controllers and Entra Connect gate",
+      "start_s": 23.394,
+      "end_s": 25.421755102040816,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "access to everything else. Lose them",
+      "start_s": 25.421755102040816,
+      "end_s": 27.16787755102041,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and nobody can log in to",
+      "start_s": 27.167877551020407,
+      "end_s": 28.23808163265306,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "fix anything.",
+      "start_s": 28.238081632653063,
+      "end_s": 28.914,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Then what?",
+      "start_s": 29.064,
+      "end_s": 30.84,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Set RTO and RPO for each",
+      "start_s": 30.99,
+      "end_s": 32.39448,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "critical asset. How fast to recover,",
+      "start_s": 32.39448,
+      "end_s": 34.686,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and how much data you can",
+      "start_s": 34.686,
+      "end_s": 36.1644,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "lose.",
+      "start_s": 36.1644,
+      "end_s": 36.534,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Before, during, and after an incident?",
+      "start_s": 36.684,
+      "end_s": 38.964,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Prepare before, protect people and stop",
+      "start_s": 39.114,
+      "end_s": 41.11179310344828,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "damage during, restore operations after \u2014",
+      "start_s": 41.11179310344828,
+      "end_s": 43.22710344827586,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "even if data is lost.",
+      "start_s": 43.22710344827586,
+      "end_s": 44.226,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And when it's over?",
+      "start_s": 44.376,
+      "end_s": 45.72,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Feed lessons back. Block better, detect",
+      "start_s": 45.87,
+      "end_s": 48.388956521739125,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "better, recover better. That's the loop.",
+      "start_s": 48.388956521739125,
+      "end_s": 50.982,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Does AI change the plan?",
+      "start_s": 51.132,
+      "end_s": 52.908,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Map AI dependencies on business",
+      "start_s": 53.058,
+      "end_s": 55.06955555555555,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "processes and validate model integrity after",
+      "start_s": 55.06955555555555,
+      "end_s": 57.60022222222222,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "any restore.",
+      "start_s": 57.60022222222222,
+      "end_s": 58.314,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 58.314
+}

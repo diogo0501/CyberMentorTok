@@ -1,0 +1,10 @@
+{
+  "title": "Conditional Access for AI Agents",
+  "hook": "AI agents are not interns. Do not give them permanent keys to production.",
+  "slug": "sc100-ai-agent-conditional-access",
+  "concept": "identity-access",
+  "category": "identity",
+  "difficulty": 5,
+  "description": "Designing identity controls for agentic workloads using least privilege, signals, and scoped access.",
+  "source": "SC-100 document expansion"
+}

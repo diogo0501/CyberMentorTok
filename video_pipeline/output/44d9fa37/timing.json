@@ -1,0 +1,319 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I keep hearing I need to learn Python for cybersecurity. Is that true?",
+      "start_s": 0.0,
+      "end_s": 3.912
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Absolutely, Peter. Python is the Swiss Army knife of cybersecurity. Want to scan a network? Python. Analyze malware? Python. Build an exploit? Python. Automate log analysis? Python. Everything is Python.",
+      "start_s": 4.062,
+      "end_s": 19.278
+    },
+    {
+      "speaker": "Peter",
+      "text": "How hard is it to learn?",
+      "start_s": 19.428,
+      "end_s": 21.204
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The basics are straightforward. Variables, loops, functions, and classes. The real power comes from libraries. Scapy crafts network packets. Requests makes HTTP calls. Paramiko handles SSH. BeautifulSoup parses HTML. PyCryptodome does cryptography.",
+      "start_s": 21.354,
+      "end_s": 38.034
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Start with practical projects. Build a port scanner with socket library. Write a web scraper to find exposed credentials. Create a brute-force tool for authorized testing. Each project teaches you something new.",
+      "start_s": 38.184,
+      "end_s": 49.104
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about security-specific libraries?",
+      "start_s": 49.254,
+      "end_s": 51.462
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Scapy is the king of network manipulation - craft custom packets, perform ARP spoofing, build protocol fuzzers. Impacket provides Windows protocol implementations for lateral movement. And pwntools is essential for exploit development and CTF challenges.",
+      "start_s": 51.612,
+      "end_s": 64.044
+    },
+    {
+      "speaker": "Stewie",
+      "text": "For blue team work, Python excels at log analysis and automation. Parse millions of log lines with Pandas, build custom SIEM integrations, or create automated incident response scripts.",
+      "start_s": 64.194,
+      "end_s": 73.242
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can you give me a quick example?",
+      "start_s": 73.392,
+      "end_s": 75.168
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Sure. A port scanner in 10 lines: create a socket, try connecting to each port, catch the connection. Add threading for speed. That's a real tool. Then add service detection, OS fingerprinting, and output formatting - you've built a mini-Nmap.",
+      "start_s": 75.318,
+      "end_s": 88.062
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I keep hearing I need to",
+      "start_s": 0.0,
+      "end_s": 1.2815172413793103,
+      "speaker": "Peter"
+    },
+    {
+      "text": "learn Python for cybersecurity. Is that",
+      "start_s": 1.2815172413793103,
+      "end_s": 3.574758620689655,
+      "speaker": "Peter"
+    },
+    {
+      "text": "true?",
+      "start_s": 3.574758620689655,
+      "end_s": 3.9119999999999995,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Absolutely, Peter. Python is the Swiss",
+      "start_s": 4.062,
+      "end_s": 6.947793103448276,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Army knife of cybersecurity. Want to",
+      "start_s": 6.947793103448276,
+      "end_s": 9.658689655172413,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "scan a network? Python. Analyze malware?",
+      "start_s": 9.658689655172413,
+      "end_s": 12.719379310344825,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Python. Build an exploit? Python. Automate",
+      "start_s": 12.719379310344827,
+      "end_s": 15.95496551724138,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "log analysis? Python. Everything is Python.",
+      "start_s": 15.95496551724138,
+      "end_s": 19.278,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How hard is it to learn?",
+      "start_s": 19.428,
+      "end_s": 21.204,
+      "speaker": "Peter"
+    },
+    {
+      "text": "The basics are straightforward. Variables, loops,",
+      "start_s": 21.354,
+      "end_s": 24.736119815668204,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "functions, and classes. The real power",
+      "start_s": 24.736119815668204,
+      "end_s": 27.272709677419357,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "comes from libraries. Scapy crafts network",
+      "start_s": 27.272709677419357,
+      "end_s": 30.116764976958525,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "packets. Requests makes HTTP calls. Paramiko",
+      "start_s": 30.116764976958525,
+      "end_s": 33.114552995391705,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "handles SSH. BeautifulSoup parses HTML. PyCryptodome",
+      "start_s": 33.114552995391705,
+      "end_s": 36.727271889400924,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "does cryptography.",
+      "start_s": 36.727271889400924,
+      "end_s": 38.034,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Start with practical projects. Build a",
+      "start_s": 38.184,
+      "end_s": 40.186,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "port scanner with socket library. Write",
+      "start_s": 40.186,
+      "end_s": 42.248666666666665,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a web scraper to find exposed",
+      "start_s": 42.248666666666665,
+      "end_s": 43.70466666666666,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "credentials. Create a brute-force tool for",
+      "start_s": 43.70466666666666,
+      "end_s": 45.94933333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "authorized testing. Each project teaches you",
+      "start_s": 45.94933333333333,
+      "end_s": 48.31533333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "something new.",
+      "start_s": 48.31533333333333,
+      "end_s": 49.10399999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about security-specific libraries?",
+      "start_s": 49.254,
+      "end_s": 51.462,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Scapy is the king of network",
+      "start_s": 51.612,
+      "end_s": 52.91170909090909,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "manipulation - craft custom packets, perform",
+      "start_s": 52.91170909090909,
+      "end_s": 55.11556363636364,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ARP spoofing, build protocol fuzzers. Impacket",
+      "start_s": 55.11556363636364,
+      "end_s": 57.43243636363636,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "provides Windows protocol implementations for lateral",
+      "start_s": 57.43243636363636,
+      "end_s": 60.14487272727273,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "movement. And pwntools is essential for",
+      "start_s": 60.14487272727273,
+      "end_s": 62.06618181818182,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "exploit development and CTF challenges.",
+      "start_s": 62.06618181818182,
+      "end_s": 64.044,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "For blue team work, Python excels",
+      "start_s": 64.194,
+      "end_s": 65.79744303797467,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at log analysis and automation. Parse",
+      "start_s": 65.79744303797467,
+      "end_s": 67.6299493670886,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "millions of log lines with Pandas,",
+      "start_s": 67.62994936708861,
+      "end_s": 69.29065822784811,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "build custom SIEM integrations, or create",
+      "start_s": 69.29065822784811,
+      "end_s": 71.35222784810128,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "automated incident response scripts.",
+      "start_s": 71.35222784810126,
+      "end_s": 73.242,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can you give me a quick",
+      "start_s": 73.392,
+      "end_s": 74.62153846153846,
+      "speaker": "Peter"
+    },
+    {
+      "text": "example?",
+      "start_s": 74.62153846153846,
+      "end_s": 75.168,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Sure. A port scanner in 10",
+      "start_s": 75.318,
+      "end_s": 76.62988235294118,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "lines: create a socket, try connecting",
+      "start_s": 76.62988235294118,
+      "end_s": 78.69141176470588,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to each port, catch the connection.",
+      "start_s": 78.69141176470589,
+      "end_s": 80.56552941176471,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Add threading for speed. That's a",
+      "start_s": 80.5655294117647,
+      "end_s": 82.31470588235294,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "real tool. Then add service detection,",
+      "start_s": 82.31470588235294,
+      "end_s": 84.37623529411763,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "OS fingerprinting, and output formatting -",
+      "start_s": 84.37623529411765,
+      "end_s": 86.68764705882354,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "you've built a mini-Nmap.",
+      "start_s": 86.68764705882353,
+      "end_s": 88.062,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 88.062
+}

@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Six Zero Trust pillars. I've got that. So we're done, right?",
+      "start_s": 0.0,
+      "end_s": 4.392
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Almost. There's a seventh nobody talks about: visibility, automation, and orchestration.",
+      "start_s": 4.542,
+      "end_s": 9.63
+    },
+    {
+      "speaker": "Peter",
+      "text": "A seventh pillar? What does it do?",
+      "start_s": 9.78,
+      "end_s": 12.42
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Every pillar generates alerts. This pillar makes sense of all that noise.",
+      "start_s": 12.57,
+      "end_s": 16.506
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it's a dashboard?",
+      "start_s": 16.656,
+      "end_s": 18.432
+    },
+    {
+      "speaker": "Stewie",
+      "text": "More than that. It integrates signals, automates response, and coordinates controls across tools.",
+      "start_s": 18.582,
+      "end_s": 23.79
+    },
+    {
+      "speaker": "Peter",
+      "text": "Why can't each pillar just monitor itself?",
+      "start_s": 23.94,
+      "end_s": 26.196
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Because an attack spans pillars. Risky sign-in here, strange device there \u2014 only correlation connects them.",
+      "start_s": 26.346,
+      "end_s": 31.866
+    },
+    {
+      "speaker": "Peter",
+      "text": "And automation?",
+      "start_s": 32.016,
+      "end_s": 33.36
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Response at machine speed. Policy enforcement, detection, and remediation without waiting for a human.",
+      "start_s": 33.51,
+      "end_s": 38.886
+    },
+    {
+      "speaker": "Peter",
+      "text": "Orchestration is different?",
+      "start_s": 39.036,
+      "end_s": 40.812
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. One signal drives a control in another pillar. Anomaly in identity triggers device isolation.",
+      "start_s": 40.962,
+      "end_s": 46.866
+    },
+    {
+      "speaker": "Peter",
+      "text": "So the seventh pillar is the nervous system.",
+      "start_s": 47.016,
+      "end_s": 49.296
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Without it, the other six are just expensive sensors.",
+      "start_s": 49.446,
+      "end_s": 53.382
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Six Zero Trust pillars. I've got",
+      "start_s": 0.0,
+      "end_s": 2.3716800000000005,
+      "speaker": "Peter"
+    },
+    {
+      "text": "that. So we're done, right?",
+      "start_s": 2.3716800000000005,
+      "end_s": 4.392,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Almost. There's a seventh nobody talks",
+      "start_s": 4.542,
+      "end_s": 6.694615384615385,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "about: visibility, automation, and orchestration.",
+      "start_s": 6.694615384615385,
+      "end_s": 9.63,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "A seventh pillar? What does it",
+      "start_s": 9.78,
+      "end_s": 12.137142857142857,
+      "speaker": "Peter"
+    },
+    {
+      "text": "do?",
+      "start_s": 12.137142857142857,
+      "end_s": 12.42,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Every pillar generates alerts. This pillar",
+      "start_s": 12.57,
+      "end_s": 14.918903225806451,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "makes sense of all that noise.",
+      "start_s": 14.918903225806451,
+      "end_s": 16.506,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it's a dashboard?",
+      "start_s": 16.656,
+      "end_s": 18.432,
+      "speaker": "Peter"
+    },
+    {
+      "text": "More than that. It integrates signals,",
+      "start_s": 18.582,
+      "end_s": 20.603929411764707,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "automates response, and coordinates controls across",
+      "start_s": 20.603929411764707,
+      "end_s": 23.422376470588237,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "tools.",
+      "start_s": 23.422376470588237,
+      "end_s": 23.79,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Why can't each pillar just monitor",
+      "start_s": 23.94,
+      "end_s": 25.75733333333333,
+      "speaker": "Peter"
+    },
+    {
+      "text": "itself?",
+      "start_s": 25.75733333333333,
+      "end_s": 26.196,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Because an attack spans pillars. Risky",
+      "start_s": 26.346,
+      "end_s": 28.326,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "sign-in here, strange device there \u2014",
+      "start_s": 28.326,
+      "end_s": 30.186,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "only correlation connects them.",
+      "start_s": 30.186,
+      "end_s": 31.866,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And automation?",
+      "start_s": 32.016,
+      "end_s": 33.36,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Response at machine speed. Policy enforcement,",
+      "start_s": 33.51,
+      "end_s": 35.98658426966292,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "detection, and remediation without waiting for",
+      "start_s": 35.98658426966292,
+      "end_s": 38.463168539325835,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a human.",
+      "start_s": 38.46316853932584,
+      "end_s": 38.886,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Orchestration is different?",
+      "start_s": 39.036,
+      "end_s": 40.812,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. One signal drives a control",
+      "start_s": 40.962,
+      "end_s": 42.85971428571428,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "in another pillar. Anomaly in identity",
+      "start_s": 42.85971428571428,
+      "end_s": 45.17914285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "triggers device isolation.",
+      "start_s": 45.17914285714286,
+      "end_s": 46.866,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So the seventh pillar is the",
+      "start_s": 47.016,
+      "end_s": 48.4332972972973,
+      "speaker": "Peter"
+    },
+    {
+      "text": "nervous system.",
+      "start_s": 48.4332972972973,
+      "end_s": 49.296,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Without it, the other six",
+      "start_s": 49.446,
+      "end_s": 51.5996603773585,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "are just expensive sensors.",
+      "start_s": 51.5996603773585,
+      "end_s": 53.382,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 53.382
+}

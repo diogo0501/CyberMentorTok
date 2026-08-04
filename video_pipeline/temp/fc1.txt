@@ -1,0 +1,1 @@
+[0:v]format=rgba[base];[base][1:v]overlay=30:1420:format=auto[outv]

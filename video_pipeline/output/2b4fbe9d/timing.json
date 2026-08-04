@@ -1,0 +1,343 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I got a suspicious email attachment. How do I analyze it safely?",
+      "start_s": 0.0,
+      "end_s": 3.84
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Never run it on a real machine, Peter. Start with static analysis. Upload it to VirusTotal - it checks against 70+ antivirus engines. Then look at the file strings, imports, and metadata without executing it.",
+      "start_s": 3.99,
+      "end_s": 15.318
+    },
+    {
+      "speaker": "Peter",
+      "text": "What can strings tell you?",
+      "start_s": 15.468,
+      "end_s": 17.244
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A lot. File paths, registry keys, URLs, API calls. Malware often has hardcoded C2 servers, encryption keys, or mutex names. 'strings malware.exe | grep http' can reveal command-and-control infrastructure.",
+      "start_s": 17.394,
+      "end_s": 30.69
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Dynamic analysis is where things get interesting. Run the malware in a sandbox - an isolated virtual machine with monitoring tools. Capture network traffic with Wireshark, monitor process creation with ProcMon, and log registry changes.",
+      "start_s": 30.84,
+      "end_s": 42.096
+    },
+    {
+      "speaker": "Peter",
+      "text": "What if the malware detects it's in a VM?",
+      "start_s": 42.246,
+      "end_s": 44.406
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Anti-analysis techniques are common. Malware checks for VM artifacts, debugger presence, and sandbox timers. It might wait days before executing its payload. Advanced sandboxes like CAPE try to defeat these evasion techniques.",
+      "start_s": 44.556,
+      "end_s": 56.22
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Ransomware is the most common malware type today. It encrypts your files and demands payment. Understanding encryption behavior helps you build detection rules and potentially develop decryptors.",
+      "start_s": 56.37,
+      "end_s": 65.13
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about memory forensics?",
+      "start_s": 65.28,
+      "end_s": 67.104
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Fileless malware runs entirely in memory - no files on disk to scan. Volatility Framework lets you analyze memory dumps to find injected code, network connections, and encryption keys. It's essential for modern incident response.",
+      "start_s": 67.254,
+      "end_s": 78.486
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: walk through your malware analysis workflow - from initial triage (VirusTotal, strings) to sandbox analysis to full reverse engineering. SOC and malware analyst roles always test this.",
+      "start_s": 78.636,
+      "end_s": 88.716
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I got a suspicious email attachment.",
+      "start_s": 0.0,
+      "end_s": 2.246037735849056,
+      "speaker": "Peter"
+    },
+    {
+      "text": "How do I analyze it safely?",
+      "start_s": 2.246037735849056,
+      "end_s": 3.84,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Never run it on a real",
+      "start_s": 3.99,
+      "end_s": 5.096758620689656,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "machine, Peter. Start with static analysis.",
+      "start_s": 5.096758620689656,
+      "end_s": 7.570689655172415,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Upload it to VirusTotal - it",
+      "start_s": 7.570689655172414,
+      "end_s": 9.068068965517242,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "checks against 70+ antivirus engines. Then",
+      "start_s": 9.068068965517243,
+      "end_s": 11.47689655172414,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "look at the file strings, imports,",
+      "start_s": 11.476896551724138,
+      "end_s": 13.364896551724138,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and metadata without executing it.",
+      "start_s": 13.364896551724138,
+      "end_s": 15.318,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What can strings tell you?",
+      "start_s": 15.468,
+      "end_s": 17.244,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A lot. File paths, registry keys,",
+      "start_s": 17.394,
+      "end_s": 19.509272727272727,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "URLs, API calls. Malware often has",
+      "start_s": 19.509272727272727,
+      "end_s": 21.700090909090907,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "hardcoded C2 servers, encryption keys, or",
+      "start_s": 21.700090909090907,
+      "end_s": 24.419727272727272,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "mutex names. 'strings malware.exe | grep",
+      "start_s": 24.419727272727272,
+      "end_s": 27.06381818181818,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "http' can reveal command-and-control infrastructure.",
+      "start_s": 27.06381818181818,
+      "end_s": 30.69,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Dynamic analysis is where things get",
+      "start_s": 30.84,
+      "end_s": 32.567405940594064,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "interesting. Run the malware in a",
+      "start_s": 32.567405940594064,
+      "end_s": 34.12764356435644,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "sandbox - an isolated virtual machine",
+      "start_s": 34.12764356435643,
+      "end_s": 35.91077227722772,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with monitoring tools. Capture network traffic",
+      "start_s": 35.91077227722772,
+      "end_s": 38.19540594059406,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with Wireshark, monitor process creation with",
+      "start_s": 38.19540594059406,
+      "end_s": 40.424316831683164,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ProcMon, and log registry changes.",
+      "start_s": 40.42431683168317,
+      "end_s": 42.09600000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What if the malware detects it's",
+      "start_s": 42.246,
+      "end_s": 44.01327272727273,
+      "speaker": "Peter"
+    },
+    {
+      "text": "in a VM?",
+      "start_s": 44.01327272727273,
+      "end_s": 44.406,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Anti-analysis techniques are common. Malware checks",
+      "start_s": 44.556,
+      "end_s": 47.307507692307695,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for VM artifacts, debugger presence, and",
+      "start_s": 47.307507692307695,
+      "end_s": 49.40104615384615,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "sandbox timers. It might wait days",
+      "start_s": 49.40104615384615,
+      "end_s": 51.1356923076923,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "before executing its payload. Advanced sandboxes",
+      "start_s": 51.1356923076923,
+      "end_s": 53.70775384615384,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "like CAPE try to defeat these",
+      "start_s": 53.70775384615385,
+      "end_s": 55.14332307692308,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "evasion techniques.",
+      "start_s": 55.14332307692308,
+      "end_s": 56.22,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Ransomware is the most common malware",
+      "start_s": 56.37,
+      "end_s": 58.02869822485207,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "type today. It encrypts your files",
+      "start_s": 58.02869822485207,
+      "end_s": 59.53189349112426,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and demands payment. Understanding encryption behavior",
+      "start_s": 59.53189349112426,
+      "end_s": 62.071775147928996,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "helps you build detection rules and",
+      "start_s": 62.071775147928996,
+      "end_s": 63.62680473372781,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "potentially develop decryptors.",
+      "start_s": 63.62680473372781,
+      "end_s": 65.13,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about memory forensics?",
+      "start_s": 65.28,
+      "end_s": 67.104,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Fileless malware runs entirely in memory",
+      "start_s": 67.254,
+      "end_s": 69.27,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- no files on disk to",
+      "start_s": 69.27,
+      "end_s": 70.19160000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "scan. Volatility Framework lets you analyze",
+      "start_s": 70.19160000000001,
+      "end_s": 72.38040000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "memory dumps to find injected code,",
+      "start_s": 72.3804,
+      "end_s": 74.10839999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "network connections, and encryption keys. It's",
+      "start_s": 74.10839999999999,
+      "end_s": 76.47,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "essential for modern incident response.",
+      "start_s": 76.47,
+      "end_s": 78.486,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: walk through your malware",
+      "start_s": 78.636,
+      "end_s": 80.69915789473684,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "analysis workflow - from initial triage",
+      "start_s": 80.69915789473684,
+      "end_s": 82.70336842105263,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "(VirusTotal, strings) to sandbox analysis to",
+      "start_s": 82.70336842105263,
+      "end_s": 85.00231578947368,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "full reverse engineering. SOC and malware",
+      "start_s": 85.00231578947368,
+      "end_s": 87.12442105263158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "analyst roles always test this.",
+      "start_s": 87.12442105263158,
+      "end_s": 88.716,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 88.716
+}

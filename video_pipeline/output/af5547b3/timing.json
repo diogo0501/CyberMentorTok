@@ -1,0 +1,235 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So what exactly is an Azure landing zone? Is it like a VM?",
+      "start_s": 0.0,
+      "end_s": 3.648
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. It's a pre-configured environment with governance baked in from the start.",
+      "start_s": 3.798,
+      "end_s": 7.686
+    },
+    {
+      "speaker": "Peter",
+      "text": "How is that different from just creating a subscription?",
+      "start_s": 7.836,
+      "end_s": 10.332
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A subscription is just a billing boundary. A landing zone has policies, networking, and security.",
+      "start_s": 10.482,
+      "end_s": 15.546
+    },
+    {
+      "speaker": "Peter",
+      "text": "You mentioned two types. Platform and application?",
+      "start_s": 15.696,
+      "end_s": 18.816
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Platform handles core infrastructure. Connectivity, identity, management. Application hosts your workloads.",
+      "start_s": 18.966,
+      "end_s": 25.158
+    },
+    {
+      "speaker": "Peter",
+      "text": "And enterprise-scale? Is that the big-company version?",
+      "start_s": 25.308,
+      "end_s": 28.548
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It uses management group hierarchies and dedicated subscriptions for scale.",
+      "start_s": 28.698,
+      "end_s": 32.178
+    },
+    {
+      "speaker": "Peter",
+      "text": "What are the six design areas you mentioned?",
+      "start_s": 32.328,
+      "end_s": 34.488
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Identity, topology, management, security, governance, and deployment automation.",
+      "start_s": 34.638,
+      "end_s": 39.006
+    },
+    {
+      "speaker": "Peter",
+      "text": "So everything is planned out before you even deploy a workload?",
+      "start_s": 39.156,
+      "end_s": 41.868
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Build the foundation right, and everything on top is solid.",
+      "start_s": 42.018,
+      "end_s": 45.978
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So what exactly is an Azure",
+      "start_s": 0.0,
+      "end_s": 1.744695652173913,
+      "speaker": "Peter"
+    },
+    {
+      "text": "landing zone? Is it like a",
+      "start_s": 1.744695652173913,
+      "end_s": 3.410086956521739,
+      "speaker": "Peter"
+    },
+    {
+      "text": "VM?",
+      "start_s": 3.410086956521739,
+      "end_s": 3.648,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. It's a pre-configured environment with",
+      "start_s": 3.798,
+      "end_s": 5.945104477611941,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "governance baked in from the start.",
+      "start_s": 5.945104477611941,
+      "end_s": 7.686,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How is that different from just",
+      "start_s": 7.836,
+      "end_s": 9.188,
+      "speaker": "Peter"
+    },
+    {
+      "text": "creating a subscription?",
+      "start_s": 9.188,
+      "end_s": 10.332,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A subscription is just a billing",
+      "start_s": 10.482,
+      "end_s": 12.129325301204819,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "boundary. A landing zone has policies,",
+      "start_s": 12.129325301204819,
+      "end_s": 14.142722891566265,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "networking, and security.",
+      "start_s": 14.142722891566265,
+      "end_s": 15.546,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "You mentioned two types. Platform and",
+      "start_s": 15.696,
+      "end_s": 17.965090909090907,
+      "speaker": "Peter"
+    },
+    {
+      "text": "application?",
+      "start_s": 17.965090909090907,
+      "end_s": 18.816,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Platform handles core infrastructure. Connectivity, identity,",
+      "start_s": 18.966,
+      "end_s": 22.54076288659794,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "management. Application hosts your workloads.",
+      "start_s": 22.54076288659794,
+      "end_s": 25.158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And enterprise-scale? Is that the big-company",
+      "start_s": 25.308,
+      "end_s": 28.008,
+      "speaker": "Peter"
+    },
+    {
+      "text": "version?",
+      "start_s": 28.008,
+      "end_s": 28.548,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It uses management group hierarchies and",
+      "start_s": 28.698,
+      "end_s": 30.543454545454544,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "dedicated subscriptions for scale.",
+      "start_s": 30.543454545454544,
+      "end_s": 32.178,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What are the six design areas",
+      "start_s": 32.328,
+      "end_s": 33.72908108108108,
+      "speaker": "Peter"
+    },
+    {
+      "text": "you mentioned?",
+      "start_s": 33.72908108108108,
+      "end_s": 34.488,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Identity, topology, management, security, governance, and",
+      "start_s": 34.638,
+      "end_s": 37.749452054794524,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "deployment automation.",
+      "start_s": 37.749452054794524,
+      "end_s": 39.006,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So everything is planned out before",
+      "start_s": 39.156,
+      "end_s": 40.691094339622644,
+      "speaker": "Peter"
+    },
+    {
+      "text": "you even deploy a workload?",
+      "start_s": 40.691094339622644,
+      "end_s": 41.868,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Build the foundation right, and",
+      "start_s": 42.018,
+      "end_s": 44.40765517241379,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "everything on top is solid.",
+      "start_s": 44.40765517241379,
+      "end_s": 45.978,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 45.978
+}

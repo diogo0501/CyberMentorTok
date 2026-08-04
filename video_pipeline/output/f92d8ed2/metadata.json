@@ -1,0 +1,10 @@
+{
+  "title": "CAF Secure Methodology & the CIA Triad",
+  "hook": "Security is not a phase in cloud adoption \u2014 it's an overlay on every phase. Skip it in one and the whole posture leaks.",
+  "slug": "sc100-caf-secure-methodology",
+  "concept": "cloud-frameworks",
+  "category": "cloud-frameworks",
+  "difficulty": null,
+  "description": "How the Cloud Adoption Framework's Secure methodology overlays every phase and maps to confidentiality, integrity, and availability.",
+  "source": "SC-100 LP5 depth expansion"
+}

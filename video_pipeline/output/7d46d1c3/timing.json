@@ -1,0 +1,247 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What exactly is entitlement management? Big words intimidate me.",
+      "start_s": 0.0,
+      "end_s": 3.912
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's just organized access. Bundle permissions into access packages, put them in catalogs, control who gets them.",
+      "start_s": 4.062,
+      "end_s": 9.942
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it's like a shopping catalog for permissions?",
+      "start_s": 10.092,
+      "end_s": 12.444
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Sort of! Users request an access package, it goes through approval, and they get exactly what they need.",
+      "start_s": 12.594,
+      "end_s": 17.85
+    },
+    {
+      "speaker": "Peter",
+      "text": "And access reviews are like an audit?",
+      "start_s": 18.0,
+      "end_s": 20.016
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Periodic reviews where managers confirm people still need access. If not, it's revoked.",
+      "start_s": 20.166,
+      "end_s": 24.99
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about when someone leaves the company?",
+      "start_s": 25.14,
+      "end_s": 27.228
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Lifecycle Workflows handle that automatically. Offboarding removes access, revokes sessions, cleans up.",
+      "start_s": 27.378,
+      "end_s": 32.898
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can it handle internal moves too? Like department transfers?",
+      "start_s": 33.048,
+      "end_s": 36.576
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes! Attribute-based workflows trigger when department or role changes. Access adjusts automatically.",
+      "start_s": 36.726,
+      "end_s": 42.51
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do you justify all this to management?",
+      "start_s": 42.66,
+      "end_s": 44.82
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Business justification is part of the access request. Users explain why, creating an auditable trail.",
+      "start_s": 44.97,
+      "end_s": 50.394
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What exactly is entitlement management? Big",
+      "start_s": 0.0,
+      "end_s": 2.654571428571429,
+      "speaker": "Peter"
+    },
+    {
+      "text": "words intimidate me.",
+      "start_s": 2.654571428571429,
+      "end_s": 3.9120000000000004,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's just organized access. Bundle permissions",
+      "start_s": 4.062,
+      "end_s": 6.547360824742268,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "into access packages, put them in",
+      "start_s": 6.547360824742268,
+      "end_s": 8.244680412371133,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "catalogs, control who gets them.",
+      "start_s": 8.244680412371133,
+      "end_s": 9.942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it's like a shopping catalog",
+      "start_s": 10.092,
+      "end_s": 11.583512195121951,
+      "speaker": "Peter"
+    },
+    {
+      "text": "for permissions?",
+      "start_s": 11.583512195121951,
+      "end_s": 12.444,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Sort of! Users request an access",
+      "start_s": 12.594,
+      "end_s": 14.225172413793103,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "package, it goes through approval, and",
+      "start_s": 14.225172413793103,
+      "end_s": 16.218827586206896,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "they get exactly what they need.",
+      "start_s": 16.218827586206896,
+      "end_s": 17.85,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And access reviews are like an",
+      "start_s": 18.0,
+      "end_s": 19.625806451612902,
+      "speaker": "Peter"
+    },
+    {
+      "text": "audit?",
+      "start_s": 19.625806451612902,
+      "end_s": 20.016,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Periodic reviews where managers confirm people",
+      "start_s": 20.166,
+      "end_s": 22.80312,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "still need access. If not, it's",
+      "start_s": 22.80312,
+      "end_s": 24.47544,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "revoked.",
+      "start_s": 24.475440000000003,
+      "end_s": 24.990000000000002,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about when someone leaves the",
+      "start_s": 25.14,
+      "end_s": 26.77654054054054,
+      "speaker": "Peter"
+    },
+    {
+      "text": "company?",
+      "start_s": 26.77654054054054,
+      "end_s": 27.228,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Lifecycle Workflows handle that automatically. Offboarding",
+      "start_s": 27.378,
+      "end_s": 30.558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "removes access, revokes sessions, cleans up.",
+      "start_s": 30.558,
+      "end_s": 32.898,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can it handle internal moves too?",
+      "start_s": 33.048,
+      "end_s": 34.94769230769231,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Like department transfers?",
+      "start_s": 34.94769230769231,
+      "end_s": 36.576,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes! Attribute-based workflows trigger when department",
+      "start_s": 36.726,
+      "end_s": 39.87506666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "or role changes. Access adjusts automatically.",
+      "start_s": 39.87506666666667,
+      "end_s": 42.51,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do you justify all this",
+      "start_s": 42.66,
+      "end_s": 44.017714285714284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "to management?",
+      "start_s": 44.017714285714284,
+      "end_s": 44.82,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Business justification is part of the",
+      "start_s": 44.97,
+      "end_s": 46.965034482758625,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "access request. Users explain why, creating",
+      "start_s": 46.965034482758625,
+      "end_s": 49.33413793103448,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "an auditable trail.",
+      "start_s": 49.33413793103448,
+      "end_s": 50.394,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 50.394
+}

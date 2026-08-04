@@ -1,0 +1,10 @@
+{
+  "title": "MITRE ATT&CK Coverage Design",
+  "hook": "A dashboard full of alerts is not the same thing as detection coverage.",
+  "slug": "sc100-mitre-attack-coverage-design",
+  "concept": "security-operations",
+  "category": "security-operations",
+  "difficulty": 4,
+  "description": "Mapping detections to attacker tactics so SecOps can see gaps before attackers use them.",
+  "source": "SC-100 document expansion"
+}

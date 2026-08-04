@@ -1,0 +1,343 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So if we get hacked, what do we do?",
+      "start_s": 0.0,
+      "end_s": 2.016
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Incident response follows a structured process: Preparation, Identification, Containment, Eradication, Recovery, and Lessons Learned. Each phase is critical.",
+      "start_s": 2.166,
+      "end_s": 10.278
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the most important one?",
+      "start_s": 10.428,
+      "end_s": 12.204
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Preparation. If you're preparing during an incident, you've already lost. Every organization needs an IR plan before anything happens. Who to call, how to communicate, what to preserve.",
+      "start_s": 12.354,
+      "end_s": 21.858
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Containment is the most urgent during an active breach. You need to stop the bleeding without destroying evidence. It's like performing surgery while documenting everything.",
+      "start_s": 22.008,
+      "end_s": 29.616
+    },
+    {
+      "speaker": "Peter",
+      "text": "What kind of evidence?",
+      "start_s": 29.766,
+      "end_s": 31.542
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Memory dumps, disk images, network captures, log files. Chain of custody matters - you might need this evidence for law enforcement or legal proceedings. Improper handling makes it inadmissible.",
+      "start_s": 31.692,
+      "end_s": 41.316
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Equifax's 2017 breach response was catastrophic. They took 76 days to disclose, their website was broken, and they accidentally directed people to a fake phishing site. $700 million in fines.",
+      "start_s": 41.466,
+      "end_s": 52.242
+    },
+    {
+      "speaker": "Peter",
+      "text": "What should they have done differently?",
+      "start_s": 52.392,
+      "end_s": 54.216
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Have a tested IR plan. Practice tabletop exercises. Know your legal obligations for disclosure timelines. Have a clear communication strategy. Most organizations fail at the basics.",
+      "start_s": 54.366,
+      "end_s": 64.758
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The NIST and SANS frameworks provide excellent IR templates. Map your response to these frameworks and you'll be ahead of 90% of organizations.",
+      "start_s": 64.908,
+      "end_s": 71.532
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: walk through an incident response plan from detection to recovery. Mention chain of custody, evidence preservation, and communication. This question is guaranteed.",
+      "start_s": 71.682,
+      "end_s": 80.346
+    },
+    {
+      "speaker": "Peter",
+      "text": "I'm creating an IR plan for my company tomorrow.",
+      "start_s": 80.496,
+      "end_s": 83.04
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So if we get hacked, what",
+      "start_s": 0.0,
+      "end_s": 1.4933333333333332,
+      "speaker": "Peter"
+    },
+    {
+      "text": "do we do?",
+      "start_s": 1.4933333333333332,
+      "end_s": 2.016,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Incident response follows a structured process:",
+      "start_s": 2.166,
+      "end_s": 4.599600000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Preparation, Identification, Containment, Eradication, Recovery, and",
+      "start_s": 4.599600000000001,
+      "end_s": 8.25,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Lessons Learned. Each phase is critical.",
+      "start_s": 8.25,
+      "end_s": 10.278,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the most important one?",
+      "start_s": 10.428,
+      "end_s": 12.204,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Preparation. If you're preparing during an",
+      "start_s": 12.354,
+      "end_s": 14.579620253164558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "incident, you've already lost. Every organization",
+      "start_s": 14.579620253164558,
+      "end_s": 17.226303797468354,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "needs an IR plan before anything",
+      "start_s": 17.226303797468354,
+      "end_s": 18.850405063291138,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "happens. Who to call, how to",
+      "start_s": 18.850405063291138,
+      "end_s": 20.233898734177217,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "communicate, what to preserve.",
+      "start_s": 20.233898734177217,
+      "end_s": 21.858,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Containment is the most urgent during",
+      "start_s": 22.008,
+      "end_s": 23.64193288590604,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "an active breach. You need to",
+      "start_s": 23.64193288590604,
+      "end_s": 24.86738255033557,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "stop the bleeding without destroying evidence.",
+      "start_s": 24.86738255033557,
+      "end_s": 26.960859060402683,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "It's like performing surgery while documenting",
+      "start_s": 26.960859060402683,
+      "end_s": 29.054335570469796,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "everything.",
+      "start_s": 29.054335570469796,
+      "end_s": 29.616,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What kind of evidence?",
+      "start_s": 29.766,
+      "end_s": 31.542,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Memory dumps, disk images, network captures,",
+      "start_s": 31.692,
+      "end_s": 33.95306024096385,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "log files. Chain of custody matters",
+      "start_s": 33.95306024096385,
+      "end_s": 35.69233734939759,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- you might need this evidence",
+      "start_s": 35.69233734939759,
+      "end_s": 37.14173493975904,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for law enforcement or legal proceedings.",
+      "start_s": 37.14173493975904,
+      "end_s": 39.228867469879525,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Improper handling makes it inadmissible.",
+      "start_s": 39.228867469879525,
+      "end_s": 41.31600000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Equifax's 2017 breach response was catastrophic.",
+      "start_s": 41.466,
+      "end_s": 44.3262962962963,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "They took 76 days to disclose,",
+      "start_s": 44.3262962962963,
+      "end_s": 45.98925925925926,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "their website was broken, and they",
+      "start_s": 45.989259259259256,
+      "end_s": 47.91829629629629,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "accidentally directed people to a fake",
+      "start_s": 47.91829629629629,
+      "end_s": 50.1134074074074,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "phishing site. $700 million in fines.",
+      "start_s": 50.11340740740741,
+      "end_s": 52.242,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What should they have done differently?",
+      "start_s": 52.392,
+      "end_s": 54.216,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Have a tested IR plan. Practice",
+      "start_s": 54.366,
+      "end_s": 56.098,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "tabletop exercises. Know your legal obligations",
+      "start_s": 56.098,
+      "end_s": 58.89584615384616,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for disclosure timelines. Have a clear",
+      "start_s": 58.89584615384616,
+      "end_s": 61.09415384615385,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "communication strategy. Most organizations fail at",
+      "start_s": 61.094153846153844,
+      "end_s": 64.09184615384615,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the basics.",
+      "start_s": 64.09184615384616,
+      "end_s": 64.758,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "The NIST and SANS frameworks provide",
+      "start_s": 64.908,
+      "end_s": 66.60505785123968,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "excellent IR templates. Map your response",
+      "start_s": 66.60505785123968,
+      "end_s": 68.5758347107438,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to these frameworks and you'll be",
+      "start_s": 68.5758347107438,
+      "end_s": 70.1086611570248,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ahead of 90% of organizations.",
+      "start_s": 70.1086611570248,
+      "end_s": 71.532,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: walk through an incident",
+      "start_s": 71.682,
+      "end_s": 73.58249032258065,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "response plan from detection to recovery.",
+      "start_s": 73.58249032258065,
+      "end_s": 75.59477419354839,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Mention chain of custody, evidence preservation,",
+      "start_s": 75.59477419354839,
+      "end_s": 77.99833548387097,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and communication. This question is guaranteed.",
+      "start_s": 77.99833548387096,
+      "end_s": 80.346,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "I'm creating an IR plan for",
+      "start_s": 80.496,
+      "end_s": 81.8952,
+      "speaker": "Peter"
+    },
+    {
+      "text": "my company tomorrow.",
+      "start_s": 81.8952,
+      "end_s": 83.04,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 83.04
+}

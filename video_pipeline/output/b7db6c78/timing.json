@@ -1,0 +1,253 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Why do we need to secure infrastructure as code?",
+      "start_s": 0.0,
+      "end_s": 2.424
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Because IaC deploys at scale. One misconfiguration template can compromise an entire environment.",
+      "start_s": 2.574,
+      "end_s": 7.974
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can't we just review the templates manually?",
+      "start_s": 8.124,
+      "end_s": 10.284
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You can review one. Now try reviewing 500 lines of ARM JSON without a tool. Good luck.",
+      "start_s": 10.434,
+      "end_s": 16.026
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Tools like Checkov and Defender for Cloud scan your templates for misconfigurations automatically.",
+      "start_s": 16.176,
+      "end_s": 20.304
+    },
+    {
+      "speaker": "Peter",
+      "text": "What kind of misconfigurations?",
+      "start_s": 20.454,
+      "end_s": 22.374
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Open storage accounts, unrestricted network rules, missing encryption, overprivileged identities. The classics.",
+      "start_s": 22.524,
+      "end_s": 28.428
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's policy-as-code?",
+      "start_s": 28.578,
+      "end_s": 30.354
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Azure Policy that runs before deployment. If your template violates a policy, it gets rejected. No exceptions.",
+      "start_s": 30.504,
+      "end_s": 36.744
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about drift?",
+      "start_s": 36.894,
+      "end_s": 38.67
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Someone manually changes a resource in the portal. Drift detection catches the gap between your template and reality.",
+      "start_s": 38.82,
+      "end_s": 44.148
+    },
+    {
+      "speaker": "Peter",
+      "text": "So IaC security is basically guardrails for your cloud?",
+      "start_s": 44.298,
+      "end_s": 47.226
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Automated guardrails that scale with your infrastructure.",
+      "start_s": 47.376,
+      "end_s": 51.072
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Why do we need to secure",
+      "start_s": 0.0,
+      "end_s": 1.1513999999999998,
+      "speaker": "Peter"
+    },
+    {
+      "text": "infrastructure as code?",
+      "start_s": 1.1513999999999998,
+      "end_s": 2.424,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Because IaC deploys at scale. One",
+      "start_s": 2.574,
+      "end_s": 4.352823529411765,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "misconfiguration template can compromise an entire",
+      "start_s": 4.352823529411765,
+      "end_s": 7.211647058823529,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "environment.",
+      "start_s": 7.211647058823529,
+      "end_s": 7.974,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can't we just review the templates",
+      "start_s": 8.124,
+      "end_s": 9.772421052631579,
+      "speaker": "Peter"
+    },
+    {
+      "text": "manually?",
+      "start_s": 9.772421052631579,
+      "end_s": 10.284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You can review one. Now try",
+      "start_s": 10.434,
+      "end_s": 12.191485714285715,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "reviewing 500 lines of ARM JSON",
+      "start_s": 12.191485714285715,
+      "end_s": 14.268514285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "without a tool. Good luck.",
+      "start_s": 14.268514285714286,
+      "end_s": 16.026,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Tools like Checkov and Defender for",
+      "start_s": 16.176,
+      "end_s": 17.616,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Cloud scan your templates for misconfigurations",
+      "start_s": 17.616,
+      "end_s": 19.632,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "automatically.",
+      "start_s": 19.632,
+      "end_s": 20.304,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What kind of misconfigurations?",
+      "start_s": 20.454,
+      "end_s": 22.374,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Open storage accounts, unrestricted network rules,",
+      "start_s": 22.524,
+      "end_s": 25.180799999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "missing encryption, overprivileged identities. The classics.",
+      "start_s": 25.180799999999998,
+      "end_s": 28.428,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's policy-as-code?",
+      "start_s": 28.578,
+      "end_s": 30.354,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Azure Policy that runs before deployment.",
+      "start_s": 30.504,
+      "end_s": 32.893787234042556,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "If your template violates a policy,",
+      "start_s": 32.893787234042556,
+      "end_s": 34.885276595744685,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it gets rejected. No exceptions.",
+      "start_s": 34.885276595744685,
+      "end_s": 36.744,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about drift?",
+      "start_s": 36.894,
+      "end_s": 38.67,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Someone manually changes a resource in",
+      "start_s": 38.82,
+      "end_s": 40.57824,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the portal. Drift detection catches the",
+      "start_s": 40.57824,
+      "end_s": 42.389759999999995,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gap between your template and reality.",
+      "start_s": 42.38976,
+      "end_s": 44.148,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So IaC security is basically guardrails",
+      "start_s": 44.298,
+      "end_s": 46.41612765957447,
+      "speaker": "Peter"
+    },
+    {
+      "text": "for your cloud?",
+      "start_s": 46.41612765957447,
+      "end_s": 47.226,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Automated guardrails that scale with",
+      "start_s": 47.376,
+      "end_s": 49.88176271186441,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your infrastructure.",
+      "start_s": 49.88176271186441,
+      "end_s": 51.072,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 51.072
+}

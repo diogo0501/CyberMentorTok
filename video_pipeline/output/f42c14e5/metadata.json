@@ -1,0 +1,10 @@
+{
+  "title": "IoT Architecture & Security Patterns",
+  "hook": "Your toaster now has an IP address and a password of '1234'. IoT is a security problem at planet scale.",
+  "slug": "gh-iot-security",
+  "concept": "app-security-arch",
+  "category": "app-security-arch",
+  "difficulty": null,
+  "description": "Securing billions of constrained devices: identity, communication patterns, and the gateway model.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

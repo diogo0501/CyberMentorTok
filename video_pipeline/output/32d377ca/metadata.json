@@ -1,0 +1,10 @@
+{
+  "title": "Big Data & Analytics Platform Security",
+  "hook": "Your data platform holds more than your databases. Pipelines, warehouses, and ML models are all targets.",
+  "slug": "gh-bigdata-analytics-security",
+  "concept": "data-security",
+  "category": "data-security",
+  "difficulty": null,
+  "description": "Securing data pipelines, warehouses, and ML platforms \u2014 from ingestion to insight.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

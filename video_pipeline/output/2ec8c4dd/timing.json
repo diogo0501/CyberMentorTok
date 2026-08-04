@@ -1,0 +1,235 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Okay, I get Zero Trust conceptually. But how do you actually deploy it?",
+      "start_s": 0.0,
+      "end_s": 4.008
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Microsoft has a five-phase framework: identify, plan, deploy, operate, evolve.",
+      "start_s": 4.158,
+      "end_s": 8.982
+    },
+    {
+      "speaker": "Peter",
+      "text": "Five phases? That sounds like corporate jargon to me.",
+      "start_s": 9.132,
+      "end_s": 12.42
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Phase one is identifying your current security gaps and business scenarios.",
+      "start_s": 12.57,
+      "end_s": 16.05
+    },
+    {
+      "speaker": "Peter",
+      "text": "So you need to know what's broken before you fix it? Revolutionary.",
+      "start_s": 16.2,
+      "end_s": 19.968
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You'd be surprised how many skip that step. They just start buying tools.",
+      "start_s": 20.118,
+      "end_s": 24.03
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about getting the bosses to sign off on all this?",
+      "start_s": 24.18,
+      "end_s": 26.628
+    },
+    {
+      "speaker": "Stewie",
+      "text": "C-suite buy-in is critical. No budget, no Zero Trust. It's that simple.",
+      "start_s": 26.778,
+      "end_s": 31.914
+    },
+    {
+      "speaker": "Peter",
+      "text": "And how do you prove it's actually working?",
+      "start_s": 32.064,
+      "end_s": 34.104
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Microsoft Secure Score gives you a measurable baseline. Track it monthly.",
+      "start_s": 34.254,
+      "end_s": 38.214
+    },
+    {
+      "speaker": "Peter",
+      "text": "So you deploy it in phases instead of all at once?",
+      "start_s": 38.364,
+      "end_s": 40.86
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Start with a pilot group, validate, then expand across the org.",
+      "start_s": 41.01,
+      "end_s": 45.522
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Okay, I get Zero Trust conceptually.",
+      "start_s": 0.0,
+      "end_s": 2.105898305084746,
+      "speaker": "Peter"
+    },
+    {
+      "text": "But how do you actually deploy",
+      "start_s": 2.105898305084746,
+      "end_s": 3.8042033898305085,
+      "speaker": "Peter"
+    },
+    {
+      "text": "it?",
+      "start_s": 3.8042033898305085,
+      "end_s": 4.008,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Microsoft has a five-phase framework: identify,",
+      "start_s": 4.158,
+      "end_s": 7.094347826086956,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "plan, deploy, operate, evolve.",
+      "start_s": 7.094347826086956,
+      "end_s": 8.982,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Five phases? That sounds like corporate",
+      "start_s": 9.132,
+      "end_s": 11.616266666666666,
+      "speaker": "Peter"
+    },
+    {
+      "text": "jargon to me.",
+      "start_s": 11.616266666666666,
+      "end_s": 12.42,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Phase one is identifying your current",
+      "start_s": 12.57,
+      "end_s": 14.28323076923077,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security gaps and business scenarios.",
+      "start_s": 14.28323076923077,
+      "end_s": 16.05,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So you need to know what's",
+      "start_s": 16.2,
+      "end_s": 17.613,
+      "speaker": "Peter"
+    },
+    {
+      "text": "broken before you fix it? Revolutionary.",
+      "start_s": 17.613,
+      "end_s": 19.968,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You'd be surprised how many skip",
+      "start_s": 20.118,
+      "end_s": 21.84954098360656,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "that step. They just start buying",
+      "start_s": 21.84954098360656,
+      "end_s": 23.6452131147541,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "tools.",
+      "start_s": 23.6452131147541,
+      "end_s": 24.030000000000005,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about getting the bosses to",
+      "start_s": 24.18,
+      "end_s": 25.68218181818182,
+      "speaker": "Peter"
+    },
+    {
+      "text": "sign off on all this?",
+      "start_s": 25.68218181818182,
+      "end_s": 26.628,
+      "speaker": "Peter"
+    },
+    {
+      "text": "C-suite buy-in is critical. No budget,",
+      "start_s": 26.778,
+      "end_s": 29.6028,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "no Zero Trust. It's that simple.",
+      "start_s": 29.6028,
+      "end_s": 31.914,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And how do you prove it's",
+      "start_s": 32.064,
+      "end_s": 33.19733333333333,
+      "speaker": "Peter"
+    },
+    {
+      "text": "actually working?",
+      "start_s": 33.19733333333333,
+      "end_s": 34.104,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Microsoft Secure Score gives you a",
+      "start_s": 34.254,
+      "end_s": 36.07685714285714,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "measurable baseline. Track it monthly.",
+      "start_s": 36.07685714285714,
+      "end_s": 38.214,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So you deploy it in phases",
+      "start_s": 38.364,
+      "end_s": 39.6744,
+      "speaker": "Peter"
+    },
+    {
+      "text": "instead of all at once?",
+      "start_s": 39.6744,
+      "end_s": 40.86,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Start with a pilot group,",
+      "start_s": 41.01,
+      "end_s": 43.15504918032787,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "validate, then expand across the org.",
+      "start_s": 43.15504918032787,
+      "end_s": 45.522,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 45.522
+}

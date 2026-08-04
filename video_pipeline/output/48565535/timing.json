@@ -1,0 +1,343 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I installed a firewall on my computer. I'm safe now, right?",
+      "start_s": 0.0,
+      "end_s": 3.696
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Peter, a firewall is like a bouncer at a club. It checks who's coming in and who's going out based on rules. But it can't stop someone who's dressed as a legitimate guest.",
+      "start_s": 3.846,
+      "end_s": 11.718
+    },
+    {
+      "speaker": "Peter",
+      "text": "What do you mean?",
+      "start_s": 11.868,
+      "end_s": 13.644
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Firewalls filter traffic based on rules - IP addresses, ports, protocols. But they can't inspect encrypted traffic without special configuration. The SolarWinds attackers used legitimate HTTPS to exfiltrate data.",
+      "start_s": 13.794,
+      "end_s": 24.714
+    },
+    {
+      "speaker": "Stewie",
+      "text": "There are different types: packet filtering firewalls check headers, stateful firewalls track connection states, and next-gen firewalls can inspect application content.",
+      "start_s": 24.864,
+      "end_s": 31.968
+    },
+    {
+      "speaker": "Peter",
+      "text": "So I need a next-gen one?",
+      "start_s": 32.118,
+      "end_s": 33.894
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Not necessarily. The best firewall is useless if the rules are wrong. I've seen companies with default 'allow all' rules. Configuration matters more than the product.",
+      "start_s": 34.044,
+      "end_s": 42.876
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Host-based firewalls protect individual machines. Network firewalls protect the perimeter. You need both. Defense in depth.",
+      "start_s": 43.026,
+      "end_s": 50.274
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about cloud firewalls?",
+      "start_s": 50.424,
+      "end_s": 52.2
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Cloud firewalls, or WAFs, protect web applications. They filter HTTP traffic and can block SQL injection, XSS, and other application-layer attacks. Every production web app needs one.",
+      "start_s": 52.35,
+      "end_s": 63.054
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: explain the difference between stateful and stateless firewalls, and when you'd use each. Also know how firewalls can be bypassed.",
+      "start_s": 63.204,
+      "end_s": 70.068
+    },
+    {
+      "speaker": "Peter",
+      "text": "So firewalls are important but not the whole picture?",
+      "start_s": 70.218,
+      "end_s": 72.762
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. They're one layer. You also need IDS/IPS, endpoint protection, encryption, and security awareness. No single tool makes you secure.",
+      "start_s": 72.912,
+      "end_s": 81.864
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I installed a firewall on my",
+      "start_s": 0.0,
+      "end_s": 1.7348571428571429,
+      "speaker": "Peter"
+    },
+    {
+      "text": "computer. I'm safe now, right?",
+      "start_s": 1.7348571428571429,
+      "end_s": 3.696,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Peter, a firewall is like a",
+      "start_s": 3.846,
+      "end_s": 5.0919280575539565,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "bouncer at a club. It checks",
+      "start_s": 5.0919280575539565,
+      "end_s": 6.394489208633094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "who's coming in and who's going",
+      "start_s": 6.394489208633093,
+      "end_s": 7.866949640287769,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "out based on rules. But it",
+      "start_s": 7.866949640287769,
+      "end_s": 9.056244604316547,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "can't stop someone who's dressed as",
+      "start_s": 9.056244604316547,
+      "end_s": 10.755237410071942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a legitimate guest.",
+      "start_s": 10.755237410071942,
+      "end_s": 11.718,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What do you mean?",
+      "start_s": 11.868,
+      "end_s": 13.644,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Firewalls filter traffic based on rules",
+      "start_s": 13.794,
+      "end_s": 15.811826086956522,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- IP addresses, ports, protocols. But",
+      "start_s": 15.811826086956522,
+      "end_s": 17.71095652173913,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "they can't inspect encrypted traffic without",
+      "start_s": 17.710956521739128,
+      "end_s": 20.025521739130433,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "special configuration. The SolarWinds attackers used",
+      "start_s": 20.025521739130433,
+      "end_s": 22.81486956521739,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "legitimate HTTPS to exfiltrate data.",
+      "start_s": 22.814869565217393,
+      "end_s": 24.714,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "There are different types: packet filtering",
+      "start_s": 24.864,
+      "end_s": 26.688,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "firewalls check headers, stateful firewalls track",
+      "start_s": 26.688,
+      "end_s": 28.8,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "connection states, and next-gen firewalls can",
+      "start_s": 28.8,
+      "end_s": 30.72,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "inspect application content.",
+      "start_s": 30.72,
+      "end_s": 31.968,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So I need a next-gen one?",
+      "start_s": 32.118,
+      "end_s": 33.894,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Not necessarily. The best firewall is",
+      "start_s": 34.044,
+      "end_s": 36.048425531914894,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "useless if the rules are wrong.",
+      "start_s": 36.048425531914894,
+      "end_s": 37.677021276595745,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "I've seen companies with default 'allow",
+      "start_s": 37.677021276595745,
+      "end_s": 39.80672340425532,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "all' rules. Configuration matters more than",
+      "start_s": 39.806723404255315,
+      "end_s": 42.18697872340425,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the product.",
+      "start_s": 42.18697872340425,
+      "end_s": 42.876,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Host-based firewalls protect individual machines. Network",
+      "start_s": 43.026,
+      "end_s": 46.51577777777778,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "firewalls protect the perimeter. You need",
+      "start_s": 46.51577777777778,
+      "end_s": 48.93177777777778,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "both. Defense in depth.",
+      "start_s": 48.93177777777778,
+      "end_s": 50.274,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about cloud firewalls?",
+      "start_s": 50.424,
+      "end_s": 52.2,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Cloud firewalls, or WAFs, protect web",
+      "start_s": 52.35,
+      "end_s": 54.53170700636942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "applications. They filter HTTP traffic and",
+      "start_s": 54.53170700636942,
+      "end_s": 57.054305732484075,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "can block SQL injection, XSS, and",
+      "start_s": 57.054305732484075,
+      "end_s": 58.963299363057324,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "other application-layer attacks. Every production web",
+      "start_s": 58.963299363057324,
+      "end_s": 62.235859872611464,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "app needs one.",
+      "start_s": 62.235859872611464,
+      "end_s": 63.054,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: explain the difference between",
+      "start_s": 63.204,
+      "end_s": 65.4181935483871,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "stateful and stateless firewalls, and when",
+      "start_s": 65.4181935483871,
+      "end_s": 67.46632258064517,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "you'd use each. Also know how",
+      "start_s": 67.46632258064517,
+      "end_s": 68.79483870967742,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "firewalls can be bypassed.",
+      "start_s": 68.79483870967742,
+      "end_s": 70.068,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So firewalls are important but not",
+      "start_s": 70.218,
+      "end_s": 71.85746666666665,
+      "speaker": "Peter"
+    },
+    {
+      "text": "the whole picture?",
+      "start_s": 71.85746666666665,
+      "end_s": 72.762,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. They're one layer. You also",
+      "start_s": 72.912,
+      "end_s": 75.20548760330578,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "need IDS/IPS, endpoint protection, encryption, and",
+      "start_s": 75.20548760330578,
+      "end_s": 78.5347438016529,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security awareness. No single tool makes",
+      "start_s": 78.5347438016529,
+      "end_s": 81.1241652892562,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "you secure.",
+      "start_s": 81.1241652892562,
+      "end_s": 81.864,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 81.864
+}

@@ -1,0 +1,301 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Three kinds of attackers? Isn't a hacker a hacker?",
+      "start_s": 0.0,
+      "end_s": 3.192
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Insiders, external actors, and supply chains. Different origins, different controls.",
+      "start_s": 3.342,
+      "end_s": 8.382
+    },
+    {
+      "speaker": "Peter",
+      "text": "Insiders first. They already have access, right?",
+      "start_s": 8.532,
+      "end_s": 11.82
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Least privilege, UEBA to spot odd behavior, DLP on sensitive data, separation of duties.",
+      "start_s": 11.97,
+      "end_s": 17.97
+    },
+    {
+      "speaker": "Peter",
+      "text": "External attackers?",
+      "start_s": 18.12,
+      "end_s": 19.68
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Layered defenses, XDR feeding a SIEM, SOAR to automate response, and tested incident plans.",
+      "start_s": 19.83,
+      "end_s": 24.75
+    },
+    {
+      "speaker": "Peter",
+      "text": "What makes supply chain attacks different?",
+      "start_s": 24.9,
+      "end_s": 26.964
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You're trusting someone else's code. Verify with code signing and SBOMs, assess vendors before onboarding.",
+      "start_s": 27.114,
+      "end_s": 32.418
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do third parties get full access?",
+      "start_s": 32.568,
+      "end_s": 34.56
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Least privilege only, and isolate their integrations with segmentation.",
+      "start_s": 34.71,
+      "end_s": 38.046
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the common thread across all three?",
+      "start_s": 38.196,
+      "end_s": 40.308
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Assume breach, monitor continuously, and automate containment with tested response.",
+      "start_s": 40.458,
+      "end_s": 44.538
+    },
+    {
+      "speaker": "Peter",
+      "text": "Assume breach again. It keeps coming up.",
+      "start_s": 44.688,
+      "end_s": 47.544
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Because prevention eventually fails. Design so the damage stays small when it does.",
+      "start_s": 47.694,
+      "end_s": 52.158
+    },
+    {
+      "speaker": "Peter",
+      "text": "So I need all three playbooks written down?",
+      "start_s": 52.308,
+      "end_s": 54.516
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Documented and drilled. A plan nobody tested is just a document.",
+      "start_s": 54.666,
+      "end_s": 58.482
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Three kinds of attackers? Isn't a",
+      "start_s": 0.0,
+      "end_s": 2.128,
+      "speaker": "Peter"
+    },
+    {
+      "text": "hacker a hacker?",
+      "start_s": 2.128,
+      "end_s": 3.192,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Insiders, external actors, and supply chains.",
+      "start_s": 3.342,
+      "end_s": 6.03,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Different origins, different controls.",
+      "start_s": 6.03,
+      "end_s": 8.382,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Insiders first. They already have access,",
+      "start_s": 8.532,
+      "end_s": 11.350285714285715,
+      "speaker": "Peter"
+    },
+    {
+      "text": "right?",
+      "start_s": 11.350285714285715,
+      "end_s": 11.82,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Least privilege, UEBA to spot",
+      "start_s": 11.97,
+      "end_s": 14.172531645569618,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "odd behavior, DLP on sensitive data,",
+      "start_s": 14.172531645569618,
+      "end_s": 16.526962025316454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "separation of duties.",
+      "start_s": 16.526962025316454,
+      "end_s": 17.97,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "External attackers?",
+      "start_s": 18.12,
+      "end_s": 19.68,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Layered defenses, XDR feeding a SIEM,",
+      "start_s": 19.83,
+      "end_s": 21.84846153846154,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "SOAR to automate response, and tested",
+      "start_s": 21.84846153846154,
+      "end_s": 23.86692307692308,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "incident plans.",
+      "start_s": 23.86692307692308,
+      "end_s": 24.75,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What makes supply chain attacks different?",
+      "start_s": 24.9,
+      "end_s": 26.964,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You're trusting someone else's code. Verify",
+      "start_s": 27.114,
+      "end_s": 29.304782608695653,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with code signing and SBOMs, assess",
+      "start_s": 29.304782608695653,
+      "end_s": 31.034347826086957,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "vendors before onboarding.",
+      "start_s": 31.034347826086957,
+      "end_s": 32.418,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do third parties get full access?",
+      "start_s": 32.568,
+      "end_s": 34.56,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Least privilege only, and isolate their",
+      "start_s": 34.71,
+      "end_s": 36.510380952380956,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "integrations with segmentation.",
+      "start_s": 36.510380952380956,
+      "end_s": 38.046,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the common thread across all",
+      "start_s": 38.196,
+      "end_s": 39.956,
+      "speaker": "Peter"
+    },
+    {
+      "text": "three?",
+      "start_s": 39.956,
+      "end_s": 40.308,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Assume breach, monitor continuously, and automate",
+      "start_s": 40.458,
+      "end_s": 42.883945945945946,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "containment with tested response.",
+      "start_s": 42.883945945945946,
+      "end_s": 44.538,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Assume breach again. It keeps coming",
+      "start_s": 44.688,
+      "end_s": 47.292,
+      "speaker": "Peter"
+    },
+    {
+      "text": "up.",
+      "start_s": 47.292,
+      "end_s": 47.544,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Because prevention eventually fails. Design so",
+      "start_s": 47.694,
+      "end_s": 50.271802816901406,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the damage stays small when it",
+      "start_s": 50.271802816901406,
+      "end_s": 51.843633802816896,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "does.",
+      "start_s": 51.843633802816896,
+      "end_s": 52.157999999999994,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So I need all three playbooks",
+      "start_s": 52.308,
+      "end_s": 53.78,
+      "speaker": "Peter"
+    },
+    {
+      "text": "written down?",
+      "start_s": 53.78,
+      "end_s": 54.516,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Documented and drilled. A plan nobody",
+      "start_s": 54.666,
+      "end_s": 56.92733333333334,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "tested is just a document.",
+      "start_s": 56.92733333333334,
+      "end_s": 58.482,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 58.482
+}

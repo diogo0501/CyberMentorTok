@@ -1,0 +1,289 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between a process and a thread?",
+      "start_s": 0.0,
+      "end_s": 2.304
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A process is a program in execution with its own memory. Threads are workers inside that process sharing that memory.",
+      "start_s": 2.454,
+      "end_s": 7.974
+    },
+    {
+      "speaker": "Peter",
+      "text": "So why does that matter for security?",
+      "start_s": 8.124,
+      "end_s": 10.164
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Because malware can inject itself into a legitimate process, making it invisible to basic monitoring.",
+      "start_s": 10.314,
+      "end_s": 14.826
+    },
+    {
+      "speaker": "Peter",
+      "text": "Inject itself? Like a virus?",
+      "start_s": 14.976,
+      "end_s": 17.616
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly like a virus. DLL injection forces a process to load malicious code. The process runs it unknowingly.",
+      "start_s": 17.766,
+      "end_s": 24.294
+    },
+    {
+      "speaker": "Peter",
+      "text": "And process hollowing? That sounds violent.",
+      "start_s": 24.444,
+      "end_s": 27.444
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It is violent for the original process. The attacker suspends it, replaces its memory with malware, then resumes it.",
+      "start_s": 27.594,
+      "end_s": 33.33
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can't the OS prevent this?",
+      "start_s": 33.48,
+      "end_s": 35.256
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Modern OSes have protections like ASLR and DEP, but attackers find ways around them. It's an arms race.",
+      "start_s": 35.406,
+      "end_s": 41.214
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about the MMU? What does that do?",
+      "start_s": 41.364,
+      "end_s": 44.244
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It enforces memory isolation between processes. Without it, any program could read any other program's memory.",
+      "start_s": 44.394,
+      "end_s": 49.962
+    },
+    {
+      "speaker": "Peter",
+      "text": "So the whole system is basically held together by these memory boundaries?",
+      "start_s": 50.112,
+      "end_s": 53.328
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Precisely. And when those boundaries break, all hell breaks loose.",
+      "start_s": 53.478,
+      "end_s": 57.366
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the difference between a process",
+      "start_s": 0.0,
+      "end_s": 1.7408,
+      "speaker": "Peter"
+    },
+    {
+      "text": "and a thread?",
+      "start_s": 1.7408,
+      "end_s": 2.304,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A process is a program in",
+      "start_s": 2.454,
+      "end_s": 3.5805306122448983,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "execution with its own memory. Threads",
+      "start_s": 3.5805306122448983,
+      "end_s": 5.439306122448979,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "are workers inside that process sharing",
+      "start_s": 5.439306122448979,
+      "end_s": 7.354408163265306,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "that memory.",
+      "start_s": 7.354408163265306,
+      "end_s": 7.974,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So why does that matter for",
+      "start_s": 8.124,
+      "end_s": 9.571741935483871,
+      "speaker": "Peter"
+    },
+    {
+      "text": "security?",
+      "start_s": 9.571741935483871,
+      "end_s": 10.164,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Because malware can inject itself into",
+      "start_s": 10.314,
+      "end_s": 12.025448275862068,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a legitimate process, making it invisible",
+      "start_s": 12.025448275862068,
+      "end_s": 13.892482758620691,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to basic monitoring.",
+      "start_s": 13.89248275862069,
+      "end_s": 14.825999999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Inject itself? Like a virus?",
+      "start_s": 14.976,
+      "end_s": 17.616,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly like a virus. DLL injection",
+      "start_s": 17.766,
+      "end_s": 19.894695652173912,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "forces a process to load malicious",
+      "start_s": 19.894695652173912,
+      "end_s": 21.952434782608695,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "code. The process runs it unknowingly.",
+      "start_s": 21.952434782608695,
+      "end_s": 24.294,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And process hollowing? That sounds violent.",
+      "start_s": 24.444,
+      "end_s": 27.444,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It is violent for the original",
+      "start_s": 27.594,
+      "end_s": 29.05726530612245,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "process. The attacker suspends it, replaces",
+      "start_s": 29.05726530612245,
+      "end_s": 31.281428571428574,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "its memory with malware, then resumes",
+      "start_s": 31.281428571428574,
+      "end_s": 33.15440816326531,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it.",
+      "start_s": 33.1544081632653,
+      "end_s": 33.33,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can't the OS prevent this?",
+      "start_s": 33.48,
+      "end_s": 35.256,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Modern OSes have protections like ASLR",
+      "start_s": 35.406,
+      "end_s": 37.634651162790696,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and DEP, but attackers find ways",
+      "start_s": 37.634651162790696,
+      "end_s": 39.458093023255806,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "around them. It's an arms race.",
+      "start_s": 39.45809302325581,
+      "end_s": 41.214,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about the MMU? What does",
+      "start_s": 41.364,
+      "end_s": 43.59367741935484,
+      "speaker": "Peter"
+    },
+    {
+      "text": "that do?",
+      "start_s": 43.59367741935484,
+      "end_s": 44.244,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It enforces memory isolation between processes.",
+      "start_s": 44.394,
+      "end_s": 46.85564210526316,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Without it, any program could read",
+      "start_s": 46.85564210526316,
+      "end_s": 48.555347368421046,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "any other program's memory.",
+      "start_s": 48.55534736842105,
+      "end_s": 49.962,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So the whole system is basically",
+      "start_s": 50.112,
+      "end_s": 51.49028571428572,
+      "speaker": "Peter"
+    },
+    {
+      "text": "held together by these memory boundaries?",
+      "start_s": 51.49028571428572,
+      "end_s": 53.328,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Precisely. And when those boundaries break,",
+      "start_s": 53.478,
+      "end_s": 56.07,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "all hell breaks loose.",
+      "start_s": 56.07,
+      "end_s": 57.366,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 57.366
+}

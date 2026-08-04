@@ -1,0 +1,247 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Why is standing permission such a big problem?",
+      "start_s": 0.0,
+      "end_s": 2.28
+    },
+    {
+      "speaker": "Stewie",
+      "text": "If an attacker compromises an account with permanent admin rights, they own everything. No barriers.",
+      "start_s": 2.43,
+      "end_s": 7.422
+    },
+    {
+      "speaker": "Peter",
+      "text": "So JIT just turns on permissions when you need them?",
+      "start_s": 7.572,
+      "end_s": 9.9
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. You activate, do your work, and the access automatically expires. Time-boxed elevation.",
+      "start_s": 10.05,
+      "end_s": 16.074
+    },
+    {
+      "speaker": "Peter",
+      "text": "And JEA is different from JIT?",
+      "start_s": 16.224,
+      "end_s": 18.192
+    },
+    {
+      "speaker": "Stewie",
+      "text": "JIT controls WHEN you get access. JEA controls WHAT you can do with it. Even elevated users get limited.",
+      "start_s": 18.342,
+      "end_s": 24.294
+    },
+    {
+      "speaker": "Peter",
+      "text": "So even with admin access I can't run everything?",
+      "start_s": 24.444,
+      "end_s": 26.892
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Right. Role capabilities define exactly which cmdlets are allowed. No surprise commands.",
+      "start_s": 27.042,
+      "end_s": 32.514
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's a PAW? Sounds like a dog toy.",
+      "start_s": 32.664,
+      "end_s": 35.784
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Privileged Access Workstation. A hardened, dedicated machine for admin tasks. No email, no browsing.",
+      "start_s": 35.934,
+      "end_s": 42.294
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do I really need a separate computer just for admin work?",
+      "start_s": 42.444,
+      "end_s": 45.156
+    },
+    {
+      "speaker": "Stewie",
+      "text": "For high-security environments, absolutely. It's the cleanest way to protect sensitive operations.",
+      "start_s": 45.306,
+      "end_s": 50.298
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Why is standing permission such a",
+      "start_s": 0.0,
+      "end_s": 1.636923076923077,
+      "speaker": "Peter"
+    },
+    {
+      "text": "big problem?",
+      "start_s": 1.636923076923077,
+      "end_s": 2.28,
+      "speaker": "Peter"
+    },
+    {
+      "text": "If an attacker compromises an account",
+      "start_s": 2.43,
+      "end_s": 4.287488372093023,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with permanent admin rights, they own",
+      "start_s": 4.287488372093023,
+      "end_s": 6.144976744186046,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "everything. No barriers.",
+      "start_s": 6.144976744186046,
+      "end_s": 7.421999999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So JIT just turns on permissions",
+      "start_s": 7.572,
+      "end_s": 9.033767441860466,
+      "speaker": "Peter"
+    },
+    {
+      "text": "when you need them?",
+      "start_s": 9.033767441860466,
+      "end_s": 9.9,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. You activate, do your work,",
+      "start_s": 10.05,
+      "end_s": 12.273142857142856,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and the access automatically expires. Time-boxed",
+      "start_s": 12.273142857142856,
+      "end_s": 15.356857142857141,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "elevation.",
+      "start_s": 15.356857142857143,
+      "end_s": 16.074,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And JEA is different from JIT?",
+      "start_s": 16.224,
+      "end_s": 18.192,
+      "speaker": "Peter"
+    },
+    {
+      "text": "JIT controls WHEN you get access.",
+      "start_s": 18.342,
+      "end_s": 20.27986046511628,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "JEA controls WHAT you can do",
+      "start_s": 20.27986046511628,
+      "end_s": 21.87167441860465,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with it. Even elevated users get",
+      "start_s": 21.87167441860465,
+      "end_s": 23.740325581395346,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "limited.",
+      "start_s": 23.740325581395346,
+      "end_s": 24.294,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So even with admin access I",
+      "start_s": 24.444,
+      "end_s": 25.757560975609756,
+      "speaker": "Peter"
+    },
+    {
+      "text": "can't run everything?",
+      "start_s": 25.757560975609756,
+      "end_s": 26.892,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Right. Role capabilities define exactly which",
+      "start_s": 27.042,
+      "end_s": 29.884597402597404,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cmdlets are allowed. No surprise commands.",
+      "start_s": 29.884597402597404,
+      "end_s": 32.514,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's a PAW? Sounds like a",
+      "start_s": 32.664,
+      "end_s": 35.03089655172414,
+      "speaker": "Peter"
+    },
+    {
+      "text": "dog toy.",
+      "start_s": 35.03089655172414,
+      "end_s": 35.784,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Privileged Access Workstation. A hardened, dedicated",
+      "start_s": 35.934,
+      "end_s": 39.36986206896552,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "machine for admin tasks. No email,",
+      "start_s": 39.36986206896552,
+      "end_s": 41.489862068965515,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "no browsing.",
+      "start_s": 41.489862068965515,
+      "end_s": 42.294,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do I really need a separate",
+      "start_s": 42.444,
+      "end_s": 43.71344680851063,
+      "speaker": "Peter"
+    },
+    {
+      "text": "computer just for admin work?",
+      "start_s": 43.71344680851063,
+      "end_s": 45.156,
+      "speaker": "Peter"
+    },
+    {
+      "text": "For high-security environments, absolutely. It's the",
+      "start_s": 45.306,
+      "end_s": 48.0028275862069,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cleanest way to protect sensitive operations.",
+      "start_s": 48.0028275862069,
+      "end_s": 50.298,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 50.298
+}

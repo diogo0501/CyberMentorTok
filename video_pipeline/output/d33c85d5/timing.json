@@ -1,0 +1,211 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I keep hearing about MCRA and MCSB. What's the difference?",
+      "start_s": 0.0,
+      "end_s": 3.84
+    },
+    {
+      "speaker": "Stewie",
+      "text": "MCRA is the architecture blueprint. Shows how security services connect.",
+      "start_s": 3.99,
+      "end_s": 8.31
+    },
+    {
+      "speaker": "Peter",
+      "text": "And MCSB?",
+      "start_s": 8.46,
+      "end_s": 10.236
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Cloud Security Benchmark. Twelve domains of security controls you must implement.",
+      "start_s": 10.386,
+      "end_s": 14.706
+    },
+    {
+      "speaker": "Peter",
+      "text": "Twelve? That sounds like a lot of homework.",
+      "start_s": 14.856,
+      "end_s": 17.712
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Identity management, network security, data protection, incident response, and more.",
+      "start_s": 17.862,
+      "end_s": 22.302
+    },
+    {
+      "speaker": "Peter",
+      "text": "So MCRA shows the big picture and MCSB gives you the checklist?",
+      "start_s": 22.452,
+      "end_s": 25.668
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Architecture plus controls equals a complete security posture.",
+      "start_s": 25.818,
+      "end_s": 29.97
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do they map to compliance standards?",
+      "start_s": 30.12,
+      "end_s": 32.112
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. CIS, ISO 27001, NIST. MCSB covers multiple frameworks at once.",
+      "start_s": 32.262,
+      "end_s": 38.982
+    },
+    {
+      "speaker": "Peter",
+      "text": "So one benchmark to rule them all?",
+      "start_s": 39.132,
+      "end_s": 41.1
+    },
+    {
+      "speaker": "Stewie",
+      "text": "In the Microsoft cloud world, yes. MCSB is that comprehensive.",
+      "start_s": 41.25,
+      "end_s": 45.546
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I keep hearing about MCRA and",
+      "start_s": 0.0,
+      "end_s": 1.8808163265306124,
+      "speaker": "Peter"
+    },
+    {
+      "text": "MCSB. What's the difference?",
+      "start_s": 1.8808163265306124,
+      "end_s": 3.84,
+      "speaker": "Peter"
+    },
+    {
+      "text": "MCRA is the architecture blueprint. Shows",
+      "start_s": 3.99,
+      "end_s": 6.458571428571428,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "how security services connect.",
+      "start_s": 6.458571428571428,
+      "end_s": 8.31,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And MCSB?",
+      "start_s": 8.46,
+      "end_s": 10.236,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Cloud Security Benchmark. Twelve domains of",
+      "start_s": 10.386,
+      "end_s": 12.698112676056338,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security controls you must implement.",
+      "start_s": 12.698112676056338,
+      "end_s": 14.706,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Twelve? That sounds like a lot",
+      "start_s": 14.856,
+      "end_s": 16.839333333333332,
+      "speaker": "Peter"
+    },
+    {
+      "text": "of homework.",
+      "start_s": 16.839333333333332,
+      "end_s": 17.712,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Identity management, network security, data protection,",
+      "start_s": 17.862,
+      "end_s": 20.822,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "incident response, and more.",
+      "start_s": 20.822,
+      "end_s": 22.302,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So MCRA shows the big picture",
+      "start_s": 22.452,
+      "end_s": 23.936307692307693,
+      "speaker": "Peter"
+    },
+    {
+      "text": "and MCSB gives you the checklist?",
+      "start_s": 23.936307692307693,
+      "end_s": 25.668,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Architecture plus controls equals a",
+      "start_s": 25.818,
+      "end_s": 28.388285714285715,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "complete security posture.",
+      "start_s": 28.388285714285715,
+      "end_s": 29.97,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do they map to compliance standards?",
+      "start_s": 30.12,
+      "end_s": 32.112,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. CIS, ISO 27001, NIST. MCSB",
+      "start_s": 32.262,
+      "end_s": 35.327263157894734,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "covers multiple frameworks at once.",
+      "start_s": 35.327263157894734,
+      "end_s": 38.982,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So one benchmark to rule them",
+      "start_s": 39.132,
+      "end_s": 40.81885714285715,
+      "speaker": "Peter"
+    },
+    {
+      "text": "all?",
+      "start_s": 40.81885714285715,
+      "end_s": 41.1,
+      "speaker": "Peter"
+    },
+    {
+      "text": "In the Microsoft cloud world, yes.",
+      "start_s": 41.25,
+      "end_s": 43.60064150943396,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "MCSB is that comprehensive.",
+      "start_s": 43.60064150943396,
+      "end_s": 45.546,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 45.546
+}

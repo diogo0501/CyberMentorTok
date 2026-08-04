@@ -1,0 +1,271 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Aren't our detection rules enough?",
+      "start_s": 0.0,
+      "end_s": 1.896
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Rules go stale. Attackers adapt. That's why we hunt.",
+      "start_s": 2.046,
+      "end_s": 6.198
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between hunting and alerting?",
+      "start_s": 6.348,
+      "end_s": 8.532
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Alerting waits for a rule to fire. Hunting actively searches for compromise before any alert.",
+      "start_s": 8.682,
+      "end_s": 13.506
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I start a hunt?",
+      "start_s": 13.656,
+      "end_s": 15.192
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Hypothesis first. Ground it in threat intel and MITRE ATT&CK, then validate with KQL.",
+      "start_s": 15.342,
+      "end_s": 21.078
+    },
+    {
+      "speaker": "Peter",
+      "text": "Blue and red teams? What about purple?",
+      "start_s": 21.228,
+      "end_s": 24.012
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Blue defends, red attacks. Purple runs both together to prove what's detected.",
+      "start_s": 24.162,
+      "end_s": 28.506
+    },
+    {
+      "speaker": "Peter",
+      "text": "How mature is our SOC?",
+      "start_s": 28.656,
+      "end_s": 30.48
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Measure against CMMI. Initial to optimizing. Hunting maturity comes late.",
+      "start_s": 30.63,
+      "end_s": 35.574
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about response?",
+      "start_s": 35.724,
+      "end_s": 37.5
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Playbooks in Logic Apps automate response at machine speed.",
+      "start_s": 37.65,
+      "end_s": 40.53
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where do rules come from?",
+      "start_s": 40.68,
+      "end_s": 42.192
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Detection engineering. Develop, tune, test, deploy, then review as tactics change.",
+      "start_s": 42.342,
+      "end_s": 47.55
+    },
+    {
+      "speaker": "Peter",
+      "text": "So hunting feeds new detections?",
+      "start_s": 47.7,
+      "end_s": 49.716
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Every good hunt can ship a new rule.",
+      "start_s": 49.866,
+      "end_s": 53.058
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Aren't our detection rules enough?",
+      "start_s": 0.0,
+      "end_s": 1.896,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Rules go stale. Attackers adapt. That's",
+      "start_s": 2.046,
+      "end_s": 5.254363636363636,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "why we hunt.",
+      "start_s": 5.254363636363636,
+      "end_s": 6.198,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the difference between hunting and",
+      "start_s": 6.348,
+      "end_s": 8.0952,
+      "speaker": "Peter"
+    },
+    {
+      "text": "alerting?",
+      "start_s": 8.0952,
+      "end_s": 8.532,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Alerting waits for a rule to",
+      "start_s": 8.682,
+      "end_s": 10.086455696202531,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "fire. Hunting actively searches for compromise",
+      "start_s": 10.086455696202531,
+      "end_s": 12.590050632911392,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "before any alert.",
+      "start_s": 12.590050632911392,
+      "end_s": 13.506,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I start a hunt?",
+      "start_s": 13.656,
+      "end_s": 15.192,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Hypothesis first. Ground it in threat",
+      "start_s": 15.342,
+      "end_s": 17.891333333333332,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "intel and MITRE ATT&CK, then validate",
+      "start_s": 17.891333333333332,
+      "end_s": 20.440666666666665,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with KQL.",
+      "start_s": 20.440666666666665,
+      "end_s": 21.077999999999996,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Blue and red teams? What about",
+      "start_s": 21.228,
+      "end_s": 23.403,
+      "speaker": "Peter"
+    },
+    {
+      "text": "purple?",
+      "start_s": 23.403,
+      "end_s": 24.012,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Blue defends, red attacks. Purple runs",
+      "start_s": 24.162,
+      "end_s": 26.301582089552237,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "both together to prove what's detected.",
+      "start_s": 26.301582089552237,
+      "end_s": 28.506,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How mature is our SOC?",
+      "start_s": 28.656,
+      "end_s": 30.48,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Measure against CMMI. Initial to optimizing.",
+      "start_s": 30.63,
+      "end_s": 33.64275,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Hunting maturity comes late.",
+      "start_s": 33.64275,
+      "end_s": 35.574,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about response?",
+      "start_s": 35.724,
+      "end_s": 37.5,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Playbooks in Logic Apps automate response",
+      "start_s": 37.65,
+      "end_s": 39.682941176470585,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at machine speed.",
+      "start_s": 39.682941176470585,
+      "end_s": 40.53,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where do rules come from?",
+      "start_s": 40.68,
+      "end_s": 42.192,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Detection engineering. Develop, tune, test, deploy,",
+      "start_s": 42.342,
+      "end_s": 45.669333333333334,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "then review as tactics change.",
+      "start_s": 45.669333333333334,
+      "end_s": 47.55,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So hunting feeds new detections?",
+      "start_s": 47.7,
+      "end_s": 49.716,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Every good hunt can ship",
+      "start_s": 49.866,
+      "end_s": 52.28156756756756,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a new rule.",
+      "start_s": 52.28156756756756,
+      "end_s": 53.058,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 53.058
+}

@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Pipelines build our software. Why do they need security?",
+      "start_s": 0.0,
+      "end_s": 3.408
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Because they hold deploy privileges and secrets. Attackers love pipelines.",
+      "start_s": 3.558,
+      "end_s": 7.71
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the control model?",
+      "start_s": 7.86,
+      "end_s": 9.468
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Four stages: secure design, secure code, secure pipeline, secure operations.",
+      "start_s": 9.618,
+      "end_s": 14.346
+    },
+    {
+      "speaker": "Peter",
+      "text": "Secure design?",
+      "start_s": 14.496,
+      "end_s": 16.272
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Threat modeling, IDE plugins, pre-commit hooks, peer review. Catch it before it's written.",
+      "start_s": 16.422,
+      "end_s": 21.51
+    },
+    {
+      "speaker": "Peter",
+      "text": "Secure code?",
+      "start_s": 21.66,
+      "end_s": 23.004
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Vulnerability scanning in central repos, with actual remediation.",
+      "start_s": 23.154,
+      "end_s": 26.538
+    },
+    {
+      "speaker": "Peter",
+      "text": "And the pipeline itself?",
+      "start_s": 26.688,
+      "end_s": 28.464
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Separate build, test, deploy. Branch protection, PR reviews, scans in CI, IaC scanning.",
+      "start_s": 28.614,
+      "end_s": 34.806
+    },
+    {
+      "speaker": "Peter",
+      "text": "Deployment approval?",
+      "start_s": 34.956,
+      "end_s": 36.42
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Environment-based approvals for production. And sign and verify artifacts.",
+      "start_s": 36.57,
+      "end_s": 40.818
+    },
+    {
+      "speaker": "Peter",
+      "text": "Stored secrets in pipelines?",
+      "start_s": 40.968,
+      "end_s": 42.816
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. Workload identity federation instead. Nothing to steal.",
+      "start_s": 42.966,
+      "end_s": 47.382
+    },
+    {
+      "speaker": "Peter",
+      "text": "Zero Trust in pipelines?",
+      "start_s": 47.532,
+      "end_s": 49.308
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Verify every action, least privilege for service identities, isolate environments.",
+      "start_s": 49.458,
+      "end_s": 53.49
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Pipelines build our software. Why do",
+      "start_s": 0.0,
+      "end_s": 2.201,
+      "speaker": "Peter"
+    },
+    {
+      "text": "they need security?",
+      "start_s": 2.201,
+      "end_s": 3.408,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Because they hold deploy privileges and",
+      "start_s": 3.558,
+      "end_s": 5.729815384615384,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "secrets. Attackers love pipelines.",
+      "start_s": 5.729815384615384,
+      "end_s": 7.71,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the control model?",
+      "start_s": 7.86,
+      "end_s": 9.468,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Four stages: secure design, secure code,",
+      "start_s": 9.618,
+      "end_s": 12.087850746268657,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "secure pipeline, secure operations.",
+      "start_s": 12.087850746268657,
+      "end_s": 14.346,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Secure design?",
+      "start_s": 14.496,
+      "end_s": 16.272,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Threat modeling, IDE plugins, pre-commit hooks,",
+      "start_s": 16.422,
+      "end_s": 19.16169230769231,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "peer review. Catch it before it's",
+      "start_s": 19.16169230769231,
+      "end_s": 20.988153846153846,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "written.",
+      "start_s": 20.988153846153843,
+      "end_s": 21.509999999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Secure code?",
+      "start_s": 21.66,
+      "end_s": 23.004,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Vulnerability scanning in central repos, with",
+      "start_s": 23.154,
+      "end_s": 25.487793103448276,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "actual remediation.",
+      "start_s": 25.487793103448276,
+      "end_s": 26.538,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And the pipeline itself?",
+      "start_s": 26.688,
+      "end_s": 28.464,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Separate build, test, deploy. Branch protection,",
+      "start_s": 28.614,
+      "end_s": 32.16408,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "PR reviews, scans in CI, IaC",
+      "start_s": 32.16408,
+      "end_s": 34.06296,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "scanning.",
+      "start_s": 34.06296,
+      "end_s": 34.806,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Deployment approval?",
+      "start_s": 34.956,
+      "end_s": 36.42,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Environment-based approvals for production. And sign",
+      "start_s": 36.57,
+      "end_s": 39.595090909090914,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and verify artifacts.",
+      "start_s": 39.595090909090914,
+      "end_s": 40.818,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Stored secrets in pipelines?",
+      "start_s": 40.968,
+      "end_s": 42.816,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. Workload identity federation instead. Nothing",
+      "start_s": 42.966,
+      "end_s": 46.702615384615385,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to steal.",
+      "start_s": 46.702615384615385,
+      "end_s": 47.382,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Zero Trust in pipelines?",
+      "start_s": 47.532,
+      "end_s": 49.308,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Verify every action, least privilege for",
+      "start_s": 49.458,
+      "end_s": 51.3911506849315,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "service identities, isolate environments.",
+      "start_s": 51.3911506849315,
+      "end_s": 53.49,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 53.49
+}

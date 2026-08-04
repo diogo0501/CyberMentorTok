@@ -1,0 +1,235 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So we verified the user's identity. But what about their device?",
+      "start_s": 0.0,
+      "end_s": 3.672
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Great question. Identity is half the equation. The device has to be healthy too.",
+      "start_s": 3.822,
+      "end_s": 8.622
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do you check if a device is healthy? Run some antivirus on it?",
+      "start_s": 8.772,
+      "end_s": 12.42
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Microsoft Intune checks compliance: encryption, OS version, jailbreak status, firewall.",
+      "start_s": 12.57,
+      "end_s": 17.658
+    },
+    {
+      "speaker": "Peter",
+      "text": "And if the device fails the check?",
+      "start_s": 17.808,
+      "end_s": 19.632
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Conditional Access blocks it. No compliant device, no access. Simple.",
+      "start_s": 19.782,
+      "end_s": 24.87
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about people using their personal phones for work email?",
+      "start_s": 25.02,
+      "end_s": 27.804
+    },
+    {
+      "speaker": "Stewie",
+      "text": "App protection policies secure the corporate data without managing the whole device.",
+      "start_s": 27.954,
+      "end_s": 31.578
+    },
+    {
+      "speaker": "Peter",
+      "text": "That sounds like BYOD without the headaches.",
+      "start_s": 31.728,
+      "end_s": 34.032
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Company data stays encrypted and controlled, personal stuff stays private.",
+      "start_s": 34.182,
+      "end_s": 38.79
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about detecting threats on the device itself?",
+      "start_s": 38.94,
+      "end_s": 41.364
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Defender for Endpoint handles EDR. It detects, investigates, and responds to threats.",
+      "start_s": 41.514,
+      "end_s": 46.53
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So we verified the user's identity.",
+      "start_s": 0.0,
+      "end_s": 2.04,
+      "speaker": "Peter"
+    },
+    {
+      "text": "But what about their device?",
+      "start_s": 2.04,
+      "end_s": 3.672,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Great question. Identity is half the",
+      "start_s": 3.822,
+      "end_s": 6.0428955223880605,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "equation. The device has to be",
+      "start_s": 6.0428955223880605,
+      "end_s": 7.833940298507463,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "healthy too.",
+      "start_s": 7.833940298507463,
+      "end_s": 8.622,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do you check if a",
+      "start_s": 8.772,
+      "end_s": 9.873283018867925,
+      "speaker": "Peter"
+    },
+    {
+      "text": "device is healthy? Run some antivirus",
+      "start_s": 9.873283018867925,
+      "end_s": 12.075849056603774,
+      "speaker": "Peter"
+    },
+    {
+      "text": "on it?",
+      "start_s": 12.075849056603772,
+      "end_s": 12.42,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Microsoft Intune checks compliance: encryption, OS",
+      "start_s": 12.57,
+      "end_s": 15.505384615384616,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "version, jailbreak status, firewall.",
+      "start_s": 15.505384615384616,
+      "end_s": 17.658,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And if the device fails the",
+      "start_s": 17.808,
+      "end_s": 19.241142857142858,
+      "speaker": "Peter"
+    },
+    {
+      "text": "check?",
+      "start_s": 19.241142857142858,
+      "end_s": 19.632,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Conditional Access blocks it. No compliant",
+      "start_s": 19.782,
+      "end_s": 22.9196,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "device, no access. Simple.",
+      "start_s": 22.9196,
+      "end_s": 24.87,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about people using their personal",
+      "start_s": 25.02,
+      "end_s": 26.78676923076923,
+      "speaker": "Peter"
+    },
+    {
+      "text": "phones for work email?",
+      "start_s": 26.78676923076923,
+      "end_s": 27.804,
+      "speaker": "Peter"
+    },
+    {
+      "text": "App protection policies secure the corporate",
+      "start_s": 27.954,
+      "end_s": 29.890109589041096,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data without managing the whole device.",
+      "start_s": 29.890109589041096,
+      "end_s": 31.578,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That sounds like BYOD without the",
+      "start_s": 31.728,
+      "end_s": 33.42568421052631,
+      "speaker": "Peter"
+    },
+    {
+      "text": "headaches.",
+      "start_s": 33.42568421052631,
+      "end_s": 34.032,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Company data stays encrypted and",
+      "start_s": 34.182,
+      "end_s": 36.45443835616438,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "controlled, personal stuff stays private.",
+      "start_s": 36.45443835616438,
+      "end_s": 38.79,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about detecting threats on the",
+      "start_s": 38.94,
+      "end_s": 40.63116279069767,
+      "speaker": "Peter"
+    },
+    {
+      "text": "device itself?",
+      "start_s": 40.63116279069767,
+      "end_s": 41.364,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Defender for Endpoint handles EDR. It",
+      "start_s": 41.514,
+      "end_s": 43.68308108108108,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "detects, investigates, and responds to threats.",
+      "start_s": 43.68308108108108,
+      "end_s": 46.53,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 46.53
+}

@@ -1,0 +1,229 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between DDoS Basic and Standard?",
+      "start_s": 0.0,
+      "end_s": 2.496
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Basic is free and covers platform-level protection. Standard adds ML-based tuning, attack analytics, and cost protection.",
+      "start_s": 2.646,
+      "end_s": 8.814
+    },
+    {
+      "speaker": "Peter",
+      "text": "Cost protection? They pay you back?",
+      "start_s": 8.964,
+      "end_s": 11.604
+    },
+    {
+      "speaker": "Stewie",
+      "text": "If an attack causes resource scaling, Azure credits the overage. That's how confident they are in Standard.",
+      "start_s": 11.754,
+      "end_s": 16.866
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about Private Link?",
+      "start_s": 17.016,
+      "end_s": 18.792
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It gives your services private IP addresses across the Microsoft backbone. Traffic never touches the public internet.",
+      "start_s": 18.942,
+      "end_s": 24.558
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it's like a private tunnel?",
+      "start_s": 24.708,
+      "end_s": 26.484
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. No public exposure, no attack surface, no data traversing the open web.",
+      "start_s": 26.634,
+      "end_s": 31.554
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where does Azure Firewall fit in?",
+      "start_s": 31.704,
+      "end_s": 33.576
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It filters east-west and north-south traffic. Premium adds TLS inspection and IDPS for deep packet analysis.",
+      "start_s": 33.726,
+      "end_s": 39.894
+    },
+    {
+      "speaker": "Peter",
+      "text": "Hub-spoke topology \u2014 is that complex?",
+      "start_s": 40.044,
+      "end_s": 42.228
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's a hub VNet with shared services like firewalls, and spoke VNets peered to it. Clean segmentation.",
+      "start_s": 42.378,
+      "end_s": 47.754
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the difference between DDoS Basic",
+      "start_s": 0.0,
+      "end_s": 1.8587234042553191,
+      "speaker": "Peter"
+    },
+    {
+      "text": "and Standard?",
+      "start_s": 1.8587234042553191,
+      "end_s": 2.496,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Basic is free and covers platform-level",
+      "start_s": 2.646,
+      "end_s": 4.624415094339622,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "protection. Standard adds ML-based tuning, attack",
+      "start_s": 4.624415094339622,
+      "end_s": 7.184716981132076,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "analytics, and cost protection.",
+      "start_s": 7.184716981132076,
+      "end_s": 8.814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Cost protection? They pay you back?",
+      "start_s": 8.964,
+      "end_s": 11.604,
+      "speaker": "Peter"
+    },
+    {
+      "text": "If an attack causes resource scaling,",
+      "start_s": 11.754,
+      "end_s": 13.551626373626373,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Azure credits the overage. That's how",
+      "start_s": 13.551626373626373,
+      "end_s": 15.349252747252747,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "confident they are in Standard.",
+      "start_s": 15.349252747252747,
+      "end_s": 16.866,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about Private Link?",
+      "start_s": 17.016,
+      "end_s": 18.792,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It gives your services private IP",
+      "start_s": 18.942,
+      "end_s": 20.498910891089107,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "addresses across the Microsoft backbone. Traffic",
+      "start_s": 20.498910891089107,
+      "end_s": 22.889881188118814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "never touches the public internet.",
+      "start_s": 22.889881188118814,
+      "end_s": 24.558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it's like a private tunnel?",
+      "start_s": 24.708,
+      "end_s": 26.484,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. No public exposure, no attack",
+      "start_s": 26.634,
+      "end_s": 29.02164705882353,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "surface, no data traversing the open",
+      "start_s": 29.02164705882353,
+      "end_s": 31.264588235294116,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "web.",
+      "start_s": 31.26458823529412,
+      "end_s": 31.554,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where does Azure Firewall fit in?",
+      "start_s": 31.704,
+      "end_s": 33.576,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It filters east-west and north-south traffic.",
+      "start_s": 33.726,
+      "end_s": 36.378903225806454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Premium adds TLS inspection and IDPS",
+      "start_s": 36.378903225806454,
+      "end_s": 38.43490322580645,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for deep packet analysis.",
+      "start_s": 38.43490322580645,
+      "end_s": 39.894,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Hub-spoke topology \u2014 is that complex?",
+      "start_s": 40.044,
+      "end_s": 42.228,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's a hub VNet with shared",
+      "start_s": 42.378,
+      "end_s": 43.75325581395349,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "services like firewalls, and spoke VNets",
+      "start_s": 43.75325581395349,
+      "end_s": 45.941162790697675,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "peered to it. Clean segmentation.",
+      "start_s": 45.941162790697675,
+      "end_s": 47.754,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 47.754
+}

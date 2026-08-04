@@ -1,0 +1,10 @@
+{
+  "title": "Security Update & Patch Management Strategy",
+  "hook": "Unpatched is not a vulnerability \u2014 it's a schedule. Attackers read the same CVE list you do.",
+  "slug": "sc100-patch-management-strategy",
+  "concept": "resilience",
+  "category": "resilience",
+  "difficulty": null,
+  "description": "A patch management strategy across VMs, on-premises servers, and multicloud \u2014 discovery, prioritization, deployment, and verification.",
+  "source": "SC-100 LP4 expansion"
+}

@@ -1,0 +1,283 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Microservices sound like a mess of moving parts.",
+      "start_s": 0.0,
+      "end_s": 2.472
+    },
+    {
+      "speaker": "Stewie",
+      "text": "They are. And each moving part is a security seam you must secure.",
+      "start_s": 2.622,
+      "end_s": 6.342
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do services trust each other?",
+      "start_s": 6.492,
+      "end_s": 8.364
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Service identity with mutual TLS. Every service proves who it is to every other.",
+      "start_s": 8.514,
+      "end_s": 13.098
+    },
+    {
+      "speaker": "Peter",
+      "text": "What guards the front door?",
+      "start_s": 13.248,
+      "end_s": 14.904
+    },
+    {
+      "speaker": "Stewie",
+      "text": "An API gateway. Auth, rate limiting, input validation, all in one place.",
+      "start_s": 15.054,
+      "end_s": 19.878
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do services trust the gateway?",
+      "start_s": 20.028,
+      "end_s": 21.924
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. Decentralized authorization \u2014 every service enforces its own access rules.",
+      "start_s": 22.074,
+      "end_s": 26.85
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's a service mesh?",
+      "start_s": 27.0,
+      "end_s": 28.776
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A layer that enforces policy and encrypts traffic between services automatically.",
+      "start_s": 28.926,
+      "end_s": 32.694
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I stop a failure from spreading?",
+      "start_s": 32.844,
+      "end_s": 34.908
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Circuit breakers. A failing dependency stops being called before it takes everything down.",
+      "start_s": 35.058,
+      "end_s": 39.546
+    },
+    {
+      "speaker": "Peter",
+      "text": "Investigations across services?",
+      "start_s": 39.696,
+      "end_s": 41.76
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Distributed tracing correlates one request across every service it touches.",
+      "start_s": 41.91,
+      "end_s": 45.342
+    },
+    {
+      "speaker": "Peter",
+      "text": "Should I trust the internal network?",
+      "start_s": 45.492,
+      "end_s": 47.412
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Never. One compromised service will try to hop to the next. Secure every seam.",
+      "start_s": 47.562,
+      "end_s": 52.65
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Microservices sound like a mess of",
+      "start_s": 0.0,
+      "end_s": 1.7484878048780488,
+      "speaker": "Peter"
+    },
+    {
+      "text": "moving parts.",
+      "start_s": 1.7484878048780488,
+      "end_s": 2.472,
+      "speaker": "Peter"
+    },
+    {
+      "text": "They are. And each moving part",
+      "start_s": 2.622,
+      "end_s": 4.344222222222222,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is a security seam you must",
+      "start_s": 4.344222222222222,
+      "end_s": 5.859777777777778,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "secure.",
+      "start_s": 5.8597777777777775,
+      "end_s": 6.342,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do services trust each other?",
+      "start_s": 6.492,
+      "end_s": 8.364,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Service identity with mutual TLS. Every",
+      "start_s": 8.514,
+      "end_s": 10.840208955223881,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "service proves who it is to",
+      "start_s": 10.840208955223881,
+      "end_s": 12.345402985074628,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "every other.",
+      "start_s": 12.345402985074626,
+      "end_s": 13.098,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What guards the front door?",
+      "start_s": 13.248,
+      "end_s": 14.904,
+      "speaker": "Peter"
+    },
+    {
+      "text": "An API gateway. Auth, rate limiting,",
+      "start_s": 15.054,
+      "end_s": 17.505540983606558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "input validation, all in one place.",
+      "start_s": 17.505540983606558,
+      "end_s": 19.878,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do services trust the gateway?",
+      "start_s": 20.028,
+      "end_s": 21.924,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. Decentralized authorization \u2014 every service",
+      "start_s": 22.074,
+      "end_s": 25.023882352941175,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "enforces its own access rules.",
+      "start_s": 25.023882352941175,
+      "end_s": 26.85,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's a service mesh?",
+      "start_s": 27.0,
+      "end_s": 28.776,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A layer that enforces policy and",
+      "start_s": 28.926,
+      "end_s": 30.358901408450702,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encrypts traffic between services automatically.",
+      "start_s": 30.358901408450702,
+      "end_s": 32.694,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I stop a failure",
+      "start_s": 32.844,
+      "end_s": 34.005,
+      "speaker": "Peter"
+    },
+    {
+      "text": "from spreading?",
+      "start_s": 34.005,
+      "end_s": 34.908,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Circuit breakers. A failing dependency stops",
+      "start_s": 35.058,
+      "end_s": 37.302,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "being called before it takes everything",
+      "start_s": 37.302,
+      "end_s": 39.258307692307696,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "down.",
+      "start_s": 39.258307692307696,
+      "end_s": 39.546,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Investigations across services?",
+      "start_s": 39.696,
+      "end_s": 41.76,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Distributed tracing correlates one request across",
+      "start_s": 41.91,
+      "end_s": 44.198,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "every service it touches.",
+      "start_s": 44.198,
+      "end_s": 45.342,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Should I trust the internal network?",
+      "start_s": 45.492,
+      "end_s": 47.412,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Never. One compromised service will try",
+      "start_s": 47.562,
+      "end_s": 50.223415384615386,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to hop to the next. Secure",
+      "start_s": 50.223415384615386,
+      "end_s": 51.86723076923077,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "every seam.",
+      "start_s": 51.867230769230765,
+      "end_s": 52.65,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 52.65
+}

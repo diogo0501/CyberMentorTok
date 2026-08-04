@@ -1,0 +1,10 @@
+{
+  "title": "Kubernetes & Container Security Patterns",
+  "hook": "Containers share the kernel with their neighbors. One bad image and a whole cluster is a soft target.",
+  "slug": "gh-container-kubernetes-security",
+  "concept": "container-security",
+  "category": "container-security",
+  "difficulty": null,
+  "description": "Securing container images, Kubernetes clusters, and the software supply chain they run on.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

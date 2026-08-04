@@ -1,0 +1,235 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So Stewie, what exactly is the Secure Development Lifecycle?",
+      "start_s": 0.0,
+      "end_s": 3.048
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's Microsoft's framework for building security into software from day one.",
+      "start_s": 3.198,
+      "end_s": 6.558
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can't you just test for bugs at the end?",
+      "start_s": 6.708,
+      "end_s": 8.724
+    },
+    {
+      "speaker": "Stewie",
+      "text": "That's like checking for termites after you've bought the house. Way more expensive to fix.",
+      "start_s": 8.874,
+      "end_s": 13.218
+    },
+    {
+      "speaker": "Peter",
+      "text": "So when does security actually start?",
+      "start_s": 13.368,
+      "end_s": 15.504
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Phase one \u2014 training. Developers need to know what insecure code looks like before they write it.",
+      "start_s": 15.654,
+      "end_s": 20.43
+    },
+    {
+      "speaker": "Peter",
+      "text": "And then what?",
+      "start_s": 20.58,
+      "end_s": 22.356
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Requirements phase. You define security requirements just like functional ones. Think authentication, encryption, input validation.",
+      "start_s": 22.506,
+      "end_s": 29.754
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about the design stage?",
+      "start_s": 29.904,
+      "end_s": 31.68
+    },
+    {
+      "speaker": "Stewie",
+      "text": "That's where threat modeling lives. You analyze attack surfaces and map out trust boundaries before a single line of code.",
+      "start_s": 31.83,
+      "end_s": 37.614
+    },
+    {
+      "speaker": "Peter",
+      "text": "Does it slow down development?",
+      "start_s": 37.764,
+      "end_s": 39.588
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It slows you down a little upfront. But it saves months of patching and incident response later.",
+      "start_s": 39.738,
+      "end_s": 44.346
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So Stewie, what exactly is the",
+      "start_s": 0.0,
+      "end_s": 1.4653846153846155,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Secure Development Lifecycle?",
+      "start_s": 1.4653846153846155,
+      "end_s": 3.048,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's Microsoft's framework for building security",
+      "start_s": 3.198,
+      "end_s": 5.387090909090909,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "into software from day one.",
+      "start_s": 5.387090909090909,
+      "end_s": 6.558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can't you just test for bugs",
+      "start_s": 6.708,
+      "end_s": 8.157,
+      "speaker": "Peter"
+    },
+    {
+      "text": "at the end?",
+      "start_s": 8.157,
+      "end_s": 8.724,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That's like checking for termites after",
+      "start_s": 8.874,
+      "end_s": 10.79212987012987,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "you've bought the house. Way more",
+      "start_s": 10.79212987012987,
+      "end_s": 12.371766233766234,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "expensive to fix.",
+      "start_s": 12.371766233766234,
+      "end_s": 13.218,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So when does security actually start?",
+      "start_s": 13.368,
+      "end_s": 15.504,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Phase one \u2014 training. Developers need",
+      "start_s": 15.654,
+      "end_s": 17.540814814814812,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to know what insecure code looks",
+      "start_s": 17.540814814814812,
+      "end_s": 19.132814814814814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "like before they write it.",
+      "start_s": 19.132814814814814,
+      "end_s": 20.43,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And then what?",
+      "start_s": 20.58,
+      "end_s": 22.356,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Requirements phase. You define security requirements",
+      "start_s": 22.506,
+      "end_s": 25.417589743589744,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "just like functional ones. Think authentication,",
+      "start_s": 25.417589743589744,
+      "end_s": 28.081384615384614,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encryption, input validation.",
+      "start_s": 28.081384615384618,
+      "end_s": 29.754,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about the design stage?",
+      "start_s": 29.904,
+      "end_s": 31.68,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That's where threat modeling lives. You",
+      "start_s": 31.83,
+      "end_s": 33.73928155339806,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "analyze attack surfaces and map out",
+      "start_s": 33.73928155339806,
+      "end_s": 35.42394174757282,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "trust boundaries before a single line",
+      "start_s": 35.42394174757282,
+      "end_s": 37.220912621359226,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of code.",
+      "start_s": 37.220912621359226,
+      "end_s": 37.614,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Does it slow down development?",
+      "start_s": 37.764,
+      "end_s": 39.588,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It slows you down a little",
+      "start_s": 39.738,
+      "end_s": 40.9476,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "upfront. But it saves months of",
+      "start_s": 40.9476,
+      "end_s": 42.4452,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "patching and incident response later.",
+      "start_s": 42.4452,
+      "end_s": 44.346,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 44.346
+}

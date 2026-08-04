@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "RAM is just short-term memory, right? Like a scratchpad?",
+      "start_s": 0.0,
+      "end_s": 3.408
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Correct, but a scratchpad where every secret you've ever typed is written in permanent ink for a few seconds.",
+      "start_s": 3.558,
+      "end_s": 7.974
+    },
+    {
+      "speaker": "Peter",
+      "text": "Wait, passwords are stored in RAM? That sounds dangerous.",
+      "start_s": 8.124,
+      "end_s": 11.58
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Every time you log in, your password travels through RAM. And malware can read it directly.",
+      "start_s": 11.73,
+      "end_s": 16.482
+    },
+    {
+      "speaker": "Peter",
+      "text": "So if I shut down my computer, the data is gone, right?",
+      "start_s": 16.632,
+      "end_s": 19.416
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Not necessarily. Cold boot attacks freeze RAM to preserve data for minutes after power-off.",
+      "start_s": 19.566,
+      "end_s": 24.39
+    },
+    {
+      "speaker": "Peter",
+      "text": "That's terrifying. Is there any defense?",
+      "start_s": 24.54,
+      "end_s": 27.444
+    },
+    {
+      "speaker": "Stewie",
+      "text": "DDR5 has on-die encryption. But most systems still use DDR4 without it. And RAM scraping attacks bypass the OS entirely.",
+      "start_s": 27.594,
+      "end_s": 35.322
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about memory forensics? Do investigators use this?",
+      "start_s": 35.472,
+      "end_s": 39.024
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Absolutely. A RAM dump can reveal running processes, network connections, encryption keys, and clipboard contents.",
+      "start_s": 39.174,
+      "end_s": 45.534
+    },
+    {
+      "speaker": "Peter",
+      "text": "So RAM is basically a crime scene that nobody cleans up?",
+      "start_s": 45.684,
+      "end_s": 48.396
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A crime scene that auto-destructs in milliseconds but can be frozen in time with the right tools.",
+      "start_s": 48.546,
+      "end_s": 52.554
+    }
+  ],
+  "chunks": [
+    {
+      "text": "RAM is just short-term memory, right?",
+      "start_s": 0.0,
+      "end_s": 2.272,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Like a scratchpad?",
+      "start_s": 2.272,
+      "end_s": 3.408,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Correct, but a scratchpad where every",
+      "start_s": 3.558,
+      "end_s": 5.110879120879121,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "secret you've ever typed is written",
+      "start_s": 5.110879120879121,
+      "end_s": 6.566703296703296,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "in permanent ink for a few",
+      "start_s": 6.566703296703297,
+      "end_s": 7.58578021978022,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "seconds.",
+      "start_s": 7.58578021978022,
+      "end_s": 7.974000000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Wait, passwords are stored in RAM?",
+      "start_s": 8.124,
+      "end_s": 10.169387755102042,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That sounds dangerous.",
+      "start_s": 10.169387755102042,
+      "end_s": 11.58,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Every time you log in, your",
+      "start_s": 11.73,
+      "end_s": 13.105578947368421,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "password travels through RAM. And malware",
+      "start_s": 13.105578947368421,
+      "end_s": 15.356526315789473,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "can read it directly.",
+      "start_s": 15.356526315789473,
+      "end_s": 16.482,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So if I shut down my",
+      "start_s": 16.632,
+      "end_s": 17.581090909090907,
+      "speaker": "Peter"
+    },
+    {
+      "text": "computer, the data is gone, right?",
+      "start_s": 17.581090909090907,
+      "end_s": 19.416,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Not necessarily. Cold boot attacks freeze",
+      "start_s": 19.566,
+      "end_s": 21.792461538461538,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "RAM to preserve data for minutes",
+      "start_s": 21.792461538461538,
+      "end_s": 23.462307692307693,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "after power-off.",
+      "start_s": 23.462307692307693,
+      "end_s": 24.39,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That's terrifying. Is there any defense?",
+      "start_s": 24.54,
+      "end_s": 27.444,
+      "speaker": "Peter"
+    },
+    {
+      "text": "DDR5 has on-die encryption. But most",
+      "start_s": 27.594,
+      "end_s": 29.965960396039605,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "systems still use DDR4 without it.",
+      "start_s": 29.965960396039605,
+      "end_s": 32.18489108910891,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And RAM scraping attacks bypass the",
+      "start_s": 32.18489108910891,
+      "end_s": 34.48033663366336,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "OS entirely.",
+      "start_s": 34.48033663366336,
+      "end_s": 35.321999999999996,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about memory forensics? Do investigators",
+      "start_s": 35.472,
+      "end_s": 38.432,
+      "speaker": "Peter"
+    },
+    {
+      "text": "use this?",
+      "start_s": 38.432,
+      "end_s": 39.024,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Absolutely. A RAM dump can reveal",
+      "start_s": 39.174,
+      "end_s": 40.954800000000006,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "running processes, network connections, encryption keys,",
+      "start_s": 40.954800000000006,
+      "end_s": 44.1984,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and clipboard contents.",
+      "start_s": 44.1984,
+      "end_s": 45.534,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So RAM is basically a crime",
+      "start_s": 45.684,
+      "end_s": 46.98104347826087,
+      "speaker": "Peter"
+    },
+    {
+      "text": "scene that nobody cleans up?",
+      "start_s": 46.98104347826087,
+      "end_s": 48.396,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A crime scene that auto-destructs in",
+      "start_s": 48.546,
+      "end_s": 50.07992592592593,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "milliseconds but can be frozen in",
+      "start_s": 50.07992592592593,
+      "end_s": 51.46540740740741,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "time with the right tools.",
+      "start_s": 51.46540740740741,
+      "end_s": 52.554,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 52.554
+}

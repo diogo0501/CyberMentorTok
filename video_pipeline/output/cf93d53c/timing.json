@@ -1,0 +1,361 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So networking is just computers talking to each other, right? How complicated can it be?",
+      "start_s": 0.0,
+      "end_s": 4.488
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Peter, when you send a message, it doesn't just teleport to the other person. It gets broken into packets, travels through dozens of routers, gets reassembled at the destination. The complexity is staggering.",
+      "start_s": 4.638,
+      "end_s": 13.878
+    },
+    {
+      "speaker": "Peter",
+      "text": "Like a really fast game of telephone?",
+      "start_s": 14.028,
+      "end_s": 16.044
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. And just like telephone, there are many points where things can go wrong - or where an attacker can intercept, modify, or inject data.",
+      "start_s": 16.194,
+      "end_s": 23.058
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Every network protocol is a potential attack surface. HTTP, DNS, BGP - they all have known vulnerabilities. That's why we need firewalls, IDS, and encryption.",
+      "start_s": 23.208,
+      "end_s": 32.928
+    },
+    {
+      "speaker": "Peter",
+      "text": "Is that why I need a VPN?",
+      "start_s": 33.078,
+      "end_s": 34.974
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Partially. A VPN encrypts your traffic so it can't be intercepted. But it's just one layer. Defense in depth means using multiple overlapping security controls.",
+      "start_s": 35.124,
+      "end_s": 43.716
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The OSI model is critical to understand. It has 7 layers, from physical (cables) to application (your browser). Attackers target different layers with different techniques.",
+      "start_s": 43.866,
+      "end_s": 52.722
+    },
+    {
+      "speaker": "Peter",
+      "text": "Seven layers? That's more than an onion.",
+      "start_s": 52.872,
+      "end_s": 55.584
+    },
+    {
+      "speaker": "Stewie",
+      "text": "And like an onion, peeling back each layer reveals new attack possibilities. Layer 2 attacks like ARP spoofing, Layer 3 like IP spoofing, Layer 7 like SQL injection.",
+      "start_s": 55.734,
+      "end_s": 64.374
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: explain the OSI model and give an attack example for at least three layers. If you can do this, you'll impress any interviewer.",
+      "start_s": 64.524,
+      "end_s": 71.196
+    },
+    {
+      "speaker": "Peter",
+      "text": "I'm going to start looking at my router differently now.",
+      "start_s": 71.346,
+      "end_s": 73.794
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So networking is just computers talking",
+      "start_s": 0.0,
+      "end_s": 2.0620540540540544,
+      "speaker": "Peter"
+    },
+    {
+      "text": "to each other, right? How complicated",
+      "start_s": 2.0620540540540544,
+      "end_s": 4.002810810810811,
+      "speaker": "Peter"
+    },
+    {
+      "text": "can it be?",
+      "start_s": 4.002810810810811,
+      "end_s": 4.488,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Peter, when you send a message,",
+      "start_s": 4.638,
+      "end_s": 6.003,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it doesn't just teleport to the",
+      "start_s": 6.003,
+      "end_s": 7.368,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "other person. It gets broken into",
+      "start_s": 7.368,
+      "end_s": 8.838,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "packets, travels through dozens of routers,",
+      "start_s": 8.838,
+      "end_s": 10.833,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gets reassembled at the destination. The",
+      "start_s": 10.833,
+      "end_s": 12.6705,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "complexity is staggering.",
+      "start_s": 12.6705,
+      "end_s": 13.878,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Like a really fast game of",
+      "start_s": 14.028,
+      "end_s": 15.39367741935484,
+      "speaker": "Peter"
+    },
+    {
+      "text": "telephone?",
+      "start_s": 15.39367741935484,
+      "end_s": 16.044,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. And just like telephone, there",
+      "start_s": 16.194,
+      "end_s": 18.15514285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "are many points where things can",
+      "start_s": 18.15514285714286,
+      "end_s": 19.712521008403364,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "go wrong - or where an",
+      "start_s": 19.71252100840336,
+      "end_s": 20.693092436974787,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "attacker can intercept, modify, or inject",
+      "start_s": 20.693092436974787,
+      "end_s": 22.76959663865546,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data.",
+      "start_s": 22.76959663865546,
+      "end_s": 23.058,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Every network protocol is a potential",
+      "start_s": 23.208,
+      "end_s": 25.529194029850746,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "attack surface. HTTP, DNS, BGP -",
+      "start_s": 25.529194029850746,
+      "end_s": 27.487701492537315,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "they all have known vulnerabilities. That's",
+      "start_s": 27.487701492537315,
+      "end_s": 30.244119402985078,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "why we need firewalls, IDS, and",
+      "start_s": 30.244119402985074,
+      "end_s": 32.13008955223881,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encryption.",
+      "start_s": 32.13008955223881,
+      "end_s": 32.928,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Is that why I need a",
+      "start_s": 33.078,
+      "end_s": 34.57484210526316,
+      "speaker": "Peter"
+    },
+    {
+      "text": "VPN?",
+      "start_s": 34.57484210526316,
+      "end_s": 34.974,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Partially. A VPN encrypts your traffic",
+      "start_s": 35.124,
+      "end_s": 37.20882352941176,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "so it can't be intercepted. But",
+      "start_s": 37.20882352941176,
+      "end_s": 38.85141176470588,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it's just one layer. Defense in",
+      "start_s": 38.85141176470588,
+      "end_s": 40.494,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "depth means using multiple overlapping security",
+      "start_s": 40.494,
+      "end_s": 43.14741176470588,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "controls.",
+      "start_s": 43.14741176470588,
+      "end_s": 43.716,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "The OSI model is critical to",
+      "start_s": 43.866,
+      "end_s": 45.242270270270275,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "understand. It has 7 layers, from",
+      "start_s": 45.242270270270275,
+      "end_s": 46.917729729729736,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "physical (cables) to application (your browser).",
+      "start_s": 46.917729729729736,
+      "end_s": 49.49075675675676,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Attackers target different layers with different",
+      "start_s": 49.49075675675676,
+      "end_s": 52.063783783783784,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "techniques.",
+      "start_s": 52.063783783783784,
+      "end_s": 52.722,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Seven layers? That's more than an",
+      "start_s": 52.872,
+      "end_s": 55.105411764705885,
+      "speaker": "Peter"
+    },
+    {
+      "text": "onion.",
+      "start_s": 55.105411764705885,
+      "end_s": 55.584,
+      "speaker": "Peter"
+    },
+    {
+      "text": "And like an onion, peeling back",
+      "start_s": 55.734,
+      "end_s": 57.36182608695652,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "each layer reveals new attack possibilities.",
+      "start_s": 57.36182608695652,
+      "end_s": 59.8035652173913,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Layer 2 attacks like ARP spoofing,",
+      "start_s": 59.8035652173913,
+      "end_s": 61.619217391304346,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Layer 3 like IP spoofing, Layer",
+      "start_s": 61.61921739130435,
+      "end_s": 63.24704347826087,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "7 like SQL injection.",
+      "start_s": 63.24704347826087,
+      "end_s": 64.374,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: explain the OSI model",
+      "start_s": 64.524,
+      "end_s": 66.27681355932204,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and give an attack example for",
+      "start_s": 66.27681355932204,
+      "end_s": 67.69037288135593,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at least three layers. If you",
+      "start_s": 67.69037288135593,
+      "end_s": 69.04738983050848,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "can do this, you'll impress any",
+      "start_s": 69.04738983050848,
+      "end_s": 70.51749152542372,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "interviewer.",
+      "start_s": 70.51749152542372,
+      "end_s": 71.196,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "I'm going to start looking at",
+      "start_s": 71.346,
+      "end_s": 72.5960425531915,
+      "speaker": "Peter"
+    },
+    {
+      "text": "my router differently now.",
+      "start_s": 72.5960425531915,
+      "end_s": 73.794,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 73.794
+}

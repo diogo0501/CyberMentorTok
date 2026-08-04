@@ -1,0 +1,241 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between Azure Policy and Blueprints?",
+      "start_s": 0.0,
+      "end_s": 2.568
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Policy enforces individual rules. Blueprints bundle multiple policies and resources into a repeatable template.",
+      "start_s": 2.718,
+      "end_s": 8.286
+    },
+    {
+      "speaker": "Peter",
+      "text": "So Blueprints are like a starter kit for new subscriptions?",
+      "start_s": 8.436,
+      "end_s": 11.124
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. One Blueprint deploys policies, roles, ARM templates, and resource groups all at once.",
+      "start_s": 11.274,
+      "end_s": 16.842
+    },
+    {
+      "speaker": "Peter",
+      "text": "What effects does Azure Policy support?",
+      "start_s": 16.992,
+      "end_s": 19.176
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Deny blocks non-compliant deployments. Audit logs violations. Modify adds or removes properties.",
+      "start_s": 19.326,
+      "end_s": 25.422
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about deployIfNotExists?",
+      "start_s": 25.572,
+      "end_s": 27.54
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It checks if a related resource exists and creates it automatically if missing. Very powerful.",
+      "start_s": 27.69,
+      "end_s": 32.442
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can it fix resources that are already deployed?",
+      "start_s": 32.592,
+      "end_s": 34.92
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes, remediation tasks. They scan existing resources and apply modifications to bring them into compliance.",
+      "start_s": 35.07,
+      "end_s": 40.902
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where do I see all my compliance results?",
+      "start_s": 41.052,
+      "end_s": 43.332
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Policy Insights in the Azure portal. Central dashboard showing compliant and non-compliant resources.",
+      "start_s": 43.482,
+      "end_s": 48.618
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the difference between Azure Policy",
+      "start_s": 0.0,
+      "end_s": 1.8630588235294117,
+      "speaker": "Peter"
+    },
+    {
+      "text": "and Blueprints?",
+      "start_s": 1.8630588235294117,
+      "end_s": 2.568,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Policy enforces individual rules. Blueprints bundle",
+      "start_s": 2.718,
+      "end_s": 5.331551020408164,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "multiple policies and resources into a",
+      "start_s": 5.331551020408164,
+      "end_s": 7.206489795918368,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "repeatable template.",
+      "start_s": 7.206489795918367,
+      "end_s": 8.286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So Blueprints are like a starter",
+      "start_s": 8.436,
+      "end_s": 9.88752,
+      "speaker": "Peter"
+    },
+    {
+      "text": "kit for new subscriptions?",
+      "start_s": 9.88752,
+      "end_s": 11.124,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. One Blueprint deploys policies, roles,",
+      "start_s": 11.274,
+      "end_s": 14.12590243902439,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ARM templates, and resource groups all",
+      "start_s": 14.12590243902439,
+      "end_s": 16.366682926829267,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at once.",
+      "start_s": 16.366682926829267,
+      "end_s": 16.842,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What effects does Azure Policy support?",
+      "start_s": 16.992,
+      "end_s": 19.176,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Deny blocks non-compliant deployments. Audit logs",
+      "start_s": 19.326,
+      "end_s": 22.481576470588237,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "violations. Modify adds or removes properties.",
+      "start_s": 22.481576470588237,
+      "end_s": 25.422,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about deployIfNotExists?",
+      "start_s": 25.572,
+      "end_s": 27.54,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It checks if a related resource",
+      "start_s": 27.69,
+      "end_s": 29.2344,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "exists and creates it automatically if",
+      "start_s": 29.2344,
+      "end_s": 31.1946,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "missing. Very powerful.",
+      "start_s": 31.194599999999998,
+      "end_s": 32.442,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can it fix resources that are",
+      "start_s": 32.592,
+      "end_s": 33.988800000000005,
+      "speaker": "Peter"
+    },
+    {
+      "text": "already deployed?",
+      "start_s": 33.988800000000005,
+      "end_s": 34.92,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes, remediation tasks. They scan existing",
+      "start_s": 35.07,
+      "end_s": 37.39025806451613,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "resources and apply modifications to bring",
+      "start_s": 37.39025806451613,
+      "end_s": 39.71051612903226,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "them into compliance.",
+      "start_s": 39.71051612903226,
+      "end_s": 40.902,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where do I see all my",
+      "start_s": 41.052,
+      "end_s": 42.124941176470585,
+      "speaker": "Peter"
+    },
+    {
+      "text": "compliance results?",
+      "start_s": 42.124941176470585,
+      "end_s": 43.332,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Policy Insights in the Azure portal.",
+      "start_s": 43.482,
+      "end_s": 45.270943820224716,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Central dashboard showing compliant and non-compliant",
+      "start_s": 45.270943820224716,
+      "end_s": 48.04092134831461,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "resources.",
+      "start_s": 48.04092134831461,
+      "end_s": 48.618,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 48.618
+}

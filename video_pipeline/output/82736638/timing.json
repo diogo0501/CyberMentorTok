@@ -1,0 +1,235 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between blue team, red team, and purple team?",
+      "start_s": 0.0,
+      "end_s": 3.0
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Blue defends, red attacks, purple is both working together. Purple teaming makes both sides better.",
+      "start_s": 3.15,
+      "end_s": 8.31
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's a SOC maturity model?",
+      "start_s": 8.46,
+      "end_s": 10.452
+    },
+    {
+      "speaker": "Stewie",
+      "text": "CMMI-based levels from initial chaos to optimized automation. Measures how sophisticated your ops are.",
+      "start_s": 10.602,
+      "end_s": 16.002
+    },
+    {
+      "speaker": "Peter",
+      "text": "How does threat hunting actually work?",
+      "start_s": 16.152,
+      "end_s": 18.144
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You form a hypothesis based on threat intel, write KQL queries, and proactively search for compromise.",
+      "start_s": 18.294,
+      "end_s": 23.454
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's MITRE ATT&CK?",
+      "start_s": 23.604,
+      "end_s": 25.668
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A knowledge base of attacker techniques and tactics. Maps how attacks happen so you build detections.",
+      "start_s": 25.818,
+      "end_s": 30.858
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about playbooks? Are those just runbooks?",
+      "start_s": 31.008,
+      "end_s": 33.984
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Automated playbooks in Logic Apps execute response actions at machine speed. Isolate, disable, notify.",
+      "start_s": 34.134,
+      "end_s": 39.942
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's detection engineering?",
+      "start_s": 40.092,
+      "end_s": 41.868
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The practice of creating, testing, and maintaining detection rules. It's engineering, not just tuning.",
+      "start_s": 42.018,
+      "end_s": 47.25
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the difference between blue team,",
+      "start_s": 0.0,
+      "end_s": 1.8421052631578947,
+      "speaker": "Peter"
+    },
+    {
+      "text": "red team, and purple team?",
+      "start_s": 1.8421052631578947,
+      "end_s": 3.0,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Blue defends, red attacks, purple is",
+      "start_s": 3.15,
+      "end_s": 5.031882352941176,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "both working together. Purple teaming makes",
+      "start_s": 5.031882352941176,
+      "end_s": 7.338705882352942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "both sides better.",
+      "start_s": 7.338705882352942,
+      "end_s": 8.31,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's a SOC maturity model?",
+      "start_s": 8.46,
+      "end_s": 10.452,
+      "speaker": "Peter"
+    },
+    {
+      "text": "CMMI-based levels from initial chaos to",
+      "start_s": 10.602,
+      "end_s": 12.664921348314607,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "optimized automation. Measures how sophisticated your",
+      "start_s": 12.664921348314607,
+      "end_s": 15.577280898876404,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ops are.",
+      "start_s": 15.577280898876404,
+      "end_s": 16.002,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How does threat hunting actually work?",
+      "start_s": 16.152,
+      "end_s": 18.144,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You form a hypothesis based on",
+      "start_s": 18.294,
+      "end_s": 19.776758620689655,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "threat intel, write KQL queries, and",
+      "start_s": 19.776758620689655,
+      "end_s": 21.615379310344828,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "proactively search for compromise.",
+      "start_s": 21.615379310344824,
+      "end_s": 23.454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's MITRE ATT&CK?",
+      "start_s": 23.604,
+      "end_s": 25.668,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A knowledge base of attacker techniques",
+      "start_s": 25.818,
+      "end_s": 27.810558139534887,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and tactics. Maps how attacks happen",
+      "start_s": 27.810558139534887,
+      "end_s": 29.627302325581397,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "so you build detections.",
+      "start_s": 29.627302325581397,
+      "end_s": 30.858,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about playbooks? Are those just",
+      "start_s": 31.008,
+      "end_s": 33.3144,
+      "speaker": "Peter"
+    },
+    {
+      "text": "runbooks?",
+      "start_s": 33.3144,
+      "end_s": 33.984,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Automated playbooks in Logic Apps execute",
+      "start_s": 34.134,
+      "end_s": 36.483303370786516,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "response actions at machine speed. Isolate,",
+      "start_s": 36.483303370786516,
+      "end_s": 38.96312359550562,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "disable, notify.",
+      "start_s": 38.96312359550562,
+      "end_s": 39.942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's detection engineering?",
+      "start_s": 40.092,
+      "end_s": 41.868,
+      "speaker": "Peter"
+    },
+    {
+      "text": "The practice of creating, testing, and",
+      "start_s": 42.018,
+      "end_s": 43.95795505617977,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "maintaining detection rules. It's engineering, not",
+      "start_s": 43.95795505617977,
+      "end_s": 46.603348314606734,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "just tuning.",
+      "start_s": 46.60334831460675,
+      "end_s": 47.25,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 47.25
+}

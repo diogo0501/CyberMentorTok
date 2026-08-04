@@ -1,0 +1,10 @@
+{
+  "title": "Rate Limiting & Throttling at Scale",
+  "hook": "Rate limiting is the bouncer at the club \u2014 it keeps one rowdy guest from ruining the night for everyone.",
+  "slug": "gh-rate-limiting",
+  "concept": "resilience",
+  "category": "resilience",
+  "difficulty": null,
+  "description": "Why rate limiting is both a defense and an availability pattern, and how to design it in distributed systems.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

@@ -1,0 +1,277 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So Azure Policy just... blocks bad stuff?",
+      "start_s": 0.0,
+      "end_s": 2.4
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Depends on the effect. Pick wrong and you block everything or enforce nothing.",
+      "start_s": 2.55,
+      "end_s": 6.558
+    },
+    {
+      "speaker": "Peter",
+      "text": "What blocks?",
+      "start_s": 6.708,
+      "end_s": 8.484
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Deny stops creation or updates that violate policy. DenyAction stops lifecycle actions like deletion.",
+      "start_s": 8.634,
+      "end_s": 14.25
+    },
+    {
+      "speaker": "Peter",
+      "text": "What if I only want to know, not block?",
+      "start_s": 14.4,
+      "end_s": 16.464
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Audit writes a warning. AuditIfNotExists flags missing things like diagnostic settings.",
+      "start_s": 16.614,
+      "end_s": 21.366
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can policy fix things automatically?",
+      "start_s": 21.516,
+      "end_s": 23.628
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Modify changes properties. DeployIfNotExists deploys what's missing. Append adds properties.",
+      "start_s": 23.778,
+      "end_s": 29.442
+    },
+    {
+      "speaker": "Peter",
+      "text": "Any effects for rollout?",
+      "start_s": 29.592,
+      "end_s": 31.368
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Disabled pauses evaluation. Manual needs attestation for procedural controls.",
+      "start_s": 31.518,
+      "end_s": 36.054
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do effects run in some order?",
+      "start_s": 36.204,
+      "end_s": 37.98
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Fixed order: disabled, append/modify, deny, audit, manual, auditIfNotExists, denyAction.",
+      "start_s": 38.13,
+      "end_s": 44.058
+    },
+    {
+      "speaker": "Peter",
+      "text": "Best practice for rolling out?",
+      "start_s": 44.208,
+      "end_s": 45.984
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Audit first, measure impact, remediate, then flip to Deny.",
+      "start_s": 46.134,
+      "end_s": 49.734
+    },
+    {
+      "speaker": "Peter",
+      "text": "So compliance is a journey, not a switch.",
+      "start_s": 49.884,
+      "end_s": 52.164
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. And evaluation never sleeps \u2014 it runs every 24 hours.",
+      "start_s": 52.314,
+      "end_s": 56.73
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So Azure Policy just... blocks bad",
+      "start_s": 0.0,
+      "end_s": 1.9885714285714287,
+      "speaker": "Peter"
+    },
+    {
+      "text": "stuff?",
+      "start_s": 1.9885714285714287,
+      "end_s": 2.4,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Depends on the effect. Pick wrong",
+      "start_s": 2.55,
+      "end_s": 4.250363636363636,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and you block everything or enforce",
+      "start_s": 4.250363636363636,
+      "end_s": 6.072181818181818,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "nothing.",
+      "start_s": 6.072181818181818,
+      "end_s": 6.558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What blocks?",
+      "start_s": 6.708,
+      "end_s": 8.484,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Deny stops creation or updates that",
+      "start_s": 8.634,
+      "end_s": 10.548545454545454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "violate policy. DenyAction stops lifecycle actions",
+      "start_s": 10.548545454545454,
+      "end_s": 13.420363636363636,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "like deletion.",
+      "start_s": 13.420363636363636,
+      "end_s": 14.25,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What if I only want to",
+      "start_s": 14.4,
+      "end_s": 15.531870967741936,
+      "speaker": "Peter"
+    },
+    {
+      "text": "know, not block?",
+      "start_s": 15.531870967741936,
+      "end_s": 16.464,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Audit writes a warning. AuditIfNotExists flags",
+      "start_s": 16.614,
+      "end_s": 19.144285714285715,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "missing things like diagnostic settings.",
+      "start_s": 19.144285714285715,
+      "end_s": 21.366,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can policy fix things automatically?",
+      "start_s": 21.516,
+      "end_s": 23.628,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Modify changes properties. DeployIfNotExists deploys what's",
+      "start_s": 23.778,
+      "end_s": 27.46301204819277,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "missing. Append adds properties.",
+      "start_s": 27.46301204819277,
+      "end_s": 29.442,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Any effects for rollout?",
+      "start_s": 29.592,
+      "end_s": 31.368,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Disabled pauses evaluation. Manual needs attestation",
+      "start_s": 31.518,
+      "end_s": 34.60773913043479,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for procedural controls.",
+      "start_s": 34.60773913043479,
+      "end_s": 36.054,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do effects run in some order?",
+      "start_s": 36.204,
+      "end_s": 37.98,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Fixed order: disabled, append/modify, deny, audit,",
+      "start_s": 38.13,
+      "end_s": 41.4645,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "manual, auditIfNotExists, denyAction.",
+      "start_s": 41.4645,
+      "end_s": 44.058,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Best practice for rolling out?",
+      "start_s": 44.208,
+      "end_s": 45.984,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Audit first, measure impact, remediate, then",
+      "start_s": 46.134,
+      "end_s": 48.942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "flip to Deny.",
+      "start_s": 48.942,
+      "end_s": 49.734,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So compliance is a journey, not",
+      "start_s": 49.884,
+      "end_s": 51.627529411764705,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a switch.",
+      "start_s": 51.627529411764705,
+      "end_s": 52.164,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. And evaluation never sleeps \u2014",
+      "start_s": 52.314,
+      "end_s": 55.116461538461536,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it runs every 24 hours.",
+      "start_s": 55.116461538461536,
+      "end_s": 56.73,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 56.73
+}

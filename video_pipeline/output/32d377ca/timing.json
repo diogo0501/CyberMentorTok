@@ -1,0 +1,277 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Big data platform. Just a bigger database, right?",
+      "start_s": 0.0,
+      "end_s": 3.408
+    },
+    {
+      "speaker": "Stewie",
+      "text": "A bigger attack surface. Pipelines, warehouses, and ML models are all targets.",
+      "start_s": 3.558,
+      "end_s": 8.478
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where does it start?",
+      "start_s": 8.628,
+      "end_s": 10.404
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Ingestion. Validate and encrypt data in transit, authenticate producers, scan for sensitive data.",
+      "start_s": 10.554,
+      "end_s": 15.93
+    },
+    {
+      "speaker": "Peter",
+      "text": "Data at rest?",
+      "start_s": 16.08,
+      "end_s": 17.856
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Encrypt lakes and warehouses. Fine-grained access and column-level masking.",
+      "start_s": 18.006,
+      "end_s": 22.23
+    },
+    {
+      "speaker": "Peter",
+      "text": "Analytics users?",
+      "start_s": 22.38,
+      "end_s": 24.156
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Their broad read access is the real risk. Mask columns and limit rows per role.",
+      "start_s": 24.306,
+      "end_s": 28.626
+    },
+    {
+      "speaker": "Peter",
+      "text": "Processing jobs?",
+      "start_s": 28.776,
+      "end_s": 30.552
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Run with least privilege and audit who runs what. Isolate compute from data.",
+      "start_s": 30.702,
+      "end_s": 34.782
+    },
+    {
+      "speaker": "Peter",
+      "text": "ML platforms?",
+      "start_s": 34.932,
+      "end_s": 36.708
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Protect training data, control model access, watch for exfiltration through inference.",
+      "start_s": 36.858,
+      "end_s": 40.986
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I track data?",
+      "start_s": 41.136,
+      "end_s": 42.648
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Lineage and metadata catalogs. Know where data came from and who touched it.",
+      "start_s": 42.798,
+      "end_s": 46.854
+    },
+    {
+      "speaker": "Peter",
+      "text": "Privacy?",
+      "start_s": 47.004,
+      "end_s": 48.156
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Privacy-preserving analytics so insights don't leak personal data.",
+      "start_s": 48.306,
+      "end_s": 51.45
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Big data platform. Just a bigger",
+      "start_s": 0.0,
+      "end_s": 2.1908571428571433,
+      "speaker": "Peter"
+    },
+    {
+      "text": "database, right?",
+      "start_s": 2.1908571428571433,
+      "end_s": 3.408,
+      "speaker": "Peter"
+    },
+    {
+      "text": "A bigger attack surface. Pipelines, warehouses,",
+      "start_s": 3.558,
+      "end_s": 6.642179104477613,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and ML models are all targets.",
+      "start_s": 6.642179104477613,
+      "end_s": 8.478,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where does it start?",
+      "start_s": 8.628,
+      "end_s": 10.404,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Ingestion. Validate and encrypt data in",
+      "start_s": 10.554,
+      "end_s": 12.7044,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "transit, authenticate producers, scan for sensitive",
+      "start_s": 12.7044,
+      "end_s": 15.613764705882353,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data.",
+      "start_s": 15.613764705882353,
+      "end_s": 15.93,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Data at rest?",
+      "start_s": 16.08,
+      "end_s": 17.856,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Encrypt lakes and warehouses. Fine-grained access",
+      "start_s": 18.006,
+      "end_s": 20.77997014925373,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and column-level masking.",
+      "start_s": 20.77997014925373,
+      "end_s": 22.23,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Analytics users?",
+      "start_s": 22.38,
+      "end_s": 24.156,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Their broad read access is the",
+      "start_s": 24.306,
+      "end_s": 25.96753846153846,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "real risk. Mask columns and limit",
+      "start_s": 25.96753846153846,
+      "end_s": 27.82846153846154,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "rows per role.",
+      "start_s": 27.82846153846154,
+      "end_s": 28.626,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Processing jobs?",
+      "start_s": 28.776,
+      "end_s": 30.552,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Run with least privilege and audit",
+      "start_s": 30.702,
+      "end_s": 32.55075,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "who runs what. Isolate compute from",
+      "start_s": 32.55075,
+      "end_s": 34.46325,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data.",
+      "start_s": 34.46325,
+      "end_s": 34.782,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "ML platforms?",
+      "start_s": 34.932,
+      "end_s": 36.708,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Protect training data, control model access,",
+      "start_s": 36.858,
+      "end_s": 38.97631578947369,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "watch for exfiltration through inference.",
+      "start_s": 38.97631578947369,
+      "end_s": 40.986,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I track data?",
+      "start_s": 41.136,
+      "end_s": 42.648,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Lineage and metadata catalogs. Know where",
+      "start_s": 42.798,
+      "end_s": 45.0795,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data came from and who touched",
+      "start_s": 45.0795,
+      "end_s": 46.663875,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it.",
+      "start_s": 46.663875,
+      "end_s": 46.854,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Privacy?",
+      "start_s": 47.004,
+      "end_s": 48.156,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Privacy-preserving analytics so insights don't leak",
+      "start_s": 48.306,
+      "end_s": 50.75725423728814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "personal data.",
+      "start_s": 50.75725423728814,
+      "end_s": 51.45,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 51.45
+}

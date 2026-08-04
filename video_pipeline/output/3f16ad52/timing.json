@@ -1,0 +1,301 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "We run Azure, AWS, and GCP. That's three logins per person?",
+      "start_s": 0.0,
+      "end_s": 4.32
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Only if you're doing identity wrong. One identity provider should rule them all.",
+      "start_s": 4.47,
+      "end_s": 8.478
+    },
+    {
+      "speaker": "Peter",
+      "text": "And that provider is...?",
+      "start_s": 8.628,
+      "end_s": 10.404
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Microsoft Entra ID. AWS and GCP become service providers that trust it.",
+      "start_s": 10.554,
+      "end_s": 15.474
+    },
+    {
+      "speaker": "Peter",
+      "text": "How does AWS work?",
+      "start_s": 15.624,
+      "end_s": 17.424
+    },
+    {
+      "speaker": "Stewie",
+      "text": "AWS IAM Identity Center. Entra signs users in, SCIM provisions groups, and group membership maps to IAM roles.",
+      "start_s": 17.574,
+      "end_s": 24.294
+    },
+    {
+      "speaker": "Peter",
+      "text": "Conditional Access still applies on AWS?",
+      "start_s": 24.444,
+      "end_s": 26.964
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Every AWS sign-in gets MFA, device checks, and risk evaluation from Entra.",
+      "start_s": 27.114,
+      "end_s": 32.49
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about GCP?",
+      "start_s": 32.64,
+      "end_s": 34.416
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Workforce identity federation. Google trusts Entra, so users bring their existing credentials. No duplicate accounts.",
+      "start_s": 34.566,
+      "end_s": 41.094
+    },
+    {
+      "speaker": "Peter",
+      "text": "And machines running on AWS that need Azure resources?",
+      "start_s": 41.244,
+      "end_s": 44.244
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Workload identity federation. They swap their native token for an Azure token. No stored secrets to leak.",
+      "start_s": 44.394,
+      "end_s": 50.322
+    },
+    {
+      "speaker": "Peter",
+      "text": "So nobody gets orphaned cloud accounts?",
+      "start_s": 50.472,
+      "end_s": 52.584
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Fire the user in Entra and every cloud loses access instantly.",
+      "start_s": 52.734,
+      "end_s": 57.102
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do we spot over-permissioned cloud roles?",
+      "start_s": 57.252,
+      "end_s": 59.532
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Defender for Cloud. It monitors cross-cloud permissions and flags identities that can do too much.",
+      "start_s": 59.682,
+      "end_s": 64.602
+    }
+  ],
+  "chunks": [
+    {
+      "text": "We run Azure, AWS, and GCP.",
+      "start_s": 0.0,
+      "end_s": 1.939591836734694,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That's three logins per person?",
+      "start_s": 1.939591836734694,
+      "end_s": 4.32,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Only if you're doing identity wrong.",
+      "start_s": 4.47,
+      "end_s": 6.297176470588235,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "One identity provider should rule them",
+      "start_s": 6.297176470588235,
+      "end_s": 8.242235294117647,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "all.",
+      "start_s": 8.242235294117647,
+      "end_s": 8.478,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And that provider is...?",
+      "start_s": 8.628,
+      "end_s": 10.404,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Microsoft Entra ID. AWS and GCP",
+      "start_s": 10.554,
+      "end_s": 12.686,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "become service providers that trust it.",
+      "start_s": 12.686,
+      "end_s": 15.474,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How does AWS work?",
+      "start_s": 15.624,
+      "end_s": 17.424,
+      "speaker": "Peter"
+    },
+    {
+      "text": "AWS IAM Identity Center. Entra signs",
+      "start_s": 17.574,
+      "end_s": 19.814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "users in, SCIM provisions groups, and",
+      "start_s": 19.814,
+      "end_s": 22.12625806451613,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "group membership maps to IAM roles.",
+      "start_s": 22.12625806451613,
+      "end_s": 24.294,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Conditional Access still applies on AWS?",
+      "start_s": 24.444,
+      "end_s": 26.964,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Every AWS sign-in gets MFA,",
+      "start_s": 27.114,
+      "end_s": 29.280447761194033,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "device checks, and risk evaluation from",
+      "start_s": 29.280447761194033,
+      "end_s": 32.008567164179105,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Entra.",
+      "start_s": 32.008567164179105,
+      "end_s": 32.49,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about GCP?",
+      "start_s": 32.64,
+      "end_s": 34.416,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Workforce identity federation. Google trusts Entra,",
+      "start_s": 34.566,
+      "end_s": 37.48141747572816,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "so users bring their existing credentials.",
+      "start_s": 37.48141747572816,
+      "end_s": 39.82642718446603,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "No duplicate accounts.",
+      "start_s": 39.82642718446602,
+      "end_s": 41.094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And machines running on AWS that",
+      "start_s": 41.244,
+      "end_s": 43.00486956521739,
+      "speaker": "Peter"
+    },
+    {
+      "text": "need Azure resources?",
+      "start_s": 43.00486956521739,
+      "end_s": 44.244,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Workload identity federation. They swap their",
+      "start_s": 44.394,
+      "end_s": 47.05826966292135,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "native token for an Azure token.",
+      "start_s": 47.05826966292135,
+      "end_s": 48.85665168539325,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "No stored secrets to leak.",
+      "start_s": 48.85665168539325,
+      "end_s": 50.322,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So nobody gets orphaned cloud accounts?",
+      "start_s": 50.472,
+      "end_s": 52.584,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Fire the user in Entra",
+      "start_s": 52.734,
+      "end_s": 54.6268,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and every cloud loses access instantly.",
+      "start_s": 54.6268,
+      "end_s": 57.102,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do we spot over-permissioned cloud",
+      "start_s": 57.252,
+      "end_s": 59.181230769230766,
+      "speaker": "Peter"
+    },
+    {
+      "text": "roles?",
+      "start_s": 59.181230769230766,
+      "end_s": 59.532,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Defender for Cloud. It monitors cross-cloud",
+      "start_s": 59.682,
+      "end_s": 61.907714285714285,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "permissions and flags identities that can",
+      "start_s": 61.907714285714285,
+      "end_s": 64.01628571428571,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "do too much.",
+      "start_s": 64.01628571428571,
+      "end_s": 64.60199999999999,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 64.602
+}

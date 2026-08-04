@@ -1,0 +1,10 @@
+{
+  "title": "Encryption Key Lifecycle Management",
+  "hook": "Encryption without key management is like locking a vault and leaving the key taped underneath.",
+  "slug": "sc100-key-lifecycle-management",
+  "concept": "data-security",
+  "category": "data-security",
+  "difficulty": null,
+  "description": "Key generation, storage, rotation, and destruction \u2014 and why keys are the crown jewels of data protection.",
+  "source": "SC-100 LP5 depth expansion"
+}

@@ -1,0 +1,241 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So DevSecOps is just DevOps with security added on?",
+      "start_s": 0.0,
+      "end_s": 2.832
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. That's DevOps with a firewall bolted on at the end. Real DevSecOps weaves security into every pipeline stage.",
+      "start_s": 2.982,
+      "end_s": 9.654
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do you actually do that?",
+      "start_s": 9.804,
+      "end_s": 11.58
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Automation. Every pull request triggers code scanning, secret scanning, and dependency review automatically.",
+      "start_s": 11.73,
+      "end_s": 17.274
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's CodeQL? I keep hearing about it.",
+      "start_s": 17.424,
+      "end_s": 20.376
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It treats your code like a database. You write queries to find vulnerability patterns across your entire codebase.",
+      "start_s": 20.526,
+      "end_s": 26.022
+    },
+    {
+      "speaker": "Peter",
+      "text": "That sounds complicated.",
+      "start_s": 26.172,
+      "end_s": 27.948
+    },
+    {
+      "speaker": "Stewie",
+      "text": "GitHub has pre-built queries for the OWASP Top 10. You don't write them from scratch.",
+      "start_s": 28.098,
+      "end_s": 32.514
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about secret scanning?",
+      "start_s": 32.664,
+      "end_s": 34.44
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It catches API keys, tokens, and connection strings before they hit your repo. Over a million leaked secrets caught so far.",
+      "start_s": 34.59,
+      "end_s": 41.046
+    },
+    {
+      "speaker": "Peter",
+      "text": "Nice. So what breaks the build?",
+      "start_s": 41.196,
+      "end_s": 43.788
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Security gates in branch policies. Critical findings block the merge. No exceptions.",
+      "start_s": 43.938,
+      "end_s": 49.314
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So DevSecOps is just DevOps with",
+      "start_s": 0.0,
+      "end_s": 1.7782325581395348,
+      "speaker": "Peter"
+    },
+    {
+      "text": "security added on?",
+      "start_s": 1.7782325581395348,
+      "end_s": 2.832,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. That's DevOps with a firewall",
+      "start_s": 2.982,
+      "end_s": 4.948484210526316,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "bolted on at the end. Real",
+      "start_s": 4.948484210526316,
+      "end_s": 6.423347368421053,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "DevSecOps weaves security into every pipeline",
+      "start_s": 6.4233473684210525,
+      "end_s": 9.232610526315788,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "stage.",
+      "start_s": 9.232610526315788,
+      "end_s": 9.653999999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do you actually do that?",
+      "start_s": 9.804,
+      "end_s": 11.58,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Automation. Every pull request triggers code",
+      "start_s": 11.73,
+      "end_s": 13.98225,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "scanning, secret scanning, and dependency review",
+      "start_s": 13.98225,
+      "end_s": 16.4655,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "automatically.",
+      "start_s": 16.4655,
+      "end_s": 17.274,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's CodeQL? I keep hearing about",
+      "start_s": 17.424,
+      "end_s": 20.107636363636363,
+      "speaker": "Peter"
+    },
+    {
+      "text": "it.",
+      "start_s": 20.107636363636363,
+      "end_s": 20.376,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It treats your code like a",
+      "start_s": 20.526,
+      "end_s": 21.715855670103092,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "database. You write queries to find",
+      "start_s": 21.715855670103092,
+      "end_s": 23.415649484536083,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "vulnerability patterns across your entire codebase.",
+      "start_s": 23.415649484536083,
+      "end_s": 26.022,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That sounds complicated.",
+      "start_s": 26.172,
+      "end_s": 27.948,
+      "speaker": "Peter"
+    },
+    {
+      "text": "GitHub has pre-built queries for the",
+      "start_s": 28.098,
+      "end_s": 30.02611267605634,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "OWASP Top 10. You don't write",
+      "start_s": 30.02611267605634,
+      "end_s": 31.518845070422536,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "them from scratch.",
+      "start_s": 31.518845070422536,
+      "end_s": 32.514,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about secret scanning?",
+      "start_s": 32.664,
+      "end_s": 34.44,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It catches API keys, tokens, and",
+      "start_s": 34.59,
+      "end_s": 36.28234951456311,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "connection strings before they hit your",
+      "start_s": 36.28234951456311,
+      "end_s": 38.413456310679614,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "repo. Over a million leaked secrets",
+      "start_s": 38.413456310679614,
+      "end_s": 40.293844660194175,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "caught so far.",
+      "start_s": 40.293844660194175,
+      "end_s": 41.046,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Nice. So what breaks the build?",
+      "start_s": 41.196,
+      "end_s": 43.788,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Security gates in branch policies. Critical",
+      "start_s": 43.938,
+      "end_s": 46.73646575342466,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "findings block the merge. No exceptions.",
+      "start_s": 46.73646575342466,
+      "end_s": 49.314,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 49.314
+}

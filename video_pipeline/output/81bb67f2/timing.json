@@ -1,0 +1,223 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What is CIEM? Another security acronym escaped from a lab?",
+      "start_s": 0.0,
+      "end_s": 3.768
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Cloud Infrastructure Entitlement Management. It finds who can do what across your cloud estate.",
+      "start_s": 3.918,
+      "end_s": 8.358
+    },
+    {
+      "speaker": "Peter",
+      "text": "Isn't that just RBAC?",
+      "start_s": 8.508,
+      "end_s": 10.284
+    },
+    {
+      "speaker": "Stewie",
+      "text": "RBAC is the raw permission model. CIEM analyzes effective permissions and risky combinations.",
+      "start_s": 10.434,
+      "end_s": 15.954
+    },
+    {
+      "speaker": "Peter",
+      "text": "Effective permissions?",
+      "start_s": 16.104,
+      "end_s": 17.88
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The real result after roles, groups, inherited scopes, service principals, and stale assignments collide.",
+      "start_s": 18.03,
+      "end_s": 23.286
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it spots over-permissioned identities?",
+      "start_s": 23.436,
+      "end_s": 25.692
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes, especially identities with permissions they never use. Those are attack paths waiting politely.",
+      "start_s": 25.842,
+      "end_s": 30.954
+    },
+    {
+      "speaker": "Peter",
+      "text": "What should an architect recommend?",
+      "start_s": 31.104,
+      "end_s": 33.024
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Inventory permissions, remove unused rights, require just-in-time elevation, and monitor privilege drift.",
+      "start_s": 33.174,
+      "end_s": 38.31
+    },
+    {
+      "speaker": "Peter",
+      "text": "Privilege drift sounds sneaky.",
+      "start_s": 38.46,
+      "end_s": 40.284
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It is. Nobody plans chaos. They approve it one exception at a time.",
+      "start_s": 40.434,
+      "end_s": 45.138
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What is CIEM? Another security acronym",
+      "start_s": 0.0,
+      "end_s": 2.5376326530612245,
+      "speaker": "Peter"
+    },
+    {
+      "text": "escaped from a lab?",
+      "start_s": 2.5376326530612245,
+      "end_s": 3.768,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Cloud Infrastructure Entitlement Management. It finds",
+      "start_s": 3.918,
+      "end_s": 6.517024390243902,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "who can do what across your",
+      "start_s": 6.517024390243902,
+      "end_s": 7.708243902439024,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cloud estate.",
+      "start_s": 7.708243902439024,
+      "end_s": 8.358,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Isn't that just RBAC?",
+      "start_s": 8.508,
+      "end_s": 10.284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "RBAC is the raw permission model.",
+      "start_s": 10.434,
+      "end_s": 12.342148148148148,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "CIEM analyzes effective permissions and risky",
+      "start_s": 12.342148148148148,
+      "end_s": 15.068074074074072,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "combinations.",
+      "start_s": 15.068074074074072,
+      "end_s": 15.953999999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Effective permissions?",
+      "start_s": 16.104,
+      "end_s": 17.88,
+      "speaker": "Peter"
+    },
+    {
+      "text": "The real result after roles, groups,",
+      "start_s": 18.03,
+      "end_s": 19.80104347826087,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "inherited scopes, service principals, and stale",
+      "start_s": 19.80104347826087,
+      "end_s": 22.200521739130433,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "assignments collide.",
+      "start_s": 22.200521739130433,
+      "end_s": 23.285999999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it spots over-permissioned identities?",
+      "start_s": 23.436,
+      "end_s": 25.692,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes, especially identities with permissions they",
+      "start_s": 25.842,
+      "end_s": 28.368620689655174,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "never use. Those are attack paths",
+      "start_s": 28.368620689655174,
+      "end_s": 30.01386206896552,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "waiting politely.",
+      "start_s": 30.01386206896552,
+      "end_s": 30.954,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What should an architect recommend?",
+      "start_s": 31.104,
+      "end_s": 33.024,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Inventory permissions, remove unused rights, require",
+      "start_s": 33.174,
+      "end_s": 35.742,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "just-in-time elevation, and monitor privilege drift.",
+      "start_s": 35.742,
+      "end_s": 38.31,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Privilege drift sounds sneaky.",
+      "start_s": 38.46,
+      "end_s": 40.284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It is. Nobody plans chaos. They",
+      "start_s": 40.434,
+      "end_s": 42.657709090909094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "approve it one exception at a",
+      "start_s": 42.657709090909094,
+      "end_s": 44.71036363636364,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "time.",
+      "start_s": 44.71036363636363,
+      "end_s": 45.13799999999999,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 45.138
+}

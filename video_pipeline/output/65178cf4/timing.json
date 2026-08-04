@@ -1,0 +1,229 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What is Defender for Cloud? Is it just another antivirus?",
+      "start_s": 0.0,
+      "end_s": 3.6
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Way more than that. It's two things: posture management and workload protection.",
+      "start_s": 3.75,
+      "end_s": 7.998
+    },
+    {
+      "speaker": "Peter",
+      "text": "Posture management? Is my server supposed to do yoga?",
+      "start_s": 8.148,
+      "end_s": 11.58
+    },
+    {
+      "speaker": "Stewie",
+      "text": "CSPM checks your cloud configuration continuously. Misconfigurations become visible.",
+      "start_s": 11.73,
+      "end_s": 16.602
+    },
+    {
+      "speaker": "Peter",
+      "text": "And workload protection?",
+      "start_s": 16.752,
+      "end_s": 18.528
+    },
+    {
+      "speaker": "Stewie",
+      "text": "CWPP protects your actual workloads: servers, databases, containers, storage.",
+      "start_s": 18.678,
+      "end_s": 23.67
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the secure score I keep hearing about?",
+      "start_s": 23.82,
+      "end_s": 26.028
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's a number from 0 to 100. Higher means better posture. It tracks your progress.",
+      "start_s": 26.178,
+      "end_s": 31.41
+    },
+    {
+      "speaker": "Peter",
+      "text": "Does it work with AWS and GCP too?",
+      "start_s": 31.56,
+      "end_s": 34.008
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Multicloud support means one dashboard for all your cloud environments.",
+      "start_s": 34.158,
+      "end_s": 38.478
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about attack path analysis? That sounds intense.",
+      "start_s": 38.628,
+      "end_s": 42.036
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It maps how an attacker could reach your critical assets. Visual, actionable, powerful.",
+      "start_s": 42.186,
+      "end_s": 46.962
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What is Defender for Cloud? Is",
+      "start_s": 0.0,
+      "end_s": 1.8750000000000002,
+      "speaker": "Peter"
+    },
+    {
+      "text": "it just another antivirus?",
+      "start_s": 1.8750000000000002,
+      "end_s": 3.6,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Way more than that. It's two",
+      "start_s": 3.75,
+      "end_s": 5.166,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "things: posture management and workload protection.",
+      "start_s": 5.166,
+      "end_s": 7.998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Posture management? Is my server supposed",
+      "start_s": 8.148,
+      "end_s": 10.893600000000001,
+      "speaker": "Peter"
+    },
+    {
+      "text": "to do yoga?",
+      "start_s": 10.893600000000001,
+      "end_s": 11.58,
+      "speaker": "Peter"
+    },
+    {
+      "text": "CSPM checks your cloud configuration continuously.",
+      "start_s": 11.73,
+      "end_s": 14.614736842105263,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Misconfigurations become visible.",
+      "start_s": 14.614736842105263,
+      "end_s": 16.602,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And workload protection?",
+      "start_s": 16.752,
+      "end_s": 18.528,
+      "speaker": "Peter"
+    },
+    {
+      "text": "CWPP protects your actual workloads: servers,",
+      "start_s": 18.678,
+      "end_s": 21.57191304347826,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "databases, containers, storage.",
+      "start_s": 21.57191304347826,
+      "end_s": 23.67,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the secure score I keep",
+      "start_s": 23.82,
+      "end_s": 25.27263157894737,
+      "speaker": "Peter"
+    },
+    {
+      "text": "hearing about?",
+      "start_s": 25.27263157894737,
+      "end_s": 26.028,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's a number from 0 to",
+      "start_s": 26.178,
+      "end_s": 27.562941176470588,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "100. Higher means better posture. It",
+      "start_s": 27.562941176470588,
+      "end_s": 29.948117647058822,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "tracks your progress.",
+      "start_s": 29.948117647058826,
+      "end_s": 31.41,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Does it work with AWS and",
+      "start_s": 31.56,
+      "end_s": 33.373333333333335,
+      "speaker": "Peter"
+    },
+    {
+      "text": "GCP too?",
+      "start_s": 33.373333333333335,
+      "end_s": 34.008,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Multicloud support means one dashboard",
+      "start_s": 34.158,
+      "end_s": 36.645272727272726,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for all your cloud environments.",
+      "start_s": 36.645272727272726,
+      "end_s": 38.478,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about attack path analysis? That",
+      "start_s": 38.628,
+      "end_s": 40.99878260869565,
+      "speaker": "Peter"
+    },
+    {
+      "text": "sounds intense.",
+      "start_s": 40.99878260869565,
+      "end_s": 42.036,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It maps how an attacker could",
+      "start_s": 42.186,
+      "end_s": 43.71432,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "reach your critical assets. Visual, actionable,",
+      "start_s": 43.71432,
+      "end_s": 46.38888,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "powerful.",
+      "start_s": 46.38888,
+      "end_s": 46.962,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 46.962
+}

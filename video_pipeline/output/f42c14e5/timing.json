@@ -1,0 +1,277 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "IoT devices are everywhere now. What's the risk?",
+      "start_s": 0.0,
+      "end_s": 3.336
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Billions of constrained, unpatched devices with default credentials. Each one a door.",
+      "start_s": 3.486,
+      "end_s": 8.094
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do we give devices an identity?",
+      "start_s": 8.244,
+      "end_s": 10.284
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Unique certificates or keys at manufacture. Per-device keys, not one shared secret.",
+      "start_s": 10.434,
+      "end_s": 15.186
+    },
+    {
+      "speaker": "Peter",
+      "text": "Firmware tampering?",
+      "start_s": 15.336,
+      "end_s": 17.112
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Secure boot and signed firmware. Only verified code runs and updates.",
+      "start_s": 17.262,
+      "end_s": 21.534
+    },
+    {
+      "speaker": "Peter",
+      "text": "Device communication?",
+      "start_s": 21.684,
+      "end_s": 23.46
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Encrypt it. TLS or DTLS over MQTT or CoAP. Never plaintext.",
+      "start_s": 23.61,
+      "end_s": 29.37
+    },
+    {
+      "speaker": "Peter",
+      "text": "Should devices be directly exposed?",
+      "start_s": 29.52,
+      "end_s": 31.584
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. Route through gateways so devices never publish services to the internet.",
+      "start_s": 31.734,
+      "end_s": 35.934
+    },
+    {
+      "speaker": "Peter",
+      "text": "Default passwords?",
+      "start_s": 36.084,
+      "end_s": 37.524
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Force a change on first boot. Default credentials are how most IoT gets owned.",
+      "start_s": 37.674,
+      "end_s": 41.994
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about the network?",
+      "start_s": 42.144,
+      "end_s": 43.584
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Segment IoT from corporate IT. A hacked sensor should not reach the file server.",
+      "start_s": 43.734,
+      "end_s": 48.126
+    },
+    {
+      "speaker": "Peter",
+      "text": "Monitoring?",
+      "start_s": 48.276,
+      "end_s": 49.476
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Watch device telemetry for anomalies. Odd traffic from a sensor is a red flag.",
+      "start_s": 49.626,
+      "end_s": 54.042
+    }
+  ],
+  "chunks": [
+    {
+      "text": "IoT devices are everywhere now. What's",
+      "start_s": 0.0,
+      "end_s": 2.685073170731708,
+      "speaker": "Peter"
+    },
+    {
+      "text": "the risk?",
+      "start_s": 2.685073170731708,
+      "end_s": 3.3360000000000003,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Billions of constrained, unpatched devices with",
+      "start_s": 3.486,
+      "end_s": 6.101351351351352,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "default credentials. Each one a door.",
+      "start_s": 6.101351351351352,
+      "end_s": 8.094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do we give devices an",
+      "start_s": 8.244,
+      "end_s": 9.650896551724138,
+      "speaker": "Peter"
+    },
+    {
+      "text": "identity?",
+      "start_s": 9.650896551724138,
+      "end_s": 10.284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Unique certificates or keys at manufacture.",
+      "start_s": 10.434,
+      "end_s": 12.942,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Per-device keys, not one shared secret.",
+      "start_s": 12.942,
+      "end_s": 15.186,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Firmware tampering?",
+      "start_s": 15.336,
+      "end_s": 17.112,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Secure boot and signed firmware. Only",
+      "start_s": 17.262,
+      "end_s": 19.579016949152543,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "verified code runs and updates.",
+      "start_s": 19.579016949152543,
+      "end_s": 21.534,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Device communication?",
+      "start_s": 21.684,
+      "end_s": 23.46,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Encrypt it. TLS or DTLS over",
+      "start_s": 23.61,
+      "end_s": 26.313673469387755,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "MQTT or CoAP. Never plaintext.",
+      "start_s": 26.313673469387755,
+      "end_s": 29.37,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Should devices be directly exposed?",
+      "start_s": 29.52,
+      "end_s": 31.584,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. Route through gateways so devices",
+      "start_s": 31.734,
+      "end_s": 33.77036363636364,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "never publish services to the internet.",
+      "start_s": 33.77036363636364,
+      "end_s": 35.934,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Default passwords?",
+      "start_s": 36.084,
+      "end_s": 37.524,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Force a change on first boot.",
+      "start_s": 37.674,
+      "end_s": 39.26907692307692,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Default credentials are how most IoT",
+      "start_s": 39.26907692307692,
+      "end_s": 41.32938461538462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gets owned.",
+      "start_s": 41.32938461538462,
+      "end_s": 41.994,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about the network?",
+      "start_s": 42.144,
+      "end_s": 43.584,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Segment IoT from corporate IT. A",
+      "start_s": 43.734,
+      "end_s": 45.50391044776119,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "hacked sensor should not reach the",
+      "start_s": 45.50391044776119,
+      "end_s": 47.404925373134326,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "file server.",
+      "start_s": 47.404925373134326,
+      "end_s": 48.126,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Monitoring?",
+      "start_s": 48.276,
+      "end_s": 49.476,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Watch device telemetry for anomalies. Odd",
+      "start_s": 49.626,
+      "end_s": 52.071784615384615,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "traffic from a sensor is a",
+      "start_s": 52.071784615384615,
+      "end_s": 53.49849230769231,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "red flag.",
+      "start_s": 53.49849230769231,
+      "end_s": 54.042,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 54.042
+}

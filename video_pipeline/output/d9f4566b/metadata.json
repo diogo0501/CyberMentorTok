@@ -1,0 +1,10 @@
+{
+  "title": "Secure Data for Copilot and AI Workloads",
+  "hook": "AI does not leak data by magic. It leaks what your permissions already exposed.",
+  "slug": "sc100-copilot-ai-data-security",
+  "concept": "data-security",
+  "category": "data-security",
+  "difficulty": 5,
+  "description": "Designing data controls for AI by fixing classification, access, oversharing, and auditability.",
+  "source": "SC-100 document expansion"
+}

@@ -1,0 +1,349 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I use a VPN to stay safe online. That makes me unhackable, right?",
+      "start_s": 0.0,
+      "end_s": 4.008
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Not even close, Peter. A VPN encrypts your traffic between you and the VPN server. But after that, it travels normally. And the VPN provider itself can see everything - so you're just shifting trust from your ISP to the VPN company.",
+      "start_s": 4.158,
+      "end_s": 16.062
+    },
+    {
+      "speaker": "Peter",
+      "text": "Wait, the VPN can see my traffic?",
+      "start_s": 16.212,
+      "end_s": 18.468
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. They're the endpoint of the encrypted tunnel. If they log your activity, your protection is an illusion. That's why no-log VPN policies matter - and why you need to verify them through independent audits.",
+      "start_s": 18.618,
+      "end_s": 28.554
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Protocol choice matters enormously. WireGuard is modern, fast, and secure but has a small codebase that's easier to audit. OpenVPN is mature but complex. IPsec is built into the OS but has had implementation vulnerabilities.",
+      "start_s": 28.704,
+      "end_s": 40.512
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about free VPNs?",
+      "start_s": 40.662,
+      "end_s": 42.438
+    },
+    {
+      "speaker": "Stewie",
+      "text": "If you're not paying, you're the product. Free VPNs log and sell your data, inject ads, or worse - some have been found injecting malware. The 2020 UFO VPN breach exposed 1.2 billion user records. Always use a reputable, audited, paid VPN.",
+      "start_s": 42.588,
+      "end_s": 56.34
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Enterprise VPNs are a different beast. Pulse Secure, Fortinet, and Citrix VPN gateways have been high-value targets for APT groups. The 2020 Pulse Secure exploit let attackers read credentials directly from memory.",
+      "start_s": 56.49,
+      "end_s": 67.386
+    },
+    {
+      "speaker": "Peter",
+      "text": "Should I use a VPN for everything?",
+      "start_s": 67.536,
+      "end_s": 69.576
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It depends. On public WiFi, absolutely. At home, it adds a layer but your ISP already sees your traffic. For bypassing geo-restrictions, yes. For actual security, combine VPN with DNS over HTTPS, a firewall, and good browser security.",
+      "start_s": 69.726,
+      "end_s": 84.438
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I use a VPN to stay",
+      "start_s": 0.0,
+      "end_s": 1.0587169811320756,
+      "speaker": "Peter"
+    },
+    {
+      "text": "safe online. That makes me unhackable,",
+      "start_s": 1.0587169811320756,
+      "end_s": 3.554264150943396,
+      "speaker": "Peter"
+    },
+    {
+      "text": "right?",
+      "start_s": 3.554264150943396,
+      "end_s": 4.008,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Not even close, Peter. A VPN",
+      "start_s": 4.158,
+      "end_s": 5.5914659685863874,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encrypts your traffic between you and",
+      "start_s": 5.5914659685863874,
+      "end_s": 7.585853403141361,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the VPN server. But after that,",
+      "start_s": 7.585853403141361,
+      "end_s": 9.206293193717277,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it travels normally. And the VPN",
+      "start_s": 9.206293193717276,
+      "end_s": 10.889057591623036,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "provider itself can see everything -",
+      "start_s": 10.889057591623038,
+      "end_s": 12.821120418848167,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "so you're just shifting trust from",
+      "start_s": 12.821120418848167,
+      "end_s": 14.628534031413611,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your ISP to the VPN company.",
+      "start_s": 14.628534031413611,
+      "end_s": 16.062,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Wait, the VPN can see my",
+      "start_s": 16.212,
+      "end_s": 17.799555555555553,
+      "speaker": "Peter"
+    },
+    {
+      "text": "traffic?",
+      "start_s": 17.799555555555553,
+      "end_s": 18.468,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. They're the endpoint of the",
+      "start_s": 18.618,
+      "end_s": 20.150982857142857,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encrypted tunnel. If they log your",
+      "start_s": 20.150982857142857,
+      "end_s": 21.79752,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "activity, your protection is an illusion.",
+      "start_s": 21.79752,
+      "end_s": 23.841497142857143,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That's why no-log VPN policies matter",
+      "start_s": 23.841497142857143,
+      "end_s": 25.658365714285715,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- and why you need to",
+      "start_s": 25.65836571428571,
+      "end_s": 26.5668,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "verify them through independent audits.",
+      "start_s": 26.5668,
+      "end_s": 28.554,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Protocol choice matters enormously. WireGuard is",
+      "start_s": 28.704,
+      "end_s": 31.37633684210526,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "modern, fast, and secure but has",
+      "start_s": 31.37633684210526,
+      "end_s": 33.05431578947368,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a small codebase that's easier to",
+      "start_s": 33.054315789473684,
+      "end_s": 34.79444210526316,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "audit. OpenVPN is mature but complex.",
+      "start_s": 34.79444210526316,
+      "end_s": 36.78315789473684,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "IPsec is built into the OS",
+      "start_s": 36.78315789473684,
+      "end_s": 38.088252631578946,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "but has had implementation vulnerabilities.",
+      "start_s": 38.088252631578946,
+      "end_s": 40.512,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about free VPNs?",
+      "start_s": 40.662,
+      "end_s": 42.438,
+      "speaker": "Peter"
+    },
+    {
+      "text": "If you're not paying, you're the",
+      "start_s": 42.588,
+      "end_s": 44.46327272727273,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "product. Free VPNs log and sell",
+      "start_s": 44.46327272727273,
+      "end_s": 46.26909090909091,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your data, inject ads, or worse",
+      "start_s": 46.26909090909091,
+      "end_s": 48.074909090909095,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- some have been found injecting",
+      "start_s": 48.07490909090909,
+      "end_s": 49.95018181818182,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "malware. The 2020 UFO VPN breach",
+      "start_s": 49.95018181818182,
+      "end_s": 51.82545454545454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "exposed 1.2 billion user records. Always",
+      "start_s": 51.82545454545454,
+      "end_s": 54.25636363636363,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "use a reputable, audited, paid VPN.",
+      "start_s": 54.25636363636363,
+      "end_s": 56.33999999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Enterprise VPNs are a different beast.",
+      "start_s": 56.49,
+      "end_s": 58.454852459016394,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Pulse Secure, Fortinet, and Citrix VPN",
+      "start_s": 58.454852459016394,
+      "end_s": 60.419704918032785,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gateways have been high-value targets for",
+      "start_s": 60.419704918032785,
+      "end_s": 62.56318032786886,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "APT groups. The 2020 Pulse Secure",
+      "start_s": 62.56318032786886,
+      "end_s": 64.23032786885246,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "exploit let attackers read credentials directly",
+      "start_s": 64.23032786885246,
+      "end_s": 66.73104918032787,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "from memory.",
+      "start_s": 66.73104918032787,
+      "end_s": 67.386,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Should I use a VPN for",
+      "start_s": 67.536,
+      "end_s": 68.77457142857143,
+      "speaker": "Peter"
+    },
+    {
+      "text": "everything?",
+      "start_s": 68.77457142857143,
+      "end_s": 69.576,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It depends. On public WiFi, absolutely.",
+      "start_s": 69.726,
+      "end_s": 72.26512690355331,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "At home, it adds a layer",
+      "start_s": 72.26512690355331,
+      "end_s": 73.68405076142133,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "but your ISP already sees your",
+      "start_s": 73.68405076142132,
+      "end_s": 75.55105583756344,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "traffic. For bypassing geo-restrictions, yes. For",
+      "start_s": 75.55105583756345,
+      "end_s": 78.83698477157361,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "actual security, combine VPN with DNS",
+      "start_s": 78.8369847715736,
+      "end_s": 81.22675126903552,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "over HTTPS, a firewall, and good",
+      "start_s": 81.22675126903553,
+      "end_s": 83.24311675126904,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "browser security.",
+      "start_s": 83.24311675126903,
+      "end_s": 84.438,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 84.438
+}

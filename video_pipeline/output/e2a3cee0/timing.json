@@ -1,0 +1,247 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Azure encrypts everything by default, right? So why worry?",
+      "start_s": 0.0,
+      "end_s": 3.552
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Default encryption uses platform-managed keys. CMK means YOU control the keys. Big difference in compliance and control.",
+      "start_s": 3.702,
+      "end_s": 10.518
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between PMK and CMK?",
+      "start_s": 10.668,
+      "end_s": 13.212
+    },
+    {
+      "speaker": "Stewie",
+      "text": "PMK \u2014 Azure manages keys, you get encryption. CMK \u2014 you bring your own key from Key Vault. You decide when it rotates or gets revoked.",
+      "start_s": 13.362,
+      "end_s": 21.282
+    },
+    {
+      "speaker": "Peter",
+      "text": "And double encryption?",
+      "start_s": 21.432,
+      "end_s": 23.208
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Two layers of encryption with different algorithms. Even if one is compromised, the other still protects your data.",
+      "start_s": 23.358,
+      "end_s": 28.686
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about data in transit?",
+      "start_s": 28.836,
+      "end_s": 30.612
+    },
+    {
+      "speaker": "Stewie",
+      "text": "TLS 1.2 minimum. Azure enforces it across all services. No more unencrypted traffic between components.",
+      "start_s": 30.762,
+      "end_s": 37.434
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's Confidential Computing?",
+      "start_s": 37.584,
+      "end_s": 39.408
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It encrypts data while it's being processed in CPU memory. Even the cloud provider can't see it.",
+      "start_s": 39.558,
+      "end_s": 44.358
+    },
+    {
+      "speaker": "Peter",
+      "text": "That sounds like magic.",
+      "start_s": 44.508,
+      "end_s": 46.284
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's hardware-level encryption using AMD SEV-SNP. Microsoft, Google, and Oracle all offer it now.",
+      "start_s": 46.434,
+      "end_s": 52.314
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Azure encrypts everything by default, right?",
+      "start_s": 0.0,
+      "end_s": 2.77056,
+      "speaker": "Peter"
+    },
+    {
+      "text": "So why worry?",
+      "start_s": 2.77056,
+      "end_s": 3.552,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Default encryption uses platform-managed keys. CMK",
+      "start_s": 3.702,
+      "end_s": 6.65123076923077,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "means YOU control the keys. Big",
+      "start_s": 6.65123076923077,
+      "end_s": 8.35523076923077,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "difference in compliance and control.",
+      "start_s": 8.35523076923077,
+      "end_s": 10.518,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's the difference between PMK and",
+      "start_s": 10.668,
+      "end_s": 12.929333333333332,
+      "speaker": "Peter"
+    },
+    {
+      "text": "CMK?",
+      "start_s": 12.929333333333332,
+      "end_s": 13.211999999999998,
+      "speaker": "Peter"
+    },
+    {
+      "text": "PMK \u2014 Azure manages keys, you",
+      "start_s": 13.362,
+      "end_s": 15.105853211009174,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "get encryption. CMK \u2014 you bring",
+      "start_s": 15.105853211009174,
+      "end_s": 16.99502752293578,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your own key from Key Vault.",
+      "start_s": 16.99502752293578,
+      "end_s": 18.66622018348624,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "You decide when it rotates or",
+      "start_s": 18.66622018348624,
+      "end_s": 20.410073394495413,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "gets revoked.",
+      "start_s": 20.410073394495413,
+      "end_s": 21.282,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And double encryption?",
+      "start_s": 21.432,
+      "end_s": 23.208,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Two layers of encryption with different",
+      "start_s": 23.358,
+      "end_s": 25.206489795918365,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "algorithms. Even if one is compromised,",
+      "start_s": 25.206489795918365,
+      "end_s": 27.05497959183673,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the other still protects your data.",
+      "start_s": 27.054979591836734,
+      "end_s": 28.686,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about data in transit?",
+      "start_s": 28.836,
+      "end_s": 30.612,
+      "speaker": "Peter"
+    },
+    {
+      "text": "TLS 1.2 minimum. Azure enforces it",
+      "start_s": 30.762,
+      "end_s": 32.93602247191011,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "across all services. No more unencrypted",
+      "start_s": 32.93602247191011,
+      "end_s": 35.55984269662921,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "traffic between components.",
+      "start_s": 35.55984269662922,
+      "end_s": 37.434000000000005,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's Confidential Computing?",
+      "start_s": 37.584,
+      "end_s": 39.408,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It encrypts data while it's being",
+      "start_s": 39.558,
+      "end_s": 41.238,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "processed in CPU memory. Even the",
+      "start_s": 41.238,
+      "end_s": 42.918,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cloud provider can't see it.",
+      "start_s": 42.918,
+      "end_s": 44.358,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That sounds like magic.",
+      "start_s": 44.508,
+      "end_s": 46.284,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's hardware-level encryption using AMD SEV-SNP.",
+      "start_s": 46.434,
+      "end_s": 49.514,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Microsoft, Google, and Oracle all offer",
+      "start_s": 49.514,
+      "end_s": 51.894,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it now.",
+      "start_s": 51.894,
+      "end_s": 52.314,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 52.314
+}

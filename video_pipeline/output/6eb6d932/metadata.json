@@ -1,0 +1,10 @@
+{
+  "title": "Microservices & Distributed Systems Security",
+  "hook": "A monolith hides your attack surface. Microservices expose it \u2014 on purpose. Now you must secure every seam.",
+  "slug": "gh-microservices-security",
+  "concept": "app-security-arch",
+  "category": "app-security-arch",
+  "difficulty": null,
+  "description": "Securing many small services: service identity, API gateways, and the distributed security model.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

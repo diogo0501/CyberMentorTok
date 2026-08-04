@@ -1,0 +1,10 @@
+{
+  "title": "Cloud Architecture & Multi-Tenant Isolation",
+  "hook": "One customer's data leaking into another's is the cloud's worst nightmare. Tenant isolation is how you prevent it.",
+  "slug": "gh-cloud-architecture-patterns",
+  "concept": "cloud-frameworks",
+  "category": "cloud-frameworks",
+  "difficulty": null,
+  "description": "Cloud design patterns and how multi-tenant SaaS isolates tenants at every layer.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "AI Red Teaming & Content Filtering",
+  "hook": "AI doesn't fail like software. It fails when someone asks the right wrong question \u2014 which is exactly what red teaming discovers.",
+  "slug": "sc100-ai-red-teaming",
+  "concept": "ai-security",
+  "category": "ai-security",
+  "difficulty": null,
+  "description": "MCSB AI controls AI-1 through AI-7: approved models, layered filtering, meta-prompts, least privilege, and continuous red teaming.",
+  "source": "SC-100 LP5 depth expansion"
+}

@@ -1,0 +1,337 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's a SIEM? Sounds like something from Star Trek.",
+      "start_s": 0.0,
+      "end_s": 3.192
+    },
+    {
+      "speaker": "Stewie",
+      "text": "SIEM stands for Security Information and Event Management. Think of it as a security camera system, but for your digital infrastructure. It collects logs from every server, firewall, and application.",
+      "start_s": 3.342,
+      "end_s": 12.678
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it watches everything?",
+      "start_s": 12.828,
+      "end_s": 14.604
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Everything. And it correlates events to detect threats. A single failed login is nothing. But 1000 failed logins from different countries in 5 minutes? That's a brute-force attack, and SIEM catches it.",
+      "start_s": 14.754,
+      "end_s": 25.434
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The challenge is tuning. Too many rules and you get alert fatigue. Target's SIEM detected their 2013 breach, but the team ignored the alerts. 40 million credit cards stolen.",
+      "start_s": 25.584,
+      "end_s": 34.8
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it's only useful if people pay attention?",
+      "start_s": 34.95,
+      "end_s": 37.23
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. That's why SOC teams exist - Security Operations Centers. Their entire job is monitoring SIEM alerts and responding to incidents. It's a 24/7 operation.",
+      "start_s": 37.38,
+      "end_s": 47.004
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The MITRE ATT&CK framework is used to map SIEM detections to specific attacker techniques. Each detection rule should map to at least one ATT&CK technique.",
+      "start_s": 47.154,
+      "end_s": 55.602
+    },
+    {
+      "speaker": "Peter",
+      "text": "What are the popular SIEM tools?",
+      "start_s": 55.752,
+      "end_s": 57.672
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Splunk is the industry leader, but it's expensive. Elastic SIEM, Microsoft Sentinel, and IBM QRadar are alternatives. For learning, set up an ELK stack with Suricata IDS.",
+      "start_s": 57.822,
+      "end_s": 67.59
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: explain how SIEM works, give examples of detection rules, and discuss the challenges of SIEM tuning and alert fatigue.",
+      "start_s": 67.74,
+      "end_s": 73.86
+    },
+    {
+      "speaker": "Peter",
+      "text": "I want to set one up for my home lab now.",
+      "start_s": 74.01,
+      "end_s": 76.098
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's a SIEM? Sounds like something",
+      "start_s": 0.0,
+      "end_s": 2.248909090909091,
+      "speaker": "Peter"
+    },
+    {
+      "text": "from Star Trek.",
+      "start_s": 2.248909090909091,
+      "end_s": 3.192,
+      "speaker": "Peter"
+    },
+    {
+      "text": "SIEM stands for Security Information and",
+      "start_s": 3.342,
+      "end_s": 5.264117647058823,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Event Management. Think of it as",
+      "start_s": 5.264117647058823,
+      "end_s": 6.7468941176470585,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a security camera system, but for",
+      "start_s": 6.7468941176470585,
+      "end_s": 8.284588235294118,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your digital infrastructure. It collects logs",
+      "start_s": 8.28458823529412,
+      "end_s": 10.48129411764706,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "from every server, firewall, and application.",
+      "start_s": 10.48129411764706,
+      "end_s": 12.678,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it watches everything?",
+      "start_s": 12.828,
+      "end_s": 14.604,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Everything. And it correlates events to",
+      "start_s": 14.754,
+      "end_s": 16.89,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "detect threats. A single failed login",
+      "start_s": 16.89,
+      "end_s": 18.90035294117647,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is nothing. But 1000 failed logins",
+      "start_s": 18.900352941176468,
+      "end_s": 20.72223529411764,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "from different countries in 5 minutes?",
+      "start_s": 20.722235294117645,
+      "end_s": 22.795411764705882,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That's a brute-force attack, and SIEM",
+      "start_s": 22.795411764705882,
+      "end_s": 24.805764705882353,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "catches it.",
+      "start_s": 24.805764705882353,
+      "end_s": 25.434,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "The challenge is tuning. Too many",
+      "start_s": 25.584,
+      "end_s": 27.363641379310344,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "rules and you get alert fatigue.",
+      "start_s": 27.363641379310344,
+      "end_s": 29.079724137931038,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Target's SIEM detected their 2013 breach,",
+      "start_s": 29.079724137931038,
+      "end_s": 31.36783448275862,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "but the team ignored the alerts.",
+      "start_s": 31.367834482758617,
+      "end_s": 33.083917241379304,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "40 million credit cards stolen.",
+      "start_s": 33.08391724137931,
+      "end_s": 34.8,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it's only useful if people",
+      "start_s": 34.95,
+      "end_s": 36.42891891891892,
+      "speaker": "Peter"
+    },
+    {
+      "text": "pay attention?",
+      "start_s": 36.42891891891892,
+      "end_s": 37.23,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. That's why SOC teams exist",
+      "start_s": 37.38,
+      "end_s": 39.48744525547445,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- Security Operations Centers. Their entire",
+      "start_s": 39.48744525547445,
+      "end_s": 42.15687591240876,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "job is monitoring SIEM alerts and",
+      "start_s": 42.15687591240876,
+      "end_s": 44.12382481751825,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "responding to incidents. It's a 24/7",
+      "start_s": 44.12382481751825,
+      "end_s": 46.30151824817518,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "operation.",
+      "start_s": 46.301518248175185,
+      "end_s": 47.004,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "The MITRE ATT&CK framework is used",
+      "start_s": 47.154,
+      "end_s": 49.0241679389313,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to map SIEM detections to specific",
+      "start_s": 49.0241679389313,
+      "end_s": 50.8943358778626,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "attacker techniques. Each detection rule should",
+      "start_s": 50.8943358778626,
+      "end_s": 53.60285496183206,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "map to at least one ATT&CK",
+      "start_s": 53.60285496183206,
+      "end_s": 54.9571145038168,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "technique.",
+      "start_s": 54.9571145038168,
+      "end_s": 55.602,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What are the popular SIEM tools?",
+      "start_s": 55.752,
+      "end_s": 57.672,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Splunk is the industry leader, but",
+      "start_s": 57.822,
+      "end_s": 59.78916666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it's expensive. Elastic SIEM, Microsoft Sentinel,",
+      "start_s": 59.78916666666667,
+      "end_s": 62.77383333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and IBM QRadar are alternatives. For",
+      "start_s": 62.773833333333336,
+      "end_s": 64.87666666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "learning, set up an ELK stack",
+      "start_s": 64.87666666666667,
+      "end_s": 66.50466666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "with Suricata IDS.",
+      "start_s": 66.50466666666667,
+      "end_s": 67.59,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: explain how SIEM works,",
+      "start_s": 67.74,
+      "end_s": 69.52725663716815,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "give examples of detection rules, and",
+      "start_s": 69.52725663716815,
+      "end_s": 71.26035398230088,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "discuss the challenges of SIEM tuning",
+      "start_s": 71.26035398230088,
+      "end_s": 72.99345132743363,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and alert fatigue.",
+      "start_s": 72.99345132743363,
+      "end_s": 73.86,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "I want to set one up",
+      "start_s": 74.01,
+      "end_s": 75.02032258064517,
+      "speaker": "Peter"
+    },
+    {
+      "text": "for my home lab now.",
+      "start_s": 75.02032258064517,
+      "end_s": 76.098,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 76.098
+}

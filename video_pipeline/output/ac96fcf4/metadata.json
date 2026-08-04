@@ -1,0 +1,10 @@
+{
+  "title": "OWASP Top 10 & Secure Coding",
+  "hook": "Injection is still king after twenty years. The fix isn't a tool \u2014 it's how you write the code.",
+  "slug": "sc100-owasp-secure-coding",
+  "concept": "app-security-arch",
+  "category": "app-security-arch",
+  "difficulty": null,
+  "description": "Turning the OWASP Top 10 into concrete secure-coding practices: input validation, output encoding, access control, and more.",
+  "source": "SC-100 LP5 depth expansion"
+}

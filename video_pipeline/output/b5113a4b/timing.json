@@ -1,0 +1,229 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "If ransomware hits, we just restore from backup, right?",
+      "start_s": 0.0,
+      "end_s": 2.856
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Only if the backups survived, the credentials are clean, and the restore plan was tested.",
+      "start_s": 3.006,
+      "end_s": 7.062
+    },
+    {
+      "speaker": "Peter",
+      "text": "Attackers go after backups too?",
+      "start_s": 7.212,
+      "end_s": 9.132
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Of course. Deleting backups is how they increase pressure to pay.",
+      "start_s": 9.282,
+      "end_s": 12.906
+    },
+    {
+      "speaker": "Peter",
+      "text": "So what is the architecture answer?",
+      "start_s": 13.056,
+      "end_s": 15.0
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Immutable backups, isolated recovery credentials, separate admin paths, and prioritized restoration tiers.",
+      "start_s": 15.15,
+      "end_s": 20.598
+    },
+    {
+      "speaker": "Peter",
+      "text": "Prioritized tiers?",
+      "start_s": 20.748,
+      "end_s": 22.308
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Restore identity, networking, security monitoring, and critical business systems before nice-to-have services.",
+      "start_s": 22.458,
+      "end_s": 27.498
+    },
+    {
+      "speaker": "Peter",
+      "text": "Do we test this?",
+      "start_s": 27.648,
+      "end_s": 29.424
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Regularly. Tabletop exercises are good. Actual restore drills are better.",
+      "start_s": 29.574,
+      "end_s": 34.422
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about patching?",
+      "start_s": 34.572,
+      "end_s": 36.348
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Patching reduces entry points. Recovery architecture limits blast radius when prevention fails.",
+      "start_s": 36.498,
+      "end_s": 41.49
+    },
+    {
+      "speaker": "Peter",
+      "text": "So resilience means assuming impact?",
+      "start_s": 41.64,
+      "end_s": 43.824
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Hope is not a recovery time objective.",
+      "start_s": 43.974,
+      "end_s": 47.094
+    }
+  ],
+  "chunks": [
+    {
+      "text": "If ransomware hits, we just restore",
+      "start_s": 0.0,
+      "end_s": 1.8229787234042554,
+      "speaker": "Peter"
+    },
+    {
+      "text": "from backup, right?",
+      "start_s": 1.8229787234042554,
+      "end_s": 2.856,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Only if the backups survived, the",
+      "start_s": 3.006,
+      "end_s": 4.520239999999999,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "credentials are clean, and the restore",
+      "start_s": 4.520239999999999,
+      "end_s": 6.30488,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "plan was tested.",
+      "start_s": 6.30488,
+      "end_s": 7.062,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Attackers go after backups too?",
+      "start_s": 7.212,
+      "end_s": 9.132,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Of course. Deleting backups is how",
+      "start_s": 9.282,
+      "end_s": 11.192836363636363,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "they increase pressure to pay.",
+      "start_s": 11.192836363636363,
+      "end_s": 12.906,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So what is the architecture answer?",
+      "start_s": 13.056,
+      "end_s": 15.0,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Immutable backups, isolated recovery credentials, separate",
+      "start_s": 15.15,
+      "end_s": 18.18941052631579,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "admin paths, and prioritized restoration tiers.",
+      "start_s": 18.18941052631579,
+      "end_s": 20.598,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Prioritized tiers?",
+      "start_s": 20.748,
+      "end_s": 22.308,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Restore identity, networking, security monitoring, and",
+      "start_s": 22.458,
+      "end_s": 24.952545454545454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "critical business systems before nice-to-have services.",
+      "start_s": 24.952545454545454,
+      "end_s": 27.498,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Do we test this?",
+      "start_s": 27.648,
+      "end_s": 29.424,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Regularly. Tabletop exercises are good. Actual",
+      "start_s": 29.574,
+      "end_s": 32.67975,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "restore drills are better.",
+      "start_s": 32.67975,
+      "end_s": 34.422,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about patching?",
+      "start_s": 34.572,
+      "end_s": 36.348,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Patching reduces entry points. Recovery architecture",
+      "start_s": 36.498,
+      "end_s": 39.29114285714285,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "limits blast radius when prevention fails.",
+      "start_s": 39.29114285714285,
+      "end_s": 41.49,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So resilience means assuming impact?",
+      "start_s": 41.64,
+      "end_s": 43.824,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Hope is not a recovery",
+      "start_s": 43.974,
+      "end_s": 45.88066666666666,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "time objective.",
+      "start_s": 45.88066666666666,
+      "end_s": 47.094,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 47.094
+}

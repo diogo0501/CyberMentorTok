@@ -1,0 +1,355 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the difference between routing and switching?",
+      "start_s": 0.0,
+      "end_s": 2.184
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Switching connects devices on the same network. Routing connects different networks together \u2014 like local roads vs highways.",
+      "start_s": 2.334,
+      "end_s": 8.238
+    },
+    {
+      "speaker": "Peter",
+      "text": "And BGP is what handles the highways?",
+      "start_s": 8.388,
+      "end_s": 10.62
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. BGP tells the internet how to get packets from one autonomous system to another. It's the GPS of the internet.",
+      "start_s": 10.77,
+      "end_s": 17.346
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can BGP be attacked?",
+      "start_s": 17.496,
+      "end_s": 19.272
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Easily. BGP hijacking lets an attacker announce false routes, redirecting traffic through their network before forwarding it.",
+      "start_s": 19.422,
+      "end_s": 25.398
+    },
+    {
+      "speaker": "Peter",
+      "text": "And nobody checks if the routes are real?",
+      "start_s": 25.548,
+      "end_s": 27.564
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Mostly no. BGP was built on trust. RPKI and ROA help, but adoption is slow. Many networks still accept any route.",
+      "start_s": 27.714,
+      "end_s": 35.706
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about OSPF? That's for internal networks?",
+      "start_s": 35.856,
+      "end_s": 39.096
+    },
+    {
+      "speaker": "Stewie",
+      "text": "OSPF shares routing tables within an autonomous system. If an attacker injects false OSPF routes, internal traffic goes haywire.",
+      "start_s": 39.246,
+      "end_s": 46.014
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about STP? I've heard that's vulnerable too.",
+      "start_s": 46.164,
+      "end_s": 49.452
+    },
+    {
+      "speaker": "Stewie",
+      "text": "STP prevents loops in switched networks. An attacker can send fake STP packets to become the root bridge and intercept all traffic.",
+      "start_s": 49.602,
+      "end_s": 56.13
+    },
+    {
+      "speaker": "Peter",
+      "text": "So both routing and switching have serious vulnerabilities?",
+      "start_s": 56.28,
+      "end_s": 59.112
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. Routing attacks can redirect the entire internet. Switching attacks can take down an entire office network.",
+      "start_s": 59.262,
+      "end_s": 65.43
+    },
+    {
+      "speaker": "Peter",
+      "text": "Is there any defense?",
+      "start_s": 65.58,
+      "end_s": 67.356
+    },
+    {
+      "speaker": "Stewie",
+      "text": "RPKI for BGP, BPDU guard for STP, and route filtering. But they require active configuration and maintenance.",
+      "start_s": 67.506,
+      "end_s": 74.178
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the difference between routing and",
+      "start_s": 0.0,
+      "end_s": 1.709217391304348,
+      "speaker": "Peter"
+    },
+    {
+      "text": "switching?",
+      "start_s": 1.709217391304348,
+      "end_s": 2.184,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Switching connects devices on the same",
+      "start_s": 2.334,
+      "end_s": 4.154859813084112,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "network. Routing connects different networks together",
+      "start_s": 4.154859813084112,
+      "end_s": 6.803383177570093,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "\u2014 like local roads vs highways.",
+      "start_s": 6.803383177570093,
+      "end_s": 8.238,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And BGP is what handles the",
+      "start_s": 8.388,
+      "end_s": 9.972,
+      "speaker": "Peter"
+    },
+    {
+      "text": "highways?",
+      "start_s": 9.972,
+      "end_s": 10.62,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. BGP tells the internet how",
+      "start_s": 10.77,
+      "end_s": 12.762727272727272,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to get packets from one autonomous",
+      "start_s": 12.762727272727272,
+      "end_s": 14.689030303030302,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "system to another. It's the GPS",
+      "start_s": 14.689030303030304,
+      "end_s": 16.416060606060608,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of the internet.",
+      "start_s": 16.416060606060608,
+      "end_s": 17.346,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can BGP be attacked?",
+      "start_s": 17.496,
+      "end_s": 19.272,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Easily. BGP hijacking lets an attacker",
+      "start_s": 19.422,
+      "end_s": 21.231247706422018,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "announce false routes, redirecting traffic through",
+      "start_s": 21.231247706422018,
+      "end_s": 23.698403669724772,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "their network before forwarding it.",
+      "start_s": 23.698403669724772,
+      "end_s": 25.398,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And nobody checks if the routes",
+      "start_s": 25.548,
+      "end_s": 27.089647058823527,
+      "speaker": "Peter"
+    },
+    {
+      "text": "are real?",
+      "start_s": 27.089647058823527,
+      "end_s": 27.564,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Mostly no. BGP was built on",
+      "start_s": 27.714,
+      "end_s": 29.604580645161292,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "trust. RPKI and ROA help, but",
+      "start_s": 29.604580645161292,
+      "end_s": 31.66703225806452,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "adoption is slow. Many networks still",
+      "start_s": 31.667032258064516,
+      "end_s": 34.41696774193549,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "accept any route.",
+      "start_s": 34.41696774193549,
+      "end_s": 35.706,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about OSPF? That's for internal",
+      "start_s": 35.856,
+      "end_s": 38.367,
+      "speaker": "Peter"
+    },
+    {
+      "text": "networks?",
+      "start_s": 38.367,
+      "end_s": 39.096,
+      "speaker": "Peter"
+    },
+    {
+      "text": "OSPF shares routing tables within an",
+      "start_s": 39.246,
+      "end_s": 41.15334545454545,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "autonomous system. If an attacker injects",
+      "start_s": 41.15334545454545,
+      "end_s": 43.36832727272727,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "false OSPF routes, internal traffic goes",
+      "start_s": 43.36832727272727,
+      "end_s": 45.521781818181815,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "haywire.",
+      "start_s": 45.521781818181815,
+      "end_s": 46.014,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about STP? I've heard that's",
+      "start_s": 46.164,
+      "end_s": 48.356,
+      "speaker": "Peter"
+    },
+    {
+      "text": "vulnerable too.",
+      "start_s": 48.356,
+      "end_s": 49.452,
+      "speaker": "Peter"
+    },
+    {
+      "text": "STP prevents loops in switched networks.",
+      "start_s": 49.602,
+      "end_s": 51.67909090909091,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "An attacker can send fake STP",
+      "start_s": 51.67909090909091,
+      "end_s": 53.10338181818182,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "packets to become the root bridge",
+      "start_s": 53.10338181818182,
+      "end_s": 54.76505454545455,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and intercept all traffic.",
+      "start_s": 54.76505454545454,
+      "end_s": 56.13,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So both routing and switching have",
+      "start_s": 56.28,
+      "end_s": 57.85938461538462,
+      "speaker": "Peter"
+    },
+    {
+      "text": "serious vulnerabilities?",
+      "start_s": 57.85938461538462,
+      "end_s": 59.112,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. Routing attacks can redirect the",
+      "start_s": 59.262,
+      "end_s": 61.318,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "entire internet. Switching attacks can take",
+      "start_s": 61.318,
+      "end_s": 63.7595,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "down an entire office network.",
+      "start_s": 63.7595,
+      "end_s": 65.43,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Is there any defense?",
+      "start_s": 65.58,
+      "end_s": 67.356,
+      "speaker": "Peter"
+    },
+    {
+      "text": "RPKI for BGP, BPDU guard for",
+      "start_s": 67.506,
+      "end_s": 69.15606451612904,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "STP, and route filtering. But they",
+      "start_s": 69.15606451612904,
+      "end_s": 71.23658064516128,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "require active configuration and maintenance.",
+      "start_s": 71.23658064516128,
+      "end_s": 74.178,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 74.178
+}

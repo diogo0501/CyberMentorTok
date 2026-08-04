@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "We encrypt everything. Security problem solved?",
+      "start_s": 0.0,
+      "end_s": 3.24
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Encryption is only as strong as the key management. The key is the crown jewel.",
+      "start_s": 3.39,
+      "end_s": 7.566
+    },
+    {
+      "speaker": "Peter",
+      "text": "Where should keys live?",
+      "start_s": 7.716,
+      "end_s": 9.492
+    },
+    {
+      "speaker": "Stewie",
+      "text": "HSM-backed storage. Azure Key Vault. Hardware protection plus access control and logging.",
+      "start_s": 9.642,
+      "end_s": 15.306
+    },
+    {
+      "speaker": "Peter",
+      "text": "Who should control the keys?",
+      "start_s": 15.456,
+      "end_s": 17.184
+    },
+    {
+      "speaker": "Stewie",
+      "text": "For sensitive data, you. Customer-managed keys give you rotation and revocation control.",
+      "start_s": 17.334,
+      "end_s": 22.134
+    },
+    {
+      "speaker": "Peter",
+      "text": "Rotation really matters?",
+      "start_s": 22.284,
+      "end_s": 24.06
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. On a schedule, and after personnel or incident changes. Old keys must not linger.",
+      "start_s": 24.21,
+      "end_s": 29.706
+    },
+    {
+      "speaker": "Peter",
+      "text": "One key for everything?",
+      "start_s": 29.856,
+      "end_s": 31.392
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. Separate keys per environment and data classification. Contain a compromise.",
+      "start_s": 31.542,
+      "end_s": 36.678
+    },
+    {
+      "speaker": "Peter",
+      "text": "Who can touch the keys?",
+      "start_s": 36.828,
+      "end_s": 38.436
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Least privilege, break-glass procedures, and log every key operation.",
+      "start_s": 38.586,
+      "end_s": 42.258
+    },
+    {
+      "speaker": "Peter",
+      "text": "What if I lose the key?",
+      "start_s": 42.408,
+      "end_s": 43.968
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Key loss is data loss. Back up keys and test restore.",
+      "start_s": 44.118,
+      "end_s": 47.694
+    },
+    {
+      "speaker": "Peter",
+      "text": "So keys need more protection than the data?",
+      "start_s": 47.844,
+      "end_s": 50.028
+    },
+    {
+      "speaker": "Stewie",
+      "text": "At least as much. The key opens everything the data protects.",
+      "start_s": 50.178,
+      "end_s": 53.778
+    }
+  ],
+  "chunks": [
+    {
+      "text": "We encrypt everything. Security problem solved?",
+      "start_s": 0.0,
+      "end_s": 3.24,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Encryption is only as strong as",
+      "start_s": 3.39,
+      "end_s": 5.0604,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the key management. The key is",
+      "start_s": 5.0604,
+      "end_s": 6.666553846153845,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the crown jewel.",
+      "start_s": 6.666553846153846,
+      "end_s": 7.566,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Where should keys live?",
+      "start_s": 7.716,
+      "end_s": 9.492,
+      "speaker": "Peter"
+    },
+    {
+      "text": "HSM-backed storage. Azure Key Vault. Hardware",
+      "start_s": 9.642,
+      "end_s": 12.546615384615384,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "protection plus access control and logging.",
+      "start_s": 12.546615384615384,
+      "end_s": 15.306,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Who should control the keys?",
+      "start_s": 15.456,
+      "end_s": 17.184,
+      "speaker": "Peter"
+    },
+    {
+      "text": "For sensitive data, you. Customer-managed keys",
+      "start_s": 17.334,
+      "end_s": 19.889844155844155,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "give you rotation and revocation control.",
+      "start_s": 19.889844155844155,
+      "end_s": 22.134,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Rotation really matters?",
+      "start_s": 22.284,
+      "end_s": 24.06,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. On a schedule, and after",
+      "start_s": 24.21,
+      "end_s": 26.042,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "personnel or incident changes. Old keys",
+      "start_s": 26.042,
+      "end_s": 28.63733333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "must not linger.",
+      "start_s": 28.637333333333334,
+      "end_s": 29.706000000000003,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "One key for everything?",
+      "start_s": 29.856,
+      "end_s": 31.392,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. Separate keys per environment and",
+      "start_s": 31.542,
+      "end_s": 33.88988571428572,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "data classification. Contain a compromise.",
+      "start_s": 33.88988571428572,
+      "end_s": 36.678,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Who can touch the keys?",
+      "start_s": 36.828,
+      "end_s": 38.436,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Least privilege, break-glass procedures, and log",
+      "start_s": 38.586,
+      "end_s": 41.17445901639344,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "every key operation.",
+      "start_s": 41.17445901639344,
+      "end_s": 42.258,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What if I lose the key?",
+      "start_s": 42.408,
+      "end_s": 43.968,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Key loss is data loss. Back",
+      "start_s": 44.118,
+      "end_s": 45.94758139534884,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "up keys and test restore.",
+      "start_s": 45.94758139534884,
+      "end_s": 47.694,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So keys need more protection than",
+      "start_s": 47.844,
+      "end_s": 49.54266666666666,
+      "speaker": "Peter"
+    },
+    {
+      "text": "the data?",
+      "start_s": 49.54266666666666,
+      "end_s": 50.028,
+      "speaker": "Peter"
+    },
+    {
+      "text": "At least as much. The key",
+      "start_s": 50.178,
+      "end_s": 51.58976470588235,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "opens everything the data protects.",
+      "start_s": 51.58976470588235,
+      "end_s": 53.778,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 53.778
+}

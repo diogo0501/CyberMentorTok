@@ -1,0 +1,301 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I keep hearing about the OSI model but never understood why it matters for security.",
+      "start_s": 0.0,
+      "end_s": 3.744
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's a map of every layer where attacks can happen. Miss one layer and you're vulnerable there.",
+      "start_s": 3.894,
+      "end_s": 8.31
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's at Layer 1? Physical stuff?",
+      "start_s": 8.46,
+      "end_s": 11.124
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Cables, connectors, physical taps. An attacker can literally clip onto a wire and read everything.",
+      "start_s": 11.274,
+      "end_s": 17.778
+    },
+    {
+      "speaker": "Peter",
+      "text": "That's primitive. Most attacks are online, right?",
+      "start_s": 17.928,
+      "end_s": 21.144
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Layer 7 gets all the headlines, but Layer 2 ARP spoofing redirects traffic without touching your firewall.",
+      "start_s": 21.294,
+      "end_s": 26.358
+    },
+    {
+      "speaker": "Peter",
+      "text": "So a firewall doesn't protect against Layer 2 attacks?",
+      "start_s": 26.508,
+      "end_s": 29.292
+    },
+    {
+      "speaker": "Stewie",
+      "text": "No. Firewalls operate at Layers 3-7. Layer 2 is below them. That's why switch security matters.",
+      "start_s": 29.442,
+      "end_s": 36.21
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about Layers 4 through 6?",
+      "start_s": 36.36,
+      "end_s": 38.28
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Layer 4 is TCP hijacking. Layer 5 manages sessions. Layer 6 handles encryption. Each has its own attack surface.",
+      "start_s": 38.43,
+      "end_s": 46.302
+    },
+    {
+      "speaker": "Peter",
+      "text": "This is overwhelming. How do you secure all seven layers?",
+      "start_s": 46.452,
+      "end_s": 49.884
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You don't secure all seven equally. You identify which layers your traffic uses and secure every one of those.",
+      "start_s": 50.034,
+      "end_s": 55.41
+    },
+    {
+      "speaker": "Peter",
+      "text": "That actually makes sense. Defense in depth across all layers.",
+      "start_s": 55.56,
+      "end_s": 59.28
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Now you're thinking like a security architect.",
+      "start_s": 59.43,
+      "end_s": 61.662
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I keep hearing about the OSI",
+      "start_s": 0.0,
+      "end_s": 1.2301714285714285,
+      "speaker": "Peter"
+    },
+    {
+      "text": "model but never understood why it",
+      "start_s": 1.2301714285714285,
+      "end_s": 2.7277714285714287,
+      "speaker": "Peter"
+    },
+    {
+      "text": "matters for security.",
+      "start_s": 2.7277714285714287,
+      "end_s": 3.744,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's a map of every layer",
+      "start_s": 3.894,
+      "end_s": 5.011974683544304,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "where attacks can happen. Miss one",
+      "start_s": 5.011974683544304,
+      "end_s": 6.633037974683544,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "layer and you're vulnerable there.",
+      "start_s": 6.633037974683544,
+      "end_s": 8.31,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's at Layer 1? Physical stuff?",
+      "start_s": 8.46,
+      "end_s": 11.124,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Cables, connectors, physical taps. An",
+      "start_s": 11.274,
+      "end_s": 14.172521739130435,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "attacker can literally clip onto a",
+      "start_s": 14.172521739130435,
+      "end_s": 16.22269565217391,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "wire and read everything.",
+      "start_s": 16.22269565217391,
+      "end_s": 17.778,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That's primitive. Most attacks are online,",
+      "start_s": 17.928,
+      "end_s": 20.695255813953487,
+      "speaker": "Peter"
+    },
+    {
+      "text": "right?",
+      "start_s": 20.695255813953487,
+      "end_s": 21.144,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Layer 7 gets all the headlines,",
+      "start_s": 21.294,
+      "end_s": 22.756933333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "but Layer 2 ARP spoofing redirects",
+      "start_s": 22.756933333333333,
+      "end_s": 24.38866666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "traffic without touching your firewall.",
+      "start_s": 24.38866666666667,
+      "end_s": 26.358,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So a firewall doesn't protect against",
+      "start_s": 26.508,
+      "end_s": 28.444695652173912,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Layer 2 attacks?",
+      "start_s": 28.444695652173912,
+      "end_s": 29.292,
+      "speaker": "Peter"
+    },
+    {
+      "text": "No. Firewalls operate at Layers 3-7.",
+      "start_s": 29.442,
+      "end_s": 32.0646,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Layer 2 is below them. That's",
+      "start_s": 32.0646,
+      "end_s": 34.095,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "why switch security matters.",
+      "start_s": 34.095,
+      "end_s": 36.21,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about Layers 4 through 6?",
+      "start_s": 36.36,
+      "end_s": 38.28,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Layer 4 is TCP hijacking. Layer",
+      "start_s": 38.43,
+      "end_s": 40.60736170212766,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "5 manages sessions. Layer 6 handles",
+      "start_s": 40.60736170212766,
+      "end_s": 43.11970212765958,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encryption. Each has its own attack",
+      "start_s": 43.11970212765958,
+      "end_s": 45.632042553191496,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "surface.",
+      "start_s": 45.63204255319149,
+      "end_s": 46.302,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "This is overwhelming. How do you",
+      "start_s": 46.452,
+      "end_s": 48.3825,
+      "speaker": "Peter"
+    },
+    {
+      "text": "secure all seven layers?",
+      "start_s": 48.3825,
+      "end_s": 49.884,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You don't secure all seven equally.",
+      "start_s": 50.034,
+      "end_s": 51.78704347826087,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "You identify which layers your traffic",
+      "start_s": 51.78704347826087,
+      "end_s": 53.71539130434783,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "uses and secure every one of",
+      "start_s": 53.715391304347825,
+      "end_s": 55.05939130434783,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "those.",
+      "start_s": 55.05939130434783,
+      "end_s": 55.41,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That actually makes sense. Defense in",
+      "start_s": 55.56,
+      "end_s": 57.80603773584906,
+      "speaker": "Peter"
+    },
+    {
+      "text": "depth across all layers.",
+      "start_s": 57.80603773584906,
+      "end_s": 59.28,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Now you're thinking like a security",
+      "start_s": 59.43,
+      "end_s": 61.104,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "architect.",
+      "start_s": 61.104,
+      "end_s": 61.662,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 61.662
+}

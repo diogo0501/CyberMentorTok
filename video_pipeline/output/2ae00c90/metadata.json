@@ -1,0 +1,10 @@
+{
+  "title": "Database & Storage Security Patterns",
+  "hook": "Every database type has a different attack surface. SQL, NoSQL, object storage \u2014 each needs its own pattern.",
+  "slug": "gh-database-storage-security",
+  "concept": "data-security",
+  "category": "data-security",
+  "difficulty": null,
+  "description": "Securing SQL, NoSQL, and object storage with tenancy patterns, encryption, and access boundaries.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

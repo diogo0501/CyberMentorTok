@@ -1,0 +1,325 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "So HTTPS is just HTTP with a lock icon?",
+      "start_s": 0.0,
+      "end_s": 2.856
+    },
+    {
+      "speaker": "Stewie",
+      "text": "HTTPS is HTTP encrypted with TLS. The lock means your data is encrypted in transit. No lock means plaintext.",
+      "start_s": 3.006,
+      "end_s": 10.398
+    },
+    {
+      "speaker": "Peter",
+      "text": "What happens if I visit a site without HTTPS?",
+      "start_s": 10.548,
+      "end_s": 13.212
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Every request and response travels in plain text. Anyone on the network \u2014 WiFi router, ISP, attacker \u2014 can read it all.",
+      "start_s": 13.362,
+      "end_s": 20.034
+    },
+    {
+      "speaker": "Peter",
+      "text": "But what about mixed content? I've seen warnings about that.",
+      "start_s": 20.184,
+      "end_s": 23.568
+    },
+    {
+      "speaker": "Stewie",
+      "text": "If a page loads over HTTPS but includes an HTTP resource, that one resource is vulnerable. Attackers can hijack it.",
+      "start_s": 23.718,
+      "end_s": 30.414
+    },
+    {
+      "speaker": "Peter",
+      "text": "Even if the main page is secure?",
+      "start_s": 30.564,
+      "end_s": 32.484
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes. One HTTP script on an HTTPS page is like locking your front door but leaving a window open.",
+      "start_s": 32.634,
+      "end_s": 38.322
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about cookies? Aren't those just harmless trackers?",
+      "start_s": 38.472,
+      "end_s": 41.712
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Session cookies are the keys to your account. Without Secure and HttpOnly flags, they can be stolen over HTTP or by XSS.",
+      "start_s": 41.862,
+      "end_s": 49.134
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's HSTS?",
+      "start_s": 49.284,
+      "end_s": 51.06
+    },
+    {
+      "speaker": "Stewie",
+      "text": "HTTP Strict Transport Security tells the browser to never connect via HTTP again. It prevents protocol downgrade attacks.",
+      "start_s": 51.21,
+      "end_s": 57.93
+    },
+    {
+      "speaker": "Peter",
+      "text": "So there's a lot more to HTTPS than just the certificate?",
+      "start_s": 58.08,
+      "end_s": 60.984
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The certificate is step one. Headers, cookies, and configuration are what make it actually secure.",
+      "start_s": 61.134,
+      "end_s": 66.198
+    }
+  ],
+  "chunks": [
+    {
+      "text": "So HTTPS is just HTTP with",
+      "start_s": 0.0,
+      "end_s": 1.9347096774193546,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a lock icon?",
+      "start_s": 1.9347096774193546,
+      "end_s": 2.856,
+      "speaker": "Peter"
+    },
+    {
+      "text": "HTTPS is HTTP encrypted with TLS.",
+      "start_s": 3.006,
+      "end_s": 5.305733333333333,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "The lock means your data is",
+      "start_s": 5.305733333333333,
+      "end_s": 7.112666666666667,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "encrypted in transit. No lock means",
+      "start_s": 7.112666666666667,
+      "end_s": 9.576666666666668,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "plaintext.",
+      "start_s": 9.576666666666668,
+      "end_s": 10.398000000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What happens if I visit a",
+      "start_s": 10.548,
+      "end_s": 11.988,
+      "speaker": "Peter"
+    },
+    {
+      "text": "site without HTTPS?",
+      "start_s": 11.988,
+      "end_s": 13.212,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Every request and response travels in",
+      "start_s": 13.362,
+      "end_s": 15.54061224489796,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "plain text. Anyone on the network",
+      "start_s": 15.54061224489796,
+      "end_s": 17.446897959183673,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "\u2014 WiFi router, ISP, attacker \u2014",
+      "start_s": 17.446897959183673,
+      "end_s": 19.148938775510203,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "can read it all.",
+      "start_s": 19.148938775510203,
+      "end_s": 20.034,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "But what about mixed content? I've",
+      "start_s": 20.184,
+      "end_s": 22.108235294117648,
+      "speaker": "Peter"
+    },
+    {
+      "text": "seen warnings about that.",
+      "start_s": 22.108235294117648,
+      "end_s": 23.568,
+      "speaker": "Peter"
+    },
+    {
+      "text": "If a page loads over HTTPS",
+      "start_s": 23.718,
+      "end_s": 25.18275,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "but includes an HTTP resource, that",
+      "start_s": 25.18275,
+      "end_s": 27.27525,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "one resource is vulnerable. Attackers can",
+      "start_s": 27.27525,
+      "end_s": 29.78625,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "hijack it.",
+      "start_s": 29.78625,
+      "end_s": 30.414,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Even if the main page is",
+      "start_s": 30.564,
+      "end_s": 31.96707692307692,
+      "speaker": "Peter"
+    },
+    {
+      "text": "secure?",
+      "start_s": 31.96707692307692,
+      "end_s": 32.484,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes. One HTTP script on an",
+      "start_s": 32.634,
+      "end_s": 34.16538461538462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "HTTPS page is like locking your",
+      "start_s": 34.16538461538462,
+      "end_s": 36.06138461538462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "front door but leaving a window",
+      "start_s": 36.06138461538462,
+      "end_s": 37.95738461538462,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "open.",
+      "start_s": 37.95738461538462,
+      "end_s": 38.322,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about cookies? Aren't those just",
+      "start_s": 38.472,
+      "end_s": 40.58791836734694,
+      "speaker": "Peter"
+    },
+    {
+      "text": "harmless trackers?",
+      "start_s": 40.58791836734694,
+      "end_s": 41.712,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Session cookies are the keys to",
+      "start_s": 41.862,
+      "end_s": 43.77181818181818,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "your account. Without Secure and HttpOnly",
+      "start_s": 43.77181818181818,
+      "end_s": 46.416181818181826,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "flags, they can be stolen over",
+      "start_s": 46.41618181818182,
+      "end_s": 48.252545454545455,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "HTTP or by XSS.",
+      "start_s": 48.252545454545455,
+      "end_s": 49.134,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's HSTS?",
+      "start_s": 49.284,
+      "end_s": 51.06,
+      "speaker": "Peter"
+    },
+    {
+      "text": "HTTP Strict Transport Security tells the",
+      "start_s": 51.21,
+      "end_s": 53.47153846153846,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "browser to never connect via HTTP",
+      "start_s": 53.47153846153846,
+      "end_s": 55.280769230769224,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "again. It prevents protocol downgrade attacks.",
+      "start_s": 55.28076923076923,
+      "end_s": 57.93,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So there's a lot more to",
+      "start_s": 58.08,
+      "end_s": 59.25395744680851,
+      "speaker": "Peter"
+    },
+    {
+      "text": "HTTPS than just the certificate?",
+      "start_s": 59.25395744680851,
+      "end_s": 60.984,
+      "speaker": "Peter"
+    },
+    {
+      "text": "The certificate is step one. Headers,",
+      "start_s": 61.134,
+      "end_s": 63.06314285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cookies, and configuration are what make",
+      "start_s": 63.06314285714286,
+      "end_s": 65.17314285714285,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it actually secure.",
+      "start_s": 65.17314285714285,
+      "end_s": 66.198,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 66.198
+}

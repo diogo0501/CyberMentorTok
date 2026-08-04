@@ -1,0 +1,10 @@
+VIDEO_WIDTH = 1080
+VIDEO_HEIGHT = 1920
+
+# Shared layout constants for both the baked composite and the transparent mask.
+CHARACTER_SIZE = 420
+CHARACTER_MARGIN = 36
+CHARACTER_BOTTOM_OFFSET = 145
+
+SUBTITLE_FONT_SIZE = 56
+SUBTITLE_Y_RATIO = 0.40

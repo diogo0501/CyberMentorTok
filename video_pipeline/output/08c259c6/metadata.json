@@ -1,0 +1,10 @@
+{
+  "title": "Resilience Patterns: Circuit Breakers & Bulkheads",
+  "hook": "One slow service can stall everything \u2014 unless you build bulkheads and circuit breakers to contain the damage.",
+  "slug": "gh-resilience-patterns",
+  "concept": "resilience",
+  "category": "resilience",
+  "difficulty": null,
+  "description": "Stability patterns that keep a single failure from becoming a full outage.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

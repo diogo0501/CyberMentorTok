@@ -1,0 +1,355 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Everyone's talking about Docker and containers. They're safe because they're isolated, right?",
+      "start_s": 0.0,
+      "end_s": 4.44
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Peter, containers are NOT virtual machines. They share the host kernel. That isolation is just namespaces and cgroups - kernel features. A vulnerability in the kernel or container runtime can let an attacker escape to the host.",
+      "start_s": 4.59,
+      "end_s": 15.702
+    },
+    {
+      "speaker": "Peter",
+      "text": "Escape? Like breaking out of jail?",
+      "start_s": 15.852,
+      "end_s": 18.468
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. CVE-2019-5736 let attackers overwrite the runc binary - the container runtime itself. One command inside a container and you had root on the host. That host might be running thousands of other containers.",
+      "start_s": 18.618,
+      "end_s": 30.498
+    },
+    {
+      "speaker": "Stewie",
+      "text": "First rule: never run containers as root. Use USER directives in Dockerfiles, apply security contexts in Kubernetes, and use rootless Docker.",
+      "start_s": 30.648,
+      "end_s": 38.112
+    },
+    {
+      "speaker": "Peter",
+      "text": "What else can go wrong?",
+      "start_s": 38.262,
+      "end_s": 40.038
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Supply chain attacks through images. If you pull a malicious image from Docker Hub, you're running attacker code. Use image scanning tools like Trivy, Snyk, or Grype to check for vulnerabilities before deployment.",
+      "start_s": 40.188,
+      "end_s": 50.268
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Network policies are critical too. By default, every container in Kubernetes can talk to every other container. That's flat networking - a dream for lateral movement. Use Calico or Cilium to enforce network segmentation.",
+      "start_s": 50.418,
+      "end_s": 61.338
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about secrets?",
+      "start_s": 61.488,
+      "end_s": 63.264
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Never bake secrets into images. Use Kubernetes Secrets, HashiCorp Vault, or cloud provider secret managers. And enable image signing with tools like Cosign to verify image integrity.",
+      "start_s": 63.414,
+      "end_s": 72.87
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Interview tip: explain the difference between VMs and containers security-wise, describe container escape attacks, and list hardening best practices. Cloud security roles always ask this.",
+      "start_s": 73.02,
+      "end_s": 81.852
+    },
+    {
+      "speaker": "Peter",
+      "text": "So containers are powerful but dangerous if misconfigured?",
+      "start_s": 82.002,
+      "end_s": 84.786
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Everyone's talking about Docker and containers.",
+      "start_s": 0.0,
+      "end_s": 2.2741463414634144,
+      "speaker": "Peter"
+    },
+    {
+      "text": "They're safe because they're isolated, right?",
+      "start_s": 2.2741463414634144,
+      "end_s": 4.44,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Peter, containers are NOT virtual machines.",
+      "start_s": 4.59,
+      "end_s": 6.800764397905759,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "They share the host kernel. That",
+      "start_s": 6.800764397905759,
+      "end_s": 8.371570680628272,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "isolation is just namespaces and cgroups",
+      "start_s": 8.371570680628272,
+      "end_s": 10.40780104712042,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "- kernel features. A vulnerability in",
+      "start_s": 10.407801047120419,
+      "end_s": 12.269497382198951,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the kernel or container runtime can",
+      "start_s": 12.269497382198953,
+      "end_s": 14.014837696335078,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "let an attacker escape to the",
+      "start_s": 14.014837696335078,
+      "end_s": 15.411109947643979,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "host.",
+      "start_s": 15.411109947643979,
+      "end_s": 15.702,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Escape? Like breaking out of jail?",
+      "start_s": 15.852,
+      "end_s": 18.468,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. CVE-2019-5736 let attackers overwrite the",
+      "start_s": 18.618,
+      "end_s": 21.588,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "runc binary - the container runtime",
+      "start_s": 21.588,
+      "end_s": 23.568,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "itself. One command inside a container",
+      "start_s": 23.568,
+      "end_s": 25.746,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and you had root on the",
+      "start_s": 25.746,
+      "end_s": 26.934,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "host. That host might be running",
+      "start_s": 26.934,
+      "end_s": 28.716,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "thousands of other containers.",
+      "start_s": 28.716,
+      "end_s": 30.498,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "First rule: never run containers as",
+      "start_s": 30.648,
+      "end_s": 32.49857851239669,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "root. Use USER directives in Dockerfiles,",
+      "start_s": 32.49857851239669,
+      "end_s": 34.71927272727273,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "apply security contexts in Kubernetes, and",
+      "start_s": 34.71927272727273,
+      "end_s": 37.001652892561985,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "use rootless Docker.",
+      "start_s": 37.001652892561985,
+      "end_s": 38.112,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What else can go wrong?",
+      "start_s": 38.262,
+      "end_s": 40.038,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Supply chain attacks through images. If",
+      "start_s": 40.188,
+      "end_s": 42.08148066298343,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "you pull a malicious image from",
+      "start_s": 42.08148066298343,
+      "end_s": 43.5294364640884,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Docker Hub, you're running attacker code.",
+      "start_s": 43.5294364640884,
+      "end_s": 45.53429834254144,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Use image scanning tools like Trivy,",
+      "start_s": 45.53429834254143,
+      "end_s": 47.26070718232044,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Snyk, or Grype to check for",
+      "start_s": 47.260707182320445,
+      "end_s": 48.48590055248619,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "vulnerabilities before deployment.",
+      "start_s": 48.485900552486186,
+      "end_s": 50.268,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Network policies are critical too. By",
+      "start_s": 50.418,
+      "end_s": 52.28666310160428,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "default, every container in Kubernetes can",
+      "start_s": 52.28666310160428,
+      "end_s": 54.447304812834226,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "talk to every other container. That's",
+      "start_s": 54.447304812834226,
+      "end_s": 56.31596791443851,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "flat networking - a dream for",
+      "start_s": 56.3159679144385,
+      "end_s": 57.71746524064171,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "lateral movement. Use Calico or Cilium",
+      "start_s": 57.717465240641715,
+      "end_s": 59.64452406417113,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "to enforce network segmentation.",
+      "start_s": 59.64452406417113,
+      "end_s": 61.33800000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about secrets?",
+      "start_s": 61.488,
+      "end_s": 63.264,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Never bake secrets into images. Use",
+      "start_s": 63.414,
+      "end_s": 65.23246153846154,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Kubernetes Secrets, HashiCorp Vault, or cloud",
+      "start_s": 65.23246153846154,
+      "end_s": 67.65707692307693,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "provider secret managers. And enable image",
+      "start_s": 67.65707692307693,
+      "end_s": 69.89984615384616,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "signing with tools like Cosign to",
+      "start_s": 69.89984615384616,
+      "end_s": 71.59707692307693,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "verify image integrity.",
+      "start_s": 71.59707692307693,
+      "end_s": 72.87,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Interview tip: explain the difference between",
+      "start_s": 73.02,
+      "end_s": 75.18736196319018,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "VMs and containers security-wise, describe container",
+      "start_s": 75.18736196319018,
+      "end_s": 77.73401226993866,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "escape attacks, and list hardening best",
+      "start_s": 77.73401226993866,
+      "end_s": 79.57626993865031,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "practices. Cloud security roles always ask",
+      "start_s": 79.57626993865031,
+      "end_s": 81.58107975460123,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "this.",
+      "start_s": 81.58107975460123,
+      "end_s": 81.852,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So containers are powerful but dangerous",
+      "start_s": 82.002,
+      "end_s": 83.91258823529411,
+      "speaker": "Peter"
+    },
+    {
+      "text": "if misconfigured?",
+      "start_s": 83.91258823529411,
+      "end_s": 84.786,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 84.786
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Threat Hunting & Detection Engineering",
+  "hook": "Detection rules go stale the moment attackers change tactics. Hunting is how you find what your rules never saw.",
+  "slug": "sc100-threat-hunting-detection",
+  "concept": "security-operations",
+  "category": "security-operations",
+  "difficulty": null,
+  "description": "Proactive hunting, detection rule lifecycle, and how SOC teams map hypotheses to MITRE ATT&CK.",
+  "source": "SC-100 LP5 depth expansion"
+}

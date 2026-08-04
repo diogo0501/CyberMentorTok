@@ -1,0 +1,247 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What is STRIDE exactly?",
+      "start_s": 0.0,
+      "end_s": 1.776
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Six categories of threats. Spoofing, Tampering, Repudiation, Info Disclosure, DoS, and Elevation of Privilege.",
+      "start_s": 1.926,
+      "end_s": 8.574
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can you break those down simply?",
+      "start_s": 8.724,
+      "end_s": 10.5
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Spoofing is pretending to be someone else. Tampering is modifying data. Repudiation is denying you did something.",
+      "start_s": 10.65,
+      "end_s": 16.722
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Info Disclosure is leaking data. DoS is crashing the system. Elevation of Privilege is gaining unauthorized access.",
+      "start_s": 16.872,
+      "end_s": 23.208
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do you actually apply this?",
+      "start_s": 23.358,
+      "end_s": 25.134
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You draw a Data Flow Diagram, identify trust boundaries, then ask STRIDE questions for each element.",
+      "start_s": 25.284,
+      "end_s": 30.06
+    },
+    {
+      "speaker": "Peter",
+      "text": "That sounds tedious.",
+      "start_s": 30.21,
+      "end_s": 31.986
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Microsoft's Threat Modeling Tool automates half of it. It generates threat trees from your diagram.",
+      "start_s": 32.136,
+      "end_s": 36.936
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's a threat tree?",
+      "start_s": 37.086,
+      "end_s": 38.862
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It breaks down a high-level threat into the exact steps an attacker would take. Great for prioritizing.",
+      "start_s": 39.012,
+      "end_s": 43.932
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do you decide which threats matter most?",
+      "start_s": 44.082,
+      "end_s": 46.242
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Risk matrix. Likelihood times impact. Focus on what's realistic and devastating.",
+      "start_s": 46.392,
+      "end_s": 51.72
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What is STRIDE exactly?",
+      "start_s": 0.0,
+      "end_s": 1.776,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Six categories of threats. Spoofing, Tampering,",
+      "start_s": 1.926,
+      "end_s": 4.804515463917525,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Repudiation, Info Disclosure, DoS, and Elevation",
+      "start_s": 4.804515463917525,
+      "end_s": 7.751567010309278,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of Privilege.",
+      "start_s": 7.751567010309278,
+      "end_s": 8.574,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can you break those down simply?",
+      "start_s": 8.724,
+      "end_s": 10.5,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Spoofing is pretending to be someone",
+      "start_s": 10.65,
+      "end_s": 12.590536082474227,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "else. Tampering is modifying data. Repudiation",
+      "start_s": 12.590536082474227,
+      "end_s": 15.157051546391752,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is denying you did something.",
+      "start_s": 15.157051546391752,
+      "end_s": 16.722,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Info Disclosure is leaking data. DoS",
+      "start_s": 16.872,
+      "end_s": 18.856,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is crashing the system. Elevation of",
+      "start_s": 18.856,
+      "end_s": 20.84,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Privilege is gaining unauthorized access.",
+      "start_s": 20.84,
+      "end_s": 23.208,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do you actually apply this?",
+      "start_s": 23.358,
+      "end_s": 25.134,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You draw a Data Flow Diagram,",
+      "start_s": 25.284,
+      "end_s": 26.632517647058823,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "identify trust boundaries, then ask STRIDE",
+      "start_s": 26.632517647058823,
+      "end_s": 28.71148235294118,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "questions for each element.",
+      "start_s": 28.71148235294118,
+      "end_s": 30.06,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That sounds tedious.",
+      "start_s": 30.21,
+      "end_s": 31.986,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Microsoft's Threat Modeling Tool automates half",
+      "start_s": 32.136,
+      "end_s": 34.50776470588235,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of it. It generates threat trees",
+      "start_s": 34.50776470588235,
+      "end_s": 36.03247058823529,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "from your diagram.",
+      "start_s": 36.03247058823529,
+      "end_s": 36.936,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's a threat tree?",
+      "start_s": 37.086,
+      "end_s": 38.862,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It breaks down a high-level threat",
+      "start_s": 39.012,
+      "end_s": 40.652,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "into the exact steps an attacker",
+      "start_s": 40.652,
+      "end_s": 42.17889655172414,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "would take. Great for prioritizing.",
+      "start_s": 42.17889655172414,
+      "end_s": 43.932,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do you decide which threats",
+      "start_s": 44.082,
+      "end_s": 45.59983783783784,
+      "speaker": "Peter"
+    },
+    {
+      "text": "matter most?",
+      "start_s": 45.59983783783784,
+      "end_s": 46.242,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Risk matrix. Likelihood times impact. Focus",
+      "start_s": 46.392,
+      "end_s": 49.28434285714286,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "on what's realistic and devastating.",
+      "start_s": 49.28434285714286,
+      "end_s": 51.72,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 51.72
+}

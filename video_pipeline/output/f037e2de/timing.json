@@ -1,0 +1,325 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "Stewie, I keep hearing about binary. It's just 1s and 0s right? How hard can it be?",
+      "start_s": 0.0,
+      "end_s": 5.376
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Peter, binary is the language of computers. Everything you do on your phone, every photo, every message - it's all just 1s and 0s at the lowest level.",
+      "start_s": 5.526,
+      "end_s": 12.894
+    },
+    {
+      "speaker": "Peter",
+      "text": "Wait, so my selfies are just a bunch of numbers?",
+      "start_s": 13.044,
+      "end_s": 15.492
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Exactly. Each pixel in a photo is represented by binary values for red, green, and blue. A single 4K image contains billions of bits.",
+      "start_s": 15.642,
+      "end_s": 23.61
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Here's where it gets interesting for security. Binary is where vulnerabilities like buffer overflows happen. When data overflows its allocated memory, it can overwrite adjacent binary data.",
+      "start_s": 23.76,
+      "end_s": 32.64
+    },
+    {
+      "speaker": "Peter",
+      "text": "That sounds like a mess.",
+      "start_s": 32.79,
+      "end_s": 34.566
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It is. And that's exactly how attackers gain remote code execution. They carefully craft binary payloads that overwrite return addresses on the stack.",
+      "start_s": 34.716,
+      "end_s": 42.228
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Understanding hexadecimal helps too - it's just a compact way to represent binary. Instead of writing 10101011, you write AB.",
+      "start_s": 42.378,
+      "end_s": 50.202
+    },
+    {
+      "speaker": "Peter",
+      "text": "Is this something I need for a cybersecurity job?",
+      "start_s": 50.352,
+      "end_s": 52.8
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Absolutely. A common interview question is: explain how data is represented in binary and why this matters for security. Knowing binary is fundamental to reverse engineering, exploit development, and forensics.",
+      "start_s": 52.95,
+      "end_s": 63.15
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Key takeaway: binary is the foundation of all digital data. Every cybersecurity concept builds on understanding how data is represented at this level.",
+      "start_s": 63.3,
+      "end_s": 70.332
+    },
+    {
+      "speaker": "Peter",
+      "text": "Okay, I'll never look at a JPEG the same way again.",
+      "start_s": 70.482,
+      "end_s": 73.026
+    }
+  ],
+  "chunks": [
+    {
+      "text": "Stewie, I keep hearing about binary.",
+      "start_s": 0.0,
+      "end_s": 2.487402985074627,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's just 1s and 0s right?",
+      "start_s": 2.487402985074627,
+      "end_s": 4.172417910447762,
+      "speaker": "Peter"
+    },
+    {
+      "text": "How hard can it be?",
+      "start_s": 4.172417910447762,
+      "end_s": 5.376,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Peter, binary is the language of",
+      "start_s": 5.526,
+      "end_s": 7.143365853658536,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "computers. Everything you do on your",
+      "start_s": 7.143365853658536,
+      "end_s": 9.000341463414633,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "phone, every photo, every message -",
+      "start_s": 9.000341463414633,
+      "end_s": 10.797414634146342,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "it's all just 1s and 0s",
+      "start_s": 10.797414634146342,
+      "end_s": 11.875658536585366,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "at the lowest level.",
+      "start_s": 11.875658536585364,
+      "end_s": 12.893999999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Wait, so my selfies are just",
+      "start_s": 13.044,
+      "end_s": 14.487692307692308,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a bunch of numbers?",
+      "start_s": 14.487692307692308,
+      "end_s": 15.492,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Exactly. Each pixel in a photo",
+      "start_s": 15.642,
+      "end_s": 17.452909090909092,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is represented by binary values for",
+      "start_s": 17.452909090909092,
+      "end_s": 19.626,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "red, green, and blue. A single",
+      "start_s": 19.626,
+      "end_s": 21.436909090909094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "4K image contains billions of bits.",
+      "start_s": 21.436909090909094,
+      "end_s": 23.61,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Here's where it gets interesting for",
+      "start_s": 23.76,
+      "end_s": 25.44883435582822,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security. Binary is where vulnerabilities like",
+      "start_s": 25.44883435582822,
+      "end_s": 27.682453987730064,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "buffer overflows happen. When data overflows",
+      "start_s": 27.682453987730064,
+      "end_s": 29.80711656441718,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "its allocated memory, it can overwrite",
+      "start_s": 29.80711656441718,
+      "end_s": 31.604907975460122,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "adjacent binary data.",
+      "start_s": 31.604907975460122,
+      "end_s": 32.64,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "That sounds like a mess.",
+      "start_s": 32.79,
+      "end_s": 34.566,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It is. And that's exactly how",
+      "start_s": 34.716,
+      "end_s": 36.1245,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "attackers gain remote code execution. They",
+      "start_s": 36.1245,
+      "end_s": 38.2959375,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "carefully craft binary payloads that overwrite",
+      "start_s": 38.2959375,
+      "end_s": 40.702125,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "return addresses on the stack.",
+      "start_s": 40.702125,
+      "end_s": 42.228,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Understanding hexadecimal helps too - it's",
+      "start_s": 42.378,
+      "end_s": 45.109018867924526,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "just a compact way to represent",
+      "start_s": 45.109018867924526,
+      "end_s": 47.02811320754717,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "binary. Instead of writing 10101011, you",
+      "start_s": 47.02811320754717,
+      "end_s": 49.61150943396226,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "write AB.",
+      "start_s": 49.61150943396227,
+      "end_s": 50.202,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Is this something I need for",
+      "start_s": 50.352,
+      "end_s": 51.72526829268293,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a cybersecurity job?",
+      "start_s": 51.72526829268293,
+      "end_s": 52.8,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Absolutely. A common interview question is:",
+      "start_s": 52.95,
+      "end_s": 55.0914364640884,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "explain how data is represented in",
+      "start_s": 55.0914364640884,
+      "end_s": 56.72569060773481,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "binary and why this matters for",
+      "start_s": 56.72569060773481,
+      "end_s": 58.190883977900555,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "security. Knowing binary is fundamental to",
+      "start_s": 58.19088397790055,
+      "end_s": 60.27596685082873,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "reverse engineering, exploit development, and forensics.",
+      "start_s": 60.27596685082873,
+      "end_s": 63.15,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Key takeaway: binary is the foundation",
+      "start_s": 63.3,
+      "end_s": 65.1129375,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of all digital data. Every cybersecurity",
+      "start_s": 65.1129375,
+      "end_s": 67.03575,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "concept builds on understanding how data",
+      "start_s": 67.03575,
+      "end_s": 68.9585625,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "is represented at this level.",
+      "start_s": 68.9585625,
+      "end_s": 70.332,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Okay, I'll never look at a",
+      "start_s": 70.482,
+      "end_s": 71.78502439024389,
+      "speaker": "Peter"
+    },
+    {
+      "text": "JPEG the same way again.",
+      "start_s": 71.78502439024389,
+      "end_s": 73.026,
+      "speaker": "Peter"
+    }
+  ],
+  "total_duration": 73.026
+}

@@ -1,0 +1,10 @@
+{
+  "title": "Ransomware Recovery Architecture",
+  "hook": "A backup you cannot restore is just expensive nostalgia.",
+  "slug": "sc100-ransomware-recovery-architecture",
+  "concept": "resilience",
+  "category": "resilience",
+  "difficulty": 4,
+  "description": "Designing ransomware resilience with immutable backups, recovery priorities, identity isolation, and tested runbooks.",
+  "source": "SC-100 document expansion"
+}

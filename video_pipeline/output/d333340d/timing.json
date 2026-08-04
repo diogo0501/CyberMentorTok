@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "How does Entra ID Protection actually detect risks? Is it just checking IP addresses?",
+      "start_s": 0.0,
+      "end_s": 4.632
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Way deeper. It uses threat intelligence across trillions of signals \u2014 location, behavior, leaked credentials.",
+      "start_s": 4.782,
+      "end_s": 10.614
+    },
+    {
+      "speaker": "Peter",
+      "text": "What's impossible travel? That sounds like a sci-fi concept.",
+      "start_s": 10.764,
+      "end_s": 14.292
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Someone signs in from New York and five minutes later from Tokyo. Impossible unless credentials are stolen.",
+      "start_s": 14.442,
+      "end_s": 19.698
+    },
+    {
+      "speaker": "Peter",
+      "text": "And user risk vs sign-in risk \u2014 what's the difference?",
+      "start_s": 19.848,
+      "end_s": 22.488
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Sign-in risk is about that specific login event. User risk is about the account being compromised.",
+      "start_s": 22.638,
+      "end_s": 27.606
+    },
+    {
+      "speaker": "Peter",
+      "text": "So what happens when a risk is detected?",
+      "start_s": 27.756,
+      "end_s": 29.892
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Automated policies kick in. Require MFA, block access, or force a password reset.",
+      "start_s": 30.042,
+      "end_s": 35.298
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can you set up the MFA registration before any risk happens?",
+      "start_s": 35.448,
+      "end_s": 38.4
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Yes! The MFA registration policy enrolls users proactively so they're protected when risk hits.",
+      "start_s": 38.55,
+      "end_s": 43.782
+    },
+    {
+      "speaker": "Peter",
+      "text": "So it's like putting on a seatbelt before you drive, not after the crash.",
+      "start_s": 43.932,
+      "end_s": 47.1
+    },
+    {
+      "speaker": "Stewie",
+      "text": "That's... actually a great analogy. I'm almost impressed.",
+      "start_s": 47.25,
+      "end_s": 50.802
+    }
+  ],
+  "chunks": [
+    {
+      "text": "How does Entra ID Protection actually",
+      "start_s": 0.0,
+      "end_s": 2.0586666666666664,
+      "speaker": "Peter"
+    },
+    {
+      "text": "detect risks? Is it just checking",
+      "start_s": 2.0586666666666664,
+      "end_s": 3.86,
+      "speaker": "Peter"
+    },
+    {
+      "text": "IP addresses?",
+      "start_s": 3.86,
+      "end_s": 4.632,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Way deeper. It uses threat intelligence",
+      "start_s": 4.782,
+      "end_s": 6.869242105263158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "across trillions of signals \u2014 location,",
+      "start_s": 6.869242105263158,
+      "end_s": 8.956484210526316,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "behavior, leaked credentials.",
+      "start_s": 8.956484210526316,
+      "end_s": 10.614,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What's impossible travel? That sounds like",
+      "start_s": 10.764,
+      "end_s": 13.27430769230769,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a sci-fi concept.",
+      "start_s": 13.27430769230769,
+      "end_s": 14.292,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Someone signs in from New York",
+      "start_s": 14.442,
+      "end_s": 15.885956043956044,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and five minutes later from Tokyo.",
+      "start_s": 15.885956043956044,
+      "end_s": 17.560945054945055,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Impossible unless credentials are stolen.",
+      "start_s": 17.560945054945055,
+      "end_s": 19.698,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And user risk vs sign-in risk",
+      "start_s": 19.848,
+      "end_s": 21.256,
+      "speaker": "Peter"
+    },
+    {
+      "text": "\u2014 what's the difference?",
+      "start_s": 21.256,
+      "end_s": 22.488,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Sign-in risk is about that specific",
+      "start_s": 22.638,
+      "end_s": 24.43366265060241,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "login event. User risk is about",
+      "start_s": 24.43366265060241,
+      "end_s": 25.989903614457834,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the account being compromised.",
+      "start_s": 25.98990361445783,
+      "end_s": 27.606,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So what happens when a risk",
+      "start_s": 27.756,
+      "end_s": 29.18,
+      "speaker": "Peter"
+    },
+    {
+      "text": "is detected?",
+      "start_s": 29.18,
+      "end_s": 29.892,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Automated policies kick in. Require MFA,",
+      "start_s": 30.042,
+      "end_s": 32.70808695652174,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "block access, or force a password",
+      "start_s": 32.70808695652174,
+      "end_s": 34.84095652173913,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "reset.",
+      "start_s": 34.84095652173913,
+      "end_s": 35.298,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can you set up the MFA",
+      "start_s": 35.448,
+      "end_s": 36.45168,
+      "speaker": "Peter"
+    },
+    {
+      "text": "registration before any risk happens?",
+      "start_s": 36.45168,
+      "end_s": 38.4,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Yes! The MFA registration policy enrolls",
+      "start_s": 38.55,
+      "end_s": 40.783170731707315,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "users proactively so they're protected when",
+      "start_s": 40.783170731707315,
+      "end_s": 43.207756097560974,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "risk hits.",
+      "start_s": 43.207756097560974,
+      "end_s": 43.782,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So it's like putting on a",
+      "start_s": 43.932,
+      "end_s": 44.988,
+      "speaker": "Peter"
+    },
+    {
+      "text": "seatbelt before you drive, not after",
+      "start_s": 44.988,
+      "end_s": 46.6248,
+      "speaker": "Peter"
+    },
+    {
+      "text": "the crash.",
+      "start_s": 46.6248,
+      "end_s": 47.1,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That's... actually a great analogy. I'm",
+      "start_s": 47.25,
+      "end_s": 49.66536,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "almost impressed.",
+      "start_s": 49.66536,
+      "end_s": 50.802,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 50.802
+}

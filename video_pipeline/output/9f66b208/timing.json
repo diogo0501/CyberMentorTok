@@ -1,0 +1,283 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "We have on-prem Active Directory. Can't we just... keep it?",
+      "start_s": 0.0,
+      "end_s": 3.576
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You keep it, Peter. But you sync it to Entra ID so cloud apps have one identity.",
+      "start_s": 3.726,
+      "end_s": 8.19
+    },
+    {
+      "speaker": "Peter",
+      "text": "And there are two sync tools? That seems excessive.",
+      "start_s": 8.34,
+      "end_s": 11.508
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Cloud Sync is the modern one: lightweight agent, multi-forest support, easy high availability.",
+      "start_s": 11.658,
+      "end_s": 16.194
+    },
+    {
+      "speaker": "Peter",
+      "text": "So when do I ever need Connect Sync?",
+      "start_s": 16.344,
+      "end_s": 18.384
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Pass-through auth, device sync for hybrid join, Domain Services, or over 150,000 objects.",
+      "start_s": 18.534,
+      "end_s": 23.742
+    },
+    {
+      "speaker": "Peter",
+      "text": "Pass-through auth sounds safer. Passwords stay on-premises, right?",
+      "start_s": 23.892,
+      "end_s": 27.636
+    },
+    {
+      "speaker": "Stewie",
+      "text": "True, but it needs agents online. Password hash sync gives you leaked-credential detection and cloud resiliency.",
+      "start_s": 27.786,
+      "end_s": 33.258
+    },
+    {
+      "speaker": "Peter",
+      "text": "And federation?",
+      "start_s": 33.408,
+      "end_s": 34.752
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Smart cards, on-premises policy. Also a whole extra server farm to keep alive.",
+      "start_s": 34.902,
+      "end_s": 39.654
+    },
+    {
+      "speaker": "Peter",
+      "text": "So what do most orgs pick?",
+      "start_s": 39.804,
+      "end_s": 41.508
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Password hash sync. Strongest cloud features, best resiliency. And check your Connect Sync version \u2014 old builds stop September 30, 2026.",
+      "start_s": 41.658,
+      "end_s": 49.842
+    },
+    {
+      "speaker": "Peter",
+      "text": "Any trick to make logins painless?",
+      "start_s": 49.992,
+      "end_s": 52.008
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Seamless SSO. Kerberos tickets sign users in silently on the corporate network.",
+      "start_s": 52.158,
+      "end_s": 56.598
+    }
+  ],
+  "chunks": [
+    {
+      "text": "We have on-prem Active Directory. Can't",
+      "start_s": 0.0,
+      "end_s": 2.4316800000000005,
+      "speaker": "Peter"
+    },
+    {
+      "text": "we just... keep it?",
+      "start_s": 2.4316800000000005,
+      "end_s": 3.576,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You keep it, Peter. But you",
+      "start_s": 3.726,
+      "end_s": 5.2605,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "sync it to Entra ID so",
+      "start_s": 5.2605,
+      "end_s": 6.44625,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "cloud apps have one identity.",
+      "start_s": 6.44625,
+      "end_s": 8.19,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And there are two sync tools?",
+      "start_s": 8.34,
+      "end_s": 10.108186046511628,
+      "speaker": "Peter"
+    },
+    {
+      "text": "That seems excessive.",
+      "start_s": 10.108186046511628,
+      "end_s": 11.508,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Cloud Sync is the modern one:",
+      "start_s": 11.658,
+      "end_s": 12.985609756097562,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "lightweight agent, multi-forest support, easy high",
+      "start_s": 12.985609756097562,
+      "end_s": 15.47487804878049,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "availability.",
+      "start_s": 15.474878048780488,
+      "end_s": 16.194,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So when do I ever need",
+      "start_s": 16.344,
+      "end_s": 17.53986206896552,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Connect Sync?",
+      "start_s": 17.53986206896552,
+      "end_s": 18.384,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Pass-through auth, device sync for hybrid",
+      "start_s": 18.534,
+      "end_s": 20.968909090909094,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "join, Domain Services, or over 150,000",
+      "start_s": 20.968909090909094,
+      "end_s": 23.200909090909093,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "objects.",
+      "start_s": 23.200909090909093,
+      "end_s": 23.742,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Pass-through auth sounds safer. Passwords stay",
+      "start_s": 23.892,
+      "end_s": 26.49376271186441,
+      "speaker": "Peter"
+    },
+    {
+      "text": "on-premises, right?",
+      "start_s": 26.49376271186441,
+      "end_s": 27.636,
+      "speaker": "Peter"
+    },
+    {
+      "text": "True, but it needs agents online.",
+      "start_s": 27.786,
+      "end_s": 29.365546391752577,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Password hash sync gives you leaked-credential",
+      "start_s": 29.365546391752577,
+      "end_s": 31.678453608247423,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "detection and cloud resiliency.",
+      "start_s": 31.678453608247423,
+      "end_s": 33.258,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And federation?",
+      "start_s": 33.408,
+      "end_s": 34.752,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Smart cards, on-premises policy. Also a",
+      "start_s": 34.902,
+      "end_s": 37.35,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "whole extra server farm to keep",
+      "start_s": 37.35,
+      "end_s": 39.222,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "alive.",
+      "start_s": 39.222,
+      "end_s": 39.654,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So what do most orgs pick?",
+      "start_s": 39.804,
+      "end_s": 41.508,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Password hash sync. Strongest cloud features,",
+      "start_s": 41.658,
+      "end_s": 44.48006896551724,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "best resiliency. And check your Connect",
+      "start_s": 44.48006896551724,
+      "end_s": 46.87882758620689,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Sync version \u2014 old builds stop",
+      "start_s": 46.878827586206896,
+      "end_s": 48.642620689655175,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "September 30, 2026.",
+      "start_s": 48.642620689655175,
+      "end_s": 49.842,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Any trick to make logins painless?",
+      "start_s": 49.992,
+      "end_s": 52.008,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Seamless SSO. Kerberos tickets sign users",
+      "start_s": 52.158,
+      "end_s": 54.50858823529412,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "in silently on the corporate network.",
+      "start_s": 54.50858823529412,
+      "end_s": 56.598,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 56.598
+}

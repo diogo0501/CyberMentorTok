@@ -1,0 +1,253 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "I keep hearing passwordless is the future. Is it actually real?",
+      "start_s": 0.0,
+      "end_s": 3.672
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's the present. FIDO2 keys, passkeys, Windows Hello \u2014 all production-ready right now.",
+      "start_s": 3.822,
+      "end_s": 9.054
+    },
+    {
+      "speaker": "Peter",
+      "text": "But how does it work without a password?",
+      "start_s": 9.204,
+      "end_s": 11.196
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Public-private key pairs. Your device holds the private key. The server holds the public key.",
+      "start_s": 11.346,
+      "end_s": 16.746
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about the Authenticator app? That's still a password thing right?",
+      "start_s": 16.896,
+      "end_s": 20.424
+    },
+    {
+      "speaker": "Stewie",
+      "text": "It's push-based MFA. You approve a login on your phone. Way better than SMS codes.",
+      "start_s": 20.574,
+      "end_s": 25.878
+    },
+    {
+      "speaker": "Peter",
+      "text": "Can someone steal my FIDO2 key?",
+      "start_s": 26.028,
+      "end_s": 28.044
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Physical theft yes. But remote phishing? Impossible. The key is hardware-bound and origin-locked.",
+      "start_s": 28.194,
+      "end_s": 34.434
+    },
+    {
+      "speaker": "Peter",
+      "text": "So passkeys are just a fancier FIDO2?",
+      "start_s": 34.584,
+      "end_s": 36.864
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Passkeys sync across your devices for convenience while staying phish-resistant. Best of both worlds.",
+      "start_s": 37.014,
+      "end_s": 41.862
+    },
+    {
+      "speaker": "Peter",
+      "text": "What if someone loses their security key?",
+      "start_s": 42.012,
+      "end_s": 44.196
+    },
+    {
+      "speaker": "Stewie",
+      "text": "You register a backup key or use the Authenticator app. Always have a second factor registered.",
+      "start_s": 44.346,
+      "end_s": 49.122
+    }
+  ],
+  "chunks": [
+    {
+      "text": "I keep hearing passwordless is the",
+      "start_s": 0.0,
+      "end_s": 2.009207547169811,
+      "speaker": "Peter"
+    },
+    {
+      "text": "future. Is it actually real?",
+      "start_s": 2.009207547169811,
+      "end_s": 3.672,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's the present. FIDO2 keys, passkeys,",
+      "start_s": 3.822,
+      "end_s": 6.19384,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Windows Hello \u2014 all production-ready right",
+      "start_s": 6.19384,
+      "end_s": 8.774959999999998,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "now.",
+      "start_s": 8.774959999999998,
+      "end_s": 9.054,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "But how does it work without",
+      "start_s": 9.204,
+      "end_s": 10.592363636363636,
+      "speaker": "Peter"
+    },
+    {
+      "text": "a password?",
+      "start_s": 10.592363636363636,
+      "end_s": 11.196,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Public-private key pairs. Your device holds",
+      "start_s": 11.346,
+      "end_s": 13.943468354430381,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the private key. The server holds",
+      "start_s": 13.943468354430381,
+      "end_s": 15.857392405063292,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "the public key.",
+      "start_s": 15.857392405063292,
+      "end_s": 16.746,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about the Authenticator app? That's",
+      "start_s": 16.896,
+      "end_s": 18.954,
+      "speaker": "Peter"
+    },
+    {
+      "text": "still a password thing right?",
+      "start_s": 18.954,
+      "end_s": 20.424,
+      "speaker": "Peter"
+    },
+    {
+      "text": "It's push-based MFA. You approve a",
+      "start_s": 20.574,
+      "end_s": 22.836,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "login on your phone. Way better",
+      "start_s": 22.836,
+      "end_s": 24.864,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "than SMS codes.",
+      "start_s": 24.864,
+      "end_s": 25.878,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Can someone steal my FIDO2 key?",
+      "start_s": 26.028,
+      "end_s": 28.044,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Physical theft yes. But remote phishing?",
+      "start_s": 28.194,
+      "end_s": 30.763411764705882,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Impossible. The key is hardware-bound and",
+      "start_s": 30.763411764705882,
+      "end_s": 33.40623529411764,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "origin-locked.",
+      "start_s": 33.40623529411765,
+      "end_s": 34.434,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So passkeys are just a fancier",
+      "start_s": 34.584,
+      "end_s": 36.422709677419356,
+      "speaker": "Peter"
+    },
+    {
+      "text": "FIDO2?",
+      "start_s": 36.422709677419356,
+      "end_s": 36.864,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Passkeys sync across your devices for",
+      "start_s": 37.014,
+      "end_s": 38.776909090909086,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "convenience while staying phish-resistant. Best of",
+      "start_s": 38.776909090909086,
+      "end_s": 41.256,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "both worlds.",
+      "start_s": 41.256,
+      "end_s": 41.862,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What if someone loses their security",
+      "start_s": 42.012,
+      "end_s": 43.946400000000004,
+      "speaker": "Peter"
+    },
+    {
+      "text": "key?",
+      "start_s": 43.946400000000004,
+      "end_s": 44.196,
+      "speaker": "Peter"
+    },
+    {
+      "text": "You register a backup key or",
+      "start_s": 44.346,
+      "end_s": 45.7191,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "use the Authenticator app. Always have",
+      "start_s": 45.7191,
+      "end_s": 47.6892,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "a second factor registered.",
+      "start_s": 47.6892,
+      "end_s": 49.122,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 49.122
+}

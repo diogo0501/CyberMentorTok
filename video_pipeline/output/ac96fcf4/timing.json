@@ -1,0 +1,265 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "What's the OWASP Top 10?",
+      "start_s": 0.0,
+      "end_s": 1.776
+    },
+    {
+      "speaker": "Stewie",
+      "text": "The ten most critical web app risks. Broken access control and injection lead the list.",
+      "start_s": 1.926,
+      "end_s": 6.606
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I stop injection?",
+      "start_s": 6.756,
+      "end_s": 8.388
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Parameterized queries. Separate code from data so input can't become commands.",
+      "start_s": 8.538,
+      "end_s": 13.026
+    },
+    {
+      "speaker": "Peter",
+      "text": "And XSS?",
+      "start_s": 13.176,
+      "end_s": 14.952
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Output encoding in the right context. HTML, URL, JavaScript \u2014 each needs its own escape.",
+      "start_s": 15.102,
+      "end_s": 20.838
+    },
+    {
+      "speaker": "Peter",
+      "text": "What about user input?",
+      "start_s": 20.988,
+      "end_s": 22.596
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Validate everything server-side. Type, length, range, format. Treat input as hostile.",
+      "start_s": 22.746,
+      "end_s": 28.53
+    },
+    {
+      "speaker": "Peter",
+      "text": "Access control?",
+      "start_s": 28.68,
+      "end_s": 30.456
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Enforce authorization on every request, server-side, and fail closed. Never trust the client.",
+      "start_s": 30.606,
+      "end_s": 36.078
+    },
+    {
+      "speaker": "Peter",
+      "text": "Secrets in code?",
+      "start_s": 36.228,
+      "end_s": 38.004
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Never. Use secret stores and workload identity instead of hardcoded credentials.",
+      "start_s": 38.154,
+      "end_s": 42.522
+    },
+    {
+      "speaker": "Peter",
+      "text": "Don't firewalls fix this?",
+      "start_s": 42.672,
+      "end_s": 44.448
+    },
+    {
+      "speaker": "Stewie",
+      "text": "WAFs and CSP supplement secure code. They never replace it.",
+      "start_s": 44.598,
+      "end_s": 48.702
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I catch flaws early?",
+      "start_s": 48.852,
+      "end_s": 50.556
+    },
+    {
+      "speaker": "Stewie",
+      "text": "SAST for static analysis, SCA for dependencies, both in CI.",
+      "start_s": 50.706,
+      "end_s": 54.738
+    }
+  ],
+  "chunks": [
+    {
+      "text": "What's the OWASP Top 10?",
+      "start_s": 0.0,
+      "end_s": 1.776,
+      "speaker": "Peter"
+    },
+    {
+      "text": "The ten most critical web app",
+      "start_s": 1.926,
+      "end_s": 3.4646301369863015,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "risks. Broken access control and injection",
+      "start_s": 3.4646301369863015,
+      "end_s": 5.836684931506849,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "lead the list.",
+      "start_s": 5.836684931506849,
+      "end_s": 6.606,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I stop injection?",
+      "start_s": 6.756,
+      "end_s": 8.388,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Parameterized queries. Separate code from data",
+      "start_s": 8.538,
+      "end_s": 11.244,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "so input can't become commands.",
+      "start_s": 11.244,
+      "end_s": 13.026,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "And XSS?",
+      "start_s": 13.176,
+      "end_s": 14.952,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Output encoding in the right context.",
+      "start_s": 15.102,
+      "end_s": 17.582432432432434,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "HTML, URL, JavaScript \u2014 each needs",
+      "start_s": 17.582432432432434,
+      "end_s": 19.830324324324327,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "its own escape.",
+      "start_s": 19.830324324324323,
+      "end_s": 20.838,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "What about user input?",
+      "start_s": 20.988,
+      "end_s": 22.596,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Validate everything server-side. Type, length, range,",
+      "start_s": 22.746,
+      "end_s": 26.447760000000002,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "format. Treat input as hostile.",
+      "start_s": 26.447760000000002,
+      "end_s": 28.53,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Access control?",
+      "start_s": 28.68,
+      "end_s": 30.456,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Enforce authorization on every request, server-side,",
+      "start_s": 30.606,
+      "end_s": 33.78111111111111,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "and fail closed. Never trust the",
+      "start_s": 33.78111111111111,
+      "end_s": 35.60511111111111,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "client.",
+      "start_s": 35.60511111111111,
+      "end_s": 36.078,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Secrets in code?",
+      "start_s": 36.228,
+      "end_s": 38.004,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Never. Use secret stores and workload",
+      "start_s": 38.154,
+      "end_s": 40.150800000000004,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "identity instead of hardcoded credentials.",
+      "start_s": 40.150800000000004,
+      "end_s": 42.522,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Don't firewalls fix this?",
+      "start_s": 42.672,
+      "end_s": 44.448,
+      "speaker": "Peter"
+    },
+    {
+      "text": "WAFs and CSP supplement secure code.",
+      "start_s": 44.598,
+      "end_s": 47.142480000000006,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "They never replace it.",
+      "start_s": 47.142480000000006,
+      "end_s": 48.702,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I catch flaws early?",
+      "start_s": 48.852,
+      "end_s": 50.556,
+      "speaker": "Peter"
+    },
+    {
+      "text": "SAST for static analysis, SCA for",
+      "start_s": 50.706,
+      "end_s": 52.96392,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "dependencies, both in CI.",
+      "start_s": 52.96392,
+      "end_s": 54.738,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 54.738
+}

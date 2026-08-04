@@ -1,0 +1,10 @@
+{
+  "title": "Security at Scale: Least Privilege Automation",
+  "hook": "Humans can't review a million permissions. Automation is the only way security survives at scale.",
+  "slug": "gh-security-at-scale",
+  "concept": "security-operations",
+  "category": "security-operations",
+  "difficulty": null,
+  "description": "How big tech automates least privilege, credential detection, and response across thousands of systems.",
+  "source": "cybersecurity-architecture awesome-list expansion"
+}

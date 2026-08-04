@@ -1,0 +1,1 @@
+[0:v]format=rgba[canvas];[canvas]drawtext=text=hello:font=Impact:fontcolor=white:fontsize=52:borderw=3:bordercolor=black:x=10:y=10:enable='between(t\,0\,1)',geq='lum_expr=clamp(lum(X,Y),0,255)':a_expr='if(gt(alpha(X,Y),0),alpha(X,Y),0)',format=yuva420p[outv]

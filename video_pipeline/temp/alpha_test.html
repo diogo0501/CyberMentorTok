@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Alpha Test</title></head>
+<body style="background: #00ff00; margin: 0; display: flex; flex-direction: column;">
+  <h3 style="color: white; text-align: center;">Green BG + mask.webm overlay</h3>
+  <div style="position: relative; width: 300px; height: 533px; margin: 0 auto;">
+    <div style="position: absolute; inset: 0; background: #ff0000;"></div>
+    <video id="mask" src="http://localhost:8000/videos/f037e2de/mask.webm" 
+      style="position: absolute; inset: 0; width: 100%; height: 100%;" 
+      autoplay muted playsinline></video>
+  </div>
+  <p style="color: white; text-align: center;">If alpha works, you see red BG through transparent areas</p>
+  <button onclick="document.getElementById('mask').play()" style="margin: 10px auto; padding: 10px;">Play</button>
+</body>
+</html>

@@ -1,0 +1,277 @@
+{
+  "timeline": [
+    {
+      "speaker": "Peter",
+      "text": "How do big services stay up under a million users?",
+      "start_s": 0.0,
+      "end_s": 2.568
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Load balancing, failover, and autoscaling. The holy trinity of availability.",
+      "start_s": 2.718,
+      "end_s": 7.422
+    },
+    {
+      "speaker": "Peter",
+      "text": "Load balancer?",
+      "start_s": 7.572,
+      "end_s": 9.348
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Spreads traffic across healthy instances and routes around failures.",
+      "start_s": 9.498,
+      "end_s": 12.714
+    },
+    {
+      "speaker": "Peter",
+      "text": "Failover?",
+      "start_s": 12.864,
+      "end_s": 14.088
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Redundancy. When a node, zone, or region fails, traffic shifts to a standby.",
+      "start_s": 14.238,
+      "end_s": 19.23
+    },
+    {
+      "speaker": "Peter",
+      "text": "Autoscaling?",
+      "start_s": 19.38,
+      "end_s": 21.156
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Add or remove capacity with demand. Reactive or predictive. Match load exactly.",
+      "start_s": 21.306,
+      "end_s": 26.61
+    },
+    {
+      "speaker": "Peter",
+      "text": "Why zones and regions?",
+      "start_s": 26.76,
+      "end_s": 28.536
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Failure isolation. One zone dying shouldn't kill the app. Regions give disaster recovery.",
+      "start_s": 28.686,
+      "end_s": 34.158
+    },
+    {
+      "speaker": "Peter",
+      "text": "Design philosophy?",
+      "start_s": 34.308,
+      "end_s": 35.796
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Accept partial failures. Minimize service loss. Degrade gracefully.",
+      "start_s": 35.946,
+      "end_s": 40.65
+    },
+    {
+      "speaker": "Peter",
+      "text": "How do I measure it?",
+      "start_s": 40.8,
+      "end_s": 42.576
+    },
+    {
+      "speaker": "Stewie",
+      "text": "Service-level objectives. Availability is only real if you measure it.",
+      "start_s": 42.726,
+      "end_s": 46.686
+    },
+    {
+      "speaker": "Peter",
+      "text": "So one instance is never the answer?",
+      "start_s": 46.836,
+      "end_s": 48.852
+    },
+    {
+      "speaker": "Stewie",
+      "text": "One instance is a single point of failure. Availability is a design, not a setting.",
+      "start_s": 49.002,
+      "end_s": 53.562
+    }
+  ],
+  "chunks": [
+    {
+      "text": "How do big services stay up",
+      "start_s": 0.0,
+      "end_s": 1.3779512195121952,
+      "speaker": "Peter"
+    },
+    {
+      "text": "under a million users?",
+      "start_s": 1.3779512195121952,
+      "end_s": 2.568,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Load balancing, failover, and autoscaling. The",
+      "start_s": 2.718,
+      "end_s": 5.596567164179105,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "holy trinity of availability.",
+      "start_s": 5.596567164179105,
+      "end_s": 7.422000000000001,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Load balancer?",
+      "start_s": 7.572,
+      "end_s": 9.348,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Spreads traffic across healthy instances and",
+      "start_s": 9.498,
+      "end_s": 11.5884,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "routes around failures.",
+      "start_s": 11.5884,
+      "end_s": 12.714,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Failover?",
+      "start_s": 12.864,
+      "end_s": 14.088,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Redundancy. When a node, zone, or",
+      "start_s": 14.238,
+      "end_s": 16.422,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "region fails, traffic shifts to a",
+      "start_s": 16.422,
+      "end_s": 18.606,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "standby.",
+      "start_s": 18.606,
+      "end_s": 19.23,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Autoscaling?",
+      "start_s": 19.38,
+      "end_s": 21.156,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Add or remove capacity with demand.",
+      "start_s": 21.306,
+      "end_s": 23.646,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Reactive or predictive. Match load exactly.",
+      "start_s": 23.646,
+      "end_s": 26.61,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Why zones and regions?",
+      "start_s": 26.76,
+      "end_s": 28.536,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Failure isolation. One zone dying shouldn't",
+      "start_s": 28.686,
+      "end_s": 31.386467532467535,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "kill the app. Regions give disaster",
+      "start_s": 31.386467532467535,
+      "end_s": 33.518415584415585,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "recovery.",
+      "start_s": 33.518415584415585,
+      "end_s": 34.158,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Design philosophy?",
+      "start_s": 34.308,
+      "end_s": 35.796,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Accept partial failures. Minimize service loss.",
+      "start_s": 35.946,
+      "end_s": 39.238800000000005,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "Degrade gracefully.",
+      "start_s": 39.238800000000005,
+      "end_s": 40.65,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "How do I measure it?",
+      "start_s": 40.8,
+      "end_s": 42.576,
+      "speaker": "Peter"
+    },
+    {
+      "text": "Service-level objectives. Availability is only real",
+      "start_s": 42.726,
+      "end_s": 45.71222950819672,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "if you measure it.",
+      "start_s": 45.71222950819672,
+      "end_s": 46.686,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "So one instance is never the",
+      "start_s": 46.836,
+      "end_s": 48.3816,
+      "speaker": "Peter"
+    },
+    {
+      "text": "answer?",
+      "start_s": 48.3816,
+      "end_s": 48.852,
+      "speaker": "Peter"
+    },
+    {
+      "text": "One instance is a single point",
+      "start_s": 49.002,
+      "end_s": 50.65417391304348,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "of failure. Availability is a design,",
+      "start_s": 50.65417391304348,
+      "end_s": 52.768956521739135,
+      "speaker": "Stewie"
+    },
+    {
+      "text": "not a setting.",
+      "start_s": 52.76895652173913,
+      "end_s": 53.562,
+      "speaker": "Stewie"
+    }
+  ],
+  "total_duration": 53.562
+}
