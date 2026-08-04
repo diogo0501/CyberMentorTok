@@ -681,6 +681,17 @@ const createButton = document.getElementById("createButton");
 const closeLibraryButton = document.getElementById("closeLibraryButton");
 const searchInput = document.getElementById("searchInput");
 const clearSearchButton = document.getElementById("clearSearchButton");
+const userAgent = navigator.userAgent || "";
+const platform = navigator.platform || "";
+const touchPoints = navigator.maxTouchPoints || 0;
+const IS_IOS = /iPad|iPhone|iPod/.test(userAgent) || (platform === "MacIntel" && touchPoints > 1);
+const VIDEO_PROBE = document.createElement("video");
+const SUPPORTS_WEBM = !!(
+  VIDEO_PROBE.canPlayType("video/webm; codecs=vp9") ||
+  VIDEO_PROBE.canPlayType("video/webm; codecs=vp8,vorbis") ||
+  VIDEO_PROBE.canPlayType("video/webm")
+);
+const PREFER_MP4_VIDEO = IS_IOS || !SUPPORTS_WEBM;
 
 let videos = [];
 let visibleVideos = [];
@@ -697,6 +708,7 @@ let observer;
 let scrollFrame;
 let resetPending = false;
 let isPlaybackPaused = false;
+let mediaUnlocked = !IS_IOS;
 const LOOP_COPY_COUNT = 3;
 const MEDIA_WINDOW = 1;
 const ANIMATION_WINDOW = 2;
@@ -738,6 +750,11 @@ function formatCount(count) {
 
 function titleFor(video) {
   return video.title && video.title !== video.id ? video.title : `Output ${video.id}`;
+}
+
+function normalizePlatformVideos(items) {
+  if (!PREFER_MP4_VIDEO) return [...items];
+  return items.filter((video) => video.full_url || (!video.mask_url && !video.audio_url));
 }
 
 function conceptFor(video) {
@@ -810,6 +827,29 @@ function primeMediaAround(rawIndex) {
   }
 }
 
+function shouldUseFullVideo(video) {
+  if (!video?.full_url) return false;
+  return PREFER_MP4_VIDEO || !(video.mask_url && video.audio_url);
+}
+
+function syncSlideAudioState(slide) {
+  if (!slide) return;
+  if (slide.dataset.mediaKind !== "full" || !slide._primaryVideo) return;
+  slide._primaryVideo.muted = !mediaUnlocked;
+  slide._primaryVideo.defaultMuted = !mediaUnlocked;
+}
+
+function unlockGestureMedia() {
+  if (mediaUnlocked) return false;
+  mediaUnlocked = true;
+  slideElements.forEach(syncSlideAudioState);
+  if (!isPlaybackPaused) {
+    backgroundVideo.play().catch(() => {});
+    activePlayers().forEach((player) => player.play().catch(() => {}));
+  }
+  return true;
+}
+
 function renderSlide(video, rawIndex, logicalIndex) {
   const slide = document.createElement("article");
   slide.className = "slide";
@@ -831,15 +871,20 @@ function renderSlide(video, rawIndex, logicalIndex) {
     return videoElement;
   };
 
-  if (video.mask_url && video.audio_url) {
+  if (shouldUseFullVideo(video)) {
+    slide.dataset.mediaKind = "full";
+    slide._primaryVideo = makeVideo(video.full_url, !mediaUnlocked, true);
+    syncSlideAudioState(slide);
+  } else if (video.mask_url && video.audio_url) {
+    slide.dataset.mediaKind = "mask-audio";
     makeVideo(video.mask_url, true, false);
     const audio = document.createElement("audio");
     audio.dataset.src = absoluteUrl(video.audio_url);
     audio.preload = "none";
     slide.appendChild(audio);
     players.push(audio);
-  } else if (video.full_url) {
-    makeVideo(video.full_url, false, true);
+  } else {
+    slide.dataset.mediaKind = "none";
   }
 
   slide._players = players;
@@ -879,6 +924,7 @@ function renderSlide(video, rawIndex, logicalIndex) {
 
   slide.addEventListener("click", (event) => {
     if (event.target.closest("button, input, label")) return;
+    if (unlockGestureMedia()) return;
     togglePlayback();
   });
 
@@ -940,6 +986,7 @@ function setActive(index, rawIndex = middleRawIndexForLogical(index)) {
   slideElements.forEach((slide) => {
     const players = slide._players || [];
     if (Number(slide.dataset.rawIndex) === rawIndex) {
+      syncSlideAudioState(slide);
       if (isPlaybackPaused) {
         players.forEach((player) => player.pause());
       } else {
@@ -981,6 +1028,7 @@ function resumePlayback() {
 }
 
 function togglePlayback() {
+  if (unlockGestureMedia()) return;
   if (isPlaybackPaused) {
     resumePlayback();
   } else {
@@ -1210,7 +1258,7 @@ async function loadVideos() {
   }
   const response = await fetch(`${OUTPUTS_URL}&t=${Date.now()}`, { cache: "no-store" });
   if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  videos = await response.json();
+  videos = normalizePlatformVideos(await response.json());
   visibleVideos = [...videos];
   searchResults = [...videos];
   renderFeed();

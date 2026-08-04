@@ -12,8 +12,9 @@ ROOT = Path(__file__).resolve().parent.parent
 FRONTEND_WEB = ROOT / "frontend" / "build" / "web"
 OUTPUT_DIR = ROOT / "video_pipeline" / "output"
 BACKGROUNDS_DIR = ROOT / "video_pipeline" / "backgrounds"
-TARGET_HTML = ROOT / "index.html"
-TARGET_JSON = ROOT / "videos.json"
+TARGET_DIR = ROOT / "docs"
+TARGET_HTML = TARGET_DIR / "index.html"
+TARGET_JSON = TARGET_DIR / "videos.json"
 
 CSS_PATH = FRONTEND_WEB / "tiktok.css"
 JS_PATH = FRONTEND_WEB / "tiktok.js"
@@ -209,6 +210,11 @@ def build_manifest():
     items = []
 
     if not OUTPUT_DIR.is_dir():
+        if TARGET_JSON.is_file():
+            try:
+                return json.loads(TARGET_JSON.read_text(encoding="utf-8"))
+            except Exception:
+                return items
         return items
 
     for output_id in sorted(os.listdir(OUTPUT_DIR)):
@@ -398,6 +404,7 @@ def main():
     css_source = CSS_PATH.read_text(encoding="utf-8")
     js_source = transform_js(JS_PATH.read_text(encoding="utf-8"))
     videos = build_manifest()
+    TARGET_DIR.mkdir(parents=True, exist_ok=True)
     TARGET_JSON.write_text(json.dumps(videos, indent=2, ensure_ascii=False), encoding="utf-8")
     TARGET_HTML.write_text(build_html(videos, css_source, js_source), encoding="utf-8")
     print(f"Built {TARGET_HTML} and {TARGET_JSON} with {len(videos)} videos")
