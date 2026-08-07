@@ -762,7 +762,9 @@ let observer;
 let scrollFrame;
 let resetPending = false;
 let isPlaybackPaused = false;
-let mediaUnlocked = !IS_IOS;
+let mediaUnlocked = true;
+let audioUnlockRequired = false;
+let lastGestureUnlockAt = -Infinity;
 const LOOP_COPY_COUNT = 3;
 const MEDIA_WINDOW = 1;
 const ANIMATION_WINDOW = 2;
@@ -870,7 +872,7 @@ function ensureMediaLoadedForSlide(slide) {
     const source = player.dataset.src;
     if (!source || player.src) return;
     player.src = source;
-    if (player.tagName === "VIDEO") player.load();
+    player.load();
   });
   slide.dataset.mediaHydrated = "1";
 }
@@ -893,13 +895,52 @@ function syncSlideAudioState(slide) {
   slide._primaryVideo.defaultMuted = !mediaUnlocked;
 }
 
-function unlockGestureMedia() {
-  if (mediaUnlocked) return false;
-  mediaUnlocked = true;
+function isAudiblePlayer(player) {
+  return player?.tagName === "AUDIO" || (player?.tagName === "VIDEO" && !player.muted);
+}
+
+function handlePlaybackRejection(player, error) {
+  if (error?.name !== "NotAllowedError" || !isAudiblePlayer(player)) return;
+  audioUnlockRequired = true;
+  mediaUnlocked = false;
   slideElements.forEach(syncSlideAudioState);
+
+  if (player.tagName === "VIDEO") {
+    player.muted = true;
+    player.defaultMuted = true;
+    player.play().catch(() => {});
+  }
+}
+
+function playPlayer(player) {
+  if (!player) return;
+  const attempt = player.play();
+  if (attempt?.catch) attempt.catch((error) => handlePlaybackRejection(player, error));
+}
+
+function syncDetachedAudioToVideo(slide) {
+  if (!slide || slide.dataset.mediaKind !== "mask-audio") return;
+  const videoPlayer = (slide._players || []).find((player) => player.tagName === "VIDEO");
+  const audioPlayer = (slide._players || []).find((player) => player.tagName === "AUDIO");
+  if (!videoPlayer || !audioPlayer) return;
+  if (Number.isFinite(videoPlayer.currentTime)) {
+    try {
+      audioPlayer.currentTime = videoPlayer.currentTime;
+    } catch (_) {}
+  }
+}
+
+function unlockGestureMedia() {
+  if (!audioUnlockRequired && mediaUnlocked) return false;
+  audioUnlockRequired = false;
+  mediaUnlocked = true;
+  lastGestureUnlockAt = performance.now();
+  slideElements.forEach(syncSlideAudioState);
+  const activeSlide = targetSlideForRawIndex(activeRenderIndex);
+  syncDetachedAudioToVideo(activeSlide);
   if (!isPlaybackPaused) {
     backgroundVideo.play().catch(() => {});
-    activePlayers().forEach((player) => player.play().catch(() => {}));
+    activePlayers().forEach(playPlayer);
   }
   return true;
 }
@@ -934,7 +975,7 @@ function renderSlide(video, rawIndex, logicalIndex) {
     makeVideo(video.mask_url, true, false);
     const audio = document.createElement("audio");
     audio.dataset.src = absoluteUrl(video.audio_url);
-    audio.preload = "none";
+    audio.preload = "auto";
     slide.appendChild(audio);
     players.push(audio);
   } else {
@@ -976,8 +1017,13 @@ function renderSlide(video, rawIndex, logicalIndex) {
   `;
   slide.appendChild(rail);
 
+  slide.addEventListener("pointerdown", () => {
+    unlockGestureMedia();
+  }, { passive: true });
+
   slide.addEventListener("click", (event) => {
     if (event.target.closest("button, input, label")) return;
+    if (performance.now() - lastGestureUnlockAt < 500) return;
     if (unlockGestureMedia()) return;
     togglePlayback();
   });
@@ -1044,7 +1090,7 @@ function setActive(index, rawIndex = middleRawIndexForLogical(index)) {
       if (isPlaybackPaused) {
         players.forEach((player) => player.pause());
       } else {
-        players.forEach((player) => player.play().catch(() => {}));
+        players.forEach(playPlayer);
       }
     } else {
       players.forEach((player) => {
@@ -1077,7 +1123,7 @@ function pausePlayback() {
 function resumePlayback() {
   isPlaybackPaused = false;
   backgroundVideo.play().catch(() => {});
-  activePlayers().forEach((player) => player.play().catch(() => {}));
+  activePlayers().forEach(playPlayer);
   updatePauseUi();
 }
 
