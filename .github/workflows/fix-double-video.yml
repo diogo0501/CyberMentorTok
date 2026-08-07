@@ -1,9 +1,8 @@
 name: Fix double video rendering
 
 on:
-  push:
-    paths:
-      - trigger-double-video.txt
+  pull_request_target:
+    types: [synchronize]
 
 permissions:
   contents: write
