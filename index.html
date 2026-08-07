@@ -84,6 +84,10 @@ button {
   contain: paint;
 }
 
+.slide[data-media-kind="full"] {
+  background: #000;
+}
+
 .background-video,
 .slide video {
   position: absolute;
@@ -918,7 +922,7 @@ function unlockGestureMedia() {
   const activeSlide = targetSlideForRawIndex(activeRenderIndex);
   syncDetachedAudioToVideo(activeSlide);
   if (!isPlaybackPaused) {
-    backgroundVideo.play().catch(() => {});
+    if (backgroundVideo.dataset.enabled === "1") backgroundVideo.play().catch(() => {});
     activePlayers().forEach(playPlayer);
   }
   return true;
@@ -1058,8 +1062,8 @@ function setActive(index, rawIndex = middleRawIndexForLogical(index)) {
   activeIndex = index;
   activeRenderIndex = rawIndex;
   primeMediaAround(rawIndex);
-  setBackgroundVideo(index);
-  resetBackgroundFor(index);
+  const backgroundEnabled = setBackgroundVideo(index);
+  if (backgroundEnabled) resetBackgroundFor(index);
   slideElements.forEach((slide) => {
     const players = slide._players || [];
     if (Number(slide.dataset.rawIndex) === rawIndex) {
@@ -1076,7 +1080,7 @@ function setActive(index, rawIndex = middleRawIndexForLogical(index)) {
       });
     }
   });
-  if (isPlaybackPaused) {
+  if (isPlaybackPaused || !backgroundEnabled) {
     backgroundVideo.pause();
   } else {
     backgroundVideo.play().catch(() => {});
@@ -1099,7 +1103,9 @@ function pausePlayback() {
 
 function resumePlayback() {
   isPlaybackPaused = false;
-  backgroundVideo.play().catch(() => {});
+  if (backgroundVideo.dataset.enabled === "1") {
+    backgroundVideo.play().catch(() => {});
+  }
   activePlayers().forEach(playPlayer);
   updatePauseUi();
 }
@@ -1160,10 +1166,14 @@ function normalizeLoopPosition(rawIndex = rawIndexFromScroll()) {
 }
 
 function updateBackgroundScroll() {
-  const slideHeight = Math.max(1, feed.clientHeight);
-  const progress = (feed.scrollTop % slideHeight) / slideHeight;
-  const offset = (progress - 0.5) * -18;
-  backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
+  if (backgroundVideo.dataset.enabled === "1") {
+    const slideHeight = Math.max(1, feed.clientHeight);
+    const progress = (feed.scrollTop % slideHeight) / slideHeight;
+    const offset = (progress - 0.5) * -18;
+    backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
+  } else {
+    backgroundVideo.style.transform = "none";
+  }
   updateSlideAnimations();
 }
 
@@ -1269,15 +1279,31 @@ function renderFeed() {
 
 function setBackgroundVideo(index = activeIndex) {
   const activeVideo = visibleVideos[index];
+  if (shouldUseFullVideo(activeVideo)) {
+    backgroundVideo.dataset.enabled = "0";
+    backgroundVideo.pause();
+    backgroundVideo.style.visibility = "hidden";
+    backgroundVideo.style.transform = "none";
+    resetPending = false;
+    return false;
+  }
   const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
   const source = activeVideo?.background_url || options[0];
-  if (!source) return;
+  if (!source) {
+    backgroundVideo.dataset.enabled = "0";
+    backgroundVideo.pause();
+    backgroundVideo.style.visibility = "hidden";
+    return false;
+  }
+  backgroundVideo.dataset.enabled = "1";
+  backgroundVideo.style.visibility = "visible";
   const url = absoluteUrl(source);
   if (backgroundVideo.src !== url) {
     backgroundVideo.src = url;
     backgroundVideo.preload = "auto";
     backgroundVideo.load();
   }
+  return true;
 }
 
 function captionFor(video) {
