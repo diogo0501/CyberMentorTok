@@ -1,6 +1,9 @@
 name: Refactor static app
 
 on:
+  push:
+    branches: [main]
+    paths: [".refactor-trigger"]
   schedule:
     - cron: "*/5 * * * *"
 
@@ -49,8 +52,6 @@ jobs:
               raise SystemExit('Could not locate application body')
           body_markup = body_match.group(1).strip()
 
-          # Restore native-quality background framing. The previous 118% zoom and
-          # scroll parallax forced browser resampling and reduced apparent sharpness.
           css = css.replace(
               '''.background-video {
           height: 118%;
@@ -129,7 +130,6 @@ jobs:
           (root / 'assets' / 'app.css').write_text(css, encoding='utf-8')
           (root / 'assets' / 'app.js').write_text(app_js, encoding='utf-8')
 
-          # Keep every data file comfortably below connector response limits.
           target_bytes = 45000
           chunks = []
           current = []
@@ -188,8 +188,6 @@ jobs:
         '''.replace('        ', '')
           (root / 'main.html').write_text(main_html, encoding='utf-8')
 
-          # Keep index.html as a tiny compatibility entry point for GitHub Pages and
-          # existing bookmarks while making main.html the real application entry.
           index_html = '''<!DOCTYPE html>
         <html lang="en">
         <head>
@@ -204,10 +202,12 @@ jobs:
         '''.replace('        ', '')
           (root / 'index.html').write_text(index_html, encoding='utf-8')
 
-          # Remove this one-shot workflow from the resulting production tree.
-          workflow = root / '.github' / 'workflows' / 'fix-feed-quality.yml'
-          if workflow.exists():
-              workflow.unlink()
+          for temporary in [
+              root / '.github' / 'workflows' / 'fix-feed-quality.yml',
+              root / '.refactor-trigger',
+          ]:
+              if temporary.exists():
+                  temporary.unlink()
 
           print(f'Refactored {len(videos)} videos into {len(chunks)} connector-safe data files.')
           print(f'app.css: {(root / "assets" / "app.css").stat().st_size} bytes')
