@@ -1,8 +1,9 @@
 name: Fix double video rendering
 
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    paths:
+      - trigger-double-video.txt
 
 permissions:
   contents: write
@@ -92,15 +93,23 @@ jobs:
             raise SystemExit('setActive background playback not found')
           s = s.replace(old, new, 1)
 
-          s = s.replace('''  backgroundVideo.play().catch(() => {});
+          old = '''function resumePlayback() {
+  isPlaybackPaused = false;
+  backgroundVideo.play().catch(() => {});
   activePlayers().forEach(playPlayer);
   updatePauseUi();
-}''', '''  if (backgroundVideo.dataset.enabled === "1") {
+}'''
+          new = '''function resumePlayback() {
+  isPlaybackPaused = false;
+  if (backgroundVideo.dataset.enabled === "1") {
     backgroundVideo.play().catch(() => {});
   }
   activePlayers().forEach(playPlayer);
   updatePauseUi();
-}''', 1)
+}'''
+          if old not in s:
+            raise SystemExit('resumePlayback block not found')
+          s = s.replace(old, new, 1)
 
           old = '''function updateBackgroundScroll() {
   const slideHeight = Math.max(1, feed.clientHeight);
