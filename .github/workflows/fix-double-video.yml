@@ -2,7 +2,7 @@ name: Fix double video rendering
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, synchronize]
 
 permissions:
   contents: write
@@ -38,9 +38,6 @@ jobs:
           new = '''function setBackgroundVideo(index = activeIndex) {
   const activeVideo = visibleVideos[index];
 
-  // Full renders already contain the complete visual composition. Showing a
-  // separate gameplay player behind a contained full render exposes unrelated
-  // frames in the letterbox area, so disable that player entirely.
   if (shouldUseFullVideo(activeVideo)) {
     backgroundVideo.dataset.enabled = "0";
     backgroundVideo.pause();
