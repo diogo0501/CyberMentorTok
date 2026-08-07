@@ -2,7 +2,7 @@ name: Apply duplicate video fix
 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
@@ -19,16 +19,11 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           import re
-
           p = Path('index.html')
           s = p.read_text(encoding='utf-8')
-
           s = s.replace('  background: transparent;\n  contain: paint;\n}', '  background: #000;\n  contain: paint;\n}', 1)
-
-          pattern = r'''function setBackgroundVideo\(index = activeIndex\) \{.*?\n\}'''
           replacement = '''function setBackgroundVideo(index = activeIndex) {
   const activeVideo = visibleVideos[index];
-
   if (shouldUseFullVideo(activeVideo)) {
     backgroundVideo.dataset.enabled = "0";
     backgroundVideo.pause();
@@ -37,7 +32,6 @@ jobs:
     resetPending = false;
     return false;
   }
-
   const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
   const source = activeVideo?.background_url || options[0];
   if (!source) {
@@ -46,7 +40,6 @@ jobs:
     backgroundVideo.style.visibility = "hidden";
     return false;
   }
-
   backgroundVideo.dataset.enabled = "1";
   backgroundVideo.style.visibility = "visible";
   const url = absoluteUrl(source);
@@ -57,53 +50,22 @@ jobs:
   }
   return true;
 }'''
-          s, n = re.subn(pattern, replacement, s, count=1, flags=re.S)
-          if n != 1:
-            raise SystemExit('setBackgroundVideo replacement failed')
-
-          s, n = re.subn(
-            r'  setBackgroundVideo\(index\);\n  resetBackgroundFor\(index\);',
-            '  const backgroundEnabled = setBackgroundVideo(index);\n  if (backgroundEnabled) resetBackgroundFor(index);',
-            s, count=1)
-          if n != 1:
-            raise SystemExit('setActive setup replacement failed')
-
-          # Replace only the background playback block inside setActive.
+          s, n = re.subn(r'function setBackgroundVideo\(index = activeIndex\) \{.*?\n\}', replacement, s, count=1, flags=re.S)
+          if n != 1: raise SystemExit('setBackgroundVideo replacement failed')
+          s, n = re.subn(r'  setBackgroundVideo\(index\);\n  resetBackgroundFor\(index\);', '  const backgroundEnabled = setBackgroundVideo(index);\n  if (backgroundEnabled) resetBackgroundFor(index);', s, count=1)
+          if n != 1: raise SystemExit('setActive setup replacement failed')
           start = s.index('function setActive(')
           end = s.index('\nfunction activePlayers()', start)
           block = s[start:end]
-          old = '''  if (isPlaybackPaused) {
-    backgroundVideo.pause();
-  } else {
-    backgroundVideo.play().catch(() => {});
-  }'''
-          new = '''  if (isPlaybackPaused || !backgroundEnabled) {
-    backgroundVideo.pause();
-  } else {
-    backgroundVideo.play().catch(() => {});
-  }'''
-          if old not in block:
-            raise SystemExit('setActive playback block not found')
-          block = block.replace(old, new, 1)
-          s = s[:start] + block + s[end:]
-
-          s, n = re.subn(
-            r'''function resumePlayback\(\) \{\n  isPlaybackPaused = false;\n  backgroundVideo\.play\(\)\.catch\(\(\) => \{\}\);\n  activePlayers\(\)\.forEach\(playPlayer\);\n  updatePauseUi\(\);\n\}''',
-            '''function resumePlayback() {
-  isPlaybackPaused = false;
-  if (backgroundVideo.dataset.enabled === "1") {
-    backgroundVideo.play().catch(() => {});
-  }
-  activePlayers().forEach(playPlayer);
-  updatePauseUi();
-}''',
-            s, count=1)
-          if n != 1:
-            raise SystemExit('resumePlayback replacement failed')
-
-          s, n = re.subn(
-            r'''function updateBackgroundScroll\(\) \{.*?\n\}''',
-            '''function updateBackgroundScroll() {
+          old = '  if (isPlaybackPaused) {\n    backgroundVideo.pause();\n  } else {\n    backgroundVideo.play().catch(() => {});\n  }'
+          new = '  if (isPlaybackPaused || !backgroundEnabled) {\n    backgroundVideo.pause();\n  } else {\n    backgroundVideo.play().catch(() => {});\n  }'
+          if old not in block: raise SystemExit('setActive playback block not found')
+          s = s[:start] + block.replace(old, new, 1) + s[end:]
+          old = 'function resumePlayback() {\n  isPlaybackPaused = false;\n  backgroundVideo.play().catch(() => {});\n  activePlayers().forEach(playPlayer);\n  updatePauseUi();\n}'
+          new = 'function resumePlayback() {\n  isPlaybackPaused = false;\n  if (backgroundVideo.dataset.enabled === "1") {\n    backgroundVideo.play().catch(() => {});\n  }\n  activePlayers().forEach(playPlayer);\n  updatePauseUi();\n}'
+          if old not in s: raise SystemExit('resumePlayback replacement failed')
+          s = s.replace(old, new, 1)
+          s, n = re.subn(r'function updateBackgroundScroll\(\) \{.*?\n\}', '''function updateBackgroundScroll() {
   if (backgroundVideo.dataset.enabled === "1") {
     const slideHeight = Math.max(1, feed.clientHeight);
     const progress = (feed.scrollTop % slideHeight) / slideHeight;
@@ -113,21 +75,13 @@ jobs:
     backgroundVideo.style.transform = "none";
   }
   updateSlideAnimations();
-}''',
-            s, count=1, flags=re.S)
-          if n != 1:
-            raise SystemExit('updateBackgroundScroll replacement failed')
-
-          # Do not restart the independent background when a gesture only unlocks audio.
+}''', s, count=1, flags=re.S)
+          if n != 1: raise SystemExit('updateBackgroundScroll replacement failed')
           start = s.index('function unlockGestureMedia()')
           end = s.index('\nfunction renderSlide(', start)
           block = s[start:end]
-          block = block.replace(
-            '    backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);',
-            '    if (backgroundVideo.dataset.enabled === "1") backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);',
-            1)
+          block = block.replace('    backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);', '    if (backgroundVideo.dataset.enabled === "1") backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);', 1)
           s = s[:start] + block + s[end:]
-
           p.write_text(s, encoding='utf-8')
           PY
       - name: Commit to main
