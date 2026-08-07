@@ -2,7 +2,7 @@ name: Fix feed quality
 
 on:
   pull_request:
-    types: [reopened]
+    types: [edited]
 
 permissions:
   contents: write
