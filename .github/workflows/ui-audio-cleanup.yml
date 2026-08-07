@@ -2,7 +2,7 @@ name: UI audio cleanup
 
 on:
   pull_request:
-    types: [opened]
+    types: [edited]
 
 permissions:
   contents: write
@@ -14,125 +14,23 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Fix duplicate media layers
+      - name: Fix duplicate media layer
         shell: python
         run: |
           from pathlib import Path
           p = Path('index.html')
           s = p.read_text(encoding='utf-8')
-
-          # Full MP4 slides use contain, so their letterbox area must be opaque.
-          s = s.replace(
-              '  background: transparent;\n  contain: paint;\n}',
-              '  background: transparent;\n  contain: paint;\n}\n\n.slide[data-media-kind="full"] {\n  background: #000;\n}',
-              1,
-          )
-
-          # A full render already includes the visual composition. Disable the
-          # independent gameplay player instead of allowing it to show through.
-          old = '''function setBackgroundVideo(index = activeIndex) {
-            const activeVideo = visibleVideos[index];
-            const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
-            const source = activeVideo?.background_url || options[0];
-            if (!source) return;
-            const url = absoluteUrl(source);
-            if (backgroundVideo.src !== url) {
-              backgroundVideo.src = url;
-              backgroundVideo.preload = "auto";
-              backgroundVideo.load();
-            }
-          }'''.replace('            ', '')
-          new = '''function setBackgroundVideo(index = activeIndex) {
-            const activeVideo = visibleVideos[index];
-            if (shouldUseFullVideo(activeVideo)) {
-              backgroundVideo.dataset.enabled = "0";
-              backgroundVideo.pause();
-              backgroundVideo.style.visibility = "hidden";
-              backgroundVideo.style.transform = "none";
-              resetPending = false;
-              return false;
-            }
-            const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
-            const source = activeVideo?.background_url || options[0];
-            if (!source) {
-              backgroundVideo.dataset.enabled = "0";
-              backgroundVideo.pause();
-              backgroundVideo.style.visibility = "hidden";
-              return false;
-            }
-            backgroundVideo.dataset.enabled = "1";
-            backgroundVideo.style.visibility = "visible";
-            const url = absoluteUrl(source);
-            if (backgroundVideo.src !== url) {
-              backgroundVideo.src = url;
-              backgroundVideo.preload = "auto";
-              backgroundVideo.load();
-            }
-            return true;
-          }'''.replace('            ', '')
-          if old not in s:
-              raise SystemExit('setBackgroundVideo not found')
-          s = s.replace(old, new, 1)
-
-          old = '  setBackgroundVideo(index);\n  resetBackgroundFor(index);'
-          new = '  const backgroundEnabled = setBackgroundVideo(index);\n  if (backgroundEnabled) resetBackgroundFor(index);'
-          if old not in s:
-              raise SystemExit('setActive setup not found')
-          s = s.replace(old, new, 1)
-
-          start = s.index('function setActive(')
-          end = s.index('\nfunction activePlayers()', start)
-          block = s[start:end]
-          old = '  if (isPlaybackPaused) {\n    backgroundVideo.pause();\n  } else {\n    backgroundVideo.play().catch(() => {});\n  }'
-          new = '  if (isPlaybackPaused || !backgroundEnabled) {\n    backgroundVideo.pause();\n  } else {\n    backgroundVideo.play().catch(() => {});\n  }'
-          if old not in block:
-              raise SystemExit('setActive playback not found')
-          s = s[:start] + block.replace(old, new, 1) + s[end:]
-
-          old = 'function resumePlayback() {\n  isPlaybackPaused = false;\n  backgroundVideo.play().catch(() => {});\n  activePlayers().forEach(playPlayer);\n  updatePauseUi();\n}'
-          new = 'function resumePlayback() {\n  isPlaybackPaused = false;\n  if (backgroundVideo.dataset.enabled === "1") {\n    backgroundVideo.play().catch(() => {});\n  }\n  activePlayers().forEach(playPlayer);\n  updatePauseUi();\n}'
-          if old not in s:
-              raise SystemExit('resumePlayback not found')
-          s = s.replace(old, new, 1)
-
-          old = '''function updateBackgroundScroll() {
-            const slideHeight = Math.max(1, feed.clientHeight);
-            const progress = (feed.scrollTop % slideHeight) / slideHeight;
-            const offset = (progress - 0.5) * -18;
-            backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
-            updateSlideAnimations();
-          }'''.replace('            ', '')
-          new = '''function updateBackgroundScroll() {
-            if (backgroundVideo.dataset.enabled === "1") {
-              const slideHeight = Math.max(1, feed.clientHeight);
-              const progress = (feed.scrollTop % slideHeight) / slideHeight;
-              const offset = (progress - 0.5) * -18;
-              backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
-            } else {
-              backgroundVideo.style.transform = "none";
-            }
-            updateSlideAnimations();
-          }'''.replace('            ', '')
-          if old not in s:
-              raise SystemExit('updateBackgroundScroll not found')
-          s = s.replace(old, new, 1)
-
-          start = s.index('function unlockGestureMedia()')
-          end = s.index('\nfunction renderSlide(', start)
-          block = s[start:end]
-          block = block.replace(
-              '    backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);',
-              '    if (backgroundVideo.dataset.enabled === "1") backgroundVideo.play().catch(() => {});\n    activePlayers().forEach(playPlayer);',
-              1,
-          )
-          s = s[:start] + block + s[end:]
-
+          marker = '.slide[data-media-kind="full"] video {\n  background: #000;\n}\n'
+          if marker not in s:
+              anchor = '.slide video {\n  inset: 0;\n  height: 100%;\n  object-fit: contain;\n  object-position: center center;\n  background: transparent;\n  transform: none !important;\n}\n'
+              if anchor not in s:
+                  raise SystemExit('video CSS anchor not found')
+              s = s.replace(anchor, anchor + '\n' + marker, 1)
           p.write_text(s, encoding='utf-8')
-
       - name: Commit patch to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add index.html
-          git commit -m "Fix duplicate background video rendering"
+          git diff --cached --quiet || git commit -m "Fix duplicate background video rendering"
           git push origin HEAD:main
