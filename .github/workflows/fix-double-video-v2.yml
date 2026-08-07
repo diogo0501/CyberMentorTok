@@ -1,0 +1,140 @@
+name: Apply duplicate video fix
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Patch index.html
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          s = s.replace('  background: transparent;\n  contain: paint;\n}', '  background: #000;\n  contain: paint;\n}', 1)
+
+          old = '''function setBackgroundVideo(index = activeIndex) {
+            const activeVideo = visibleVideos[index];
+            const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
+            const source = activeVideo?.background_url || options[0];
+            if (!source) return;
+            const url = absoluteUrl(source);
+            if (backgroundVideo.src !== url) {
+              backgroundVideo.src = url;
+              backgroundVideo.preload = "auto";
+              backgroundVideo.load();
+            }
+          }'''
+          old = old.replace('            ', '')
+          new = '''function setBackgroundVideo(index = activeIndex) {
+            const activeVideo = visibleVideos[index];
+            if (shouldUseFullVideo(activeVideo)) {
+              backgroundVideo.dataset.enabled = "0";
+              backgroundVideo.pause();
+              backgroundVideo.style.visibility = "hidden";
+              backgroundVideo.style.transform = "none";
+              resetPending = false;
+              return false;
+            }
+            const options = Array.isArray(activeVideo?.background_options) ? activeVideo.background_options.filter(Boolean) : [];
+            const source = activeVideo?.background_url || options[0];
+            if (!source) {
+              backgroundVideo.dataset.enabled = "0";
+              backgroundVideo.pause();
+              backgroundVideo.style.visibility = "hidden";
+              return false;
+            }
+            backgroundVideo.dataset.enabled = "1";
+            backgroundVideo.style.visibility = "visible";
+            const url = absoluteUrl(source);
+            if (backgroundVideo.src !== url) {
+              backgroundVideo.src = url;
+              backgroundVideo.preload = "auto";
+              backgroundVideo.load();
+            }
+            return true;
+          }'''
+          new = new.replace('            ', '')
+          if old not in s:
+              raise SystemExit('setBackgroundVideo block not found')
+          s = s.replace(old, new, 1)
+
+          old = '  setBackgroundVideo(index);\n  resetBackgroundFor(index);'
+          new = '  const backgroundEnabled = setBackgroundVideo(index);\n  if (backgroundEnabled) resetBackgroundFor(index);'
+          if old not in s:
+              raise SystemExit('setActive setup not found')
+          s = s.replace(old, new, 1)
+
+          old = '''  if (isPlaybackPaused) {
+            backgroundVideo.pause();
+          } else {
+            backgroundVideo.play().catch(() => {});
+          }'''.replace('            ', '')
+          new = '''  if (isPlaybackPaused || !backgroundEnabled) {
+            backgroundVideo.pause();
+          } else {
+            backgroundVideo.play().catch(() => {});
+          }'''.replace('            ', '')
+          if old not in s:
+              raise SystemExit('setActive playback not found')
+          s = s.replace(old, new, 1)
+
+          old = '''function resumePlayback() {
+            isPlaybackPaused = false;
+            backgroundVideo.play().catch(() => {});
+            activePlayers().forEach(playPlayer);
+            updatePauseUi();
+          }'''.replace('            ', '')
+          new = '''function resumePlayback() {
+            isPlaybackPaused = false;
+            if (backgroundVideo.dataset.enabled === "1") {
+              backgroundVideo.play().catch(() => {});
+            }
+            activePlayers().forEach(playPlayer);
+            updatePauseUi();
+          }'''.replace('            ', '')
+          if old not in s:
+              raise SystemExit('resumePlayback block not found')
+          s = s.replace(old, new, 1)
+
+          old = '''function updateBackgroundScroll() {
+            const slideHeight = Math.max(1, feed.clientHeight);
+            const progress = (feed.scrollTop % slideHeight) / slideHeight;
+            const offset = (progress - 0.5) * -18;
+            backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
+            updateSlideAnimations();
+          }'''.replace('            ', '')
+          new = '''function updateBackgroundScroll() {
+            if (backgroundVideo.dataset.enabled === "1") {
+              const slideHeight = Math.max(1, feed.clientHeight);
+              const progress = (feed.scrollTop % slideHeight) / slideHeight;
+              const offset = (progress - 0.5) * -18;
+              backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
+            } else {
+              backgroundVideo.style.transform = "none";
+            }
+            updateSlideAnimations();
+          }'''.replace('            ', '')
+          if old not in s:
+              raise SystemExit('updateBackgroundScroll block not found')
+          s = s.replace(old, new, 1)
+
+          p.write_text(s, encoding='utf-8')
+          PY
+      - name: Commit to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Fix duplicate background video rendering"
+          git push origin HEAD:main
