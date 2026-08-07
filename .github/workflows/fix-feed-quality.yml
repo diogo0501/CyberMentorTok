@@ -1,0 +1,107 @@
+name: Fix feed quality
+
+on:
+  pull_request:
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Patch index.html
+        shell: python
+        run: |
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+
+          old = '''.background-video {
+  height: 118%;
+  top: -9%;
+  z-index: 0;
+  object-fit: cover;
+  object-position: center;
+  background: #000;
+}'''
+          new = '''.background-video {
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  object-fit: cover;
+  object-position: center;
+  background: #000;
+  transform: none !important;
+}'''
+          if old not in s:
+            raise SystemExit('background CSS block not found')
+          s = s.replace(old, new, 1)
+
+          old = '''.slide[data-media-kind="full"] {
+  background: #000;
+}'''
+          new = '''.slide[data-media-kind="full"] {
+  background: #000;
+}
+
+.slide[data-media-kind="full"] video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}'''
+          if old not in s:
+            raise SystemExit('full video CSS block not found')
+          s = s.replace(old, new, 1)
+
+          old = '''function shouldUseFullVideo(video) {
+  // A single MP4 player is the most reliable path for first-load audio and A/V sync.
+  // Keep mask + detached audio only as a fallback when no full render exists.
+  return Boolean(video?.full_url);
+}'''
+          new = '''function shouldUseFullVideo(video) {
+  // Prefer original background + transparent mask on browsers that support WebM.
+  // full.mp4 remains the compatibility fallback, avoiding an unnecessary re-encode
+  // in the normal path and preserving the source gameplay quality.
+  if (!video?.full_url) return false;
+  return PREFER_MP4_VIDEO || !(video.mask_url && video.audio_url);
+}'''
+          if old not in s:
+            raise SystemExit('shouldUseFullVideo block not found')
+          s = s.replace(old, new, 1)
+
+          old = '''function updateBackgroundScroll() {
+  if (backgroundVideo.dataset.enabled === "1") {
+    const slideHeight = Math.max(1, feed.clientHeight);
+    const progress = (feed.scrollTop % slideHeight) / slideHeight;
+    const offset = (progress - 0.5) * -18;
+    backgroundVideo.style.transform = `translate3d(0, ${offset}%, 0)`;
+  } else {
+    backgroundVideo.style.transform = "none";
+  }
+  updateSlideAnimations();
+}'''
+          new = '''function updateBackgroundScroll() {
+  // Preserve native framing and sharpness. The old parallax enlarged the source
+  // and introduced unnecessary resampling while scrolling.
+  backgroundVideo.style.transform = "none";
+  updateSlideAnimations();
+}'''
+          if old not in s:
+            raise SystemExit('background scroll block not found')
+          s = s.replace(old, new, 1)
+
+          p.write_text(s, encoding='utf-8')
+
+      - name: Commit fix
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Restore fullscreen original-quality video rendering"
+          git push origin HEAD:main
