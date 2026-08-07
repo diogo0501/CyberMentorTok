@@ -1,8 +1,8 @@
 name: Fix double video rendering
 
 on:
-  pull_request_target:
-    types: [reopened]
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
