@@ -2,7 +2,7 @@ name: Fix double video rendering
 
 on:
   pull_request_target:
-    types: [synchronize]
+    types: [reopened]
 
 permissions:
   contents: write
