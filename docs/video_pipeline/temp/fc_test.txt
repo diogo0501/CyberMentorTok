@@ -1,1 +1,0 @@
-[0:v]drawtext=text=hello:font=Impact:fontcolor=white:fontsize=52:borderw=3:bordercolor=black:x=100:y=100:enable=between(t\,0\,3),format=yuva420p[outv]

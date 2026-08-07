@@ -1,1 +1,0 @@
-[0:v]fps=5,format=rgba[canvas];[canvas][1:v]overlay=x=30:y=1420:enable=between(t\,0\,5)[bp];[bp][2:v]overlay=x=700:y=1420:enable=between(t\,5\,10)[bp2];[bp2]format=yuva420p[outv]

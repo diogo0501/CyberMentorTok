@@ -1,1 +1,0 @@
-[0:v]format=rgba[base];[base][1:v]overlay=30:1420:enable=between(t\,0\,5):eof_action=pass[bp];[bp]format=yuva420p[outv]

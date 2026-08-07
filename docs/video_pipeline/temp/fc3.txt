@@ -1,1 +1,0 @@
-[0:v]format=yuva420p[outv]

@@ -1,3 +1,0 @@
-[0:v]format=rgba[canvas];
-[canvas][1:v]overlay=30:30:enable=between(t\,0\,3):eof_action=pass[bp];
-[bp]format=yuva420p[outv]
